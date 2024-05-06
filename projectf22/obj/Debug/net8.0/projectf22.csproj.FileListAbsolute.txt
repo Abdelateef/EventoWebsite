@@ -1,0 +1,150 @@
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\appsettings.Development.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\appsettings.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\projectf22.exe
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\projectf22.deps.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\projectf22.dll
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\bin\Debug\net8.0\projectf22.pdb
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.dll
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.pdb
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+D:\year 4\Semester 2\Database\Lab 10\projectf22\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\appsettings.Development.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\appsettings.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.exe
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.deps.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.pdb
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.pdb
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectf22\projectf22\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\appsettings.Development.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\appsettings.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.exe
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.deps.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.dll
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\bin\Debug\net8.0\projectf22.pdb
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.dll
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.pdb
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+D:\year 4\Semester 2\Database\projectf22\projectf22\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\appsettings.Development.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\appsettings.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.exe
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.deps.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.pdb
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.pdb
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+E:\ZC\SPC 3\Semester 2\CIE 206\Project\projectfinal\projectf22\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\appsettings.Development.json
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\appsettings.json
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.exe
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.deps.json
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.dll
+G:\old downloads\projectfinal\projectf22\projectf22\bin\Debug\net8.0\projectf22.pdb
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.dll
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.pdb
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\ref\projectf22.dll
