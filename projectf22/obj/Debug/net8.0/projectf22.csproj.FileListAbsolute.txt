@@ -148,3 +148,34 @@ G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\refint\proj
 G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.pdb
 G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
 G:\old downloads\projectfinal\projectf22\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.Development.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.exe
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.deps.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.pdb
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.sourcelink.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll
