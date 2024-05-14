@@ -1,0 +1,12 @@
+﻿@page
+@model projectf22.Pages.Update.Update_AdminModel
+@{
+    <form method="post">
+        <input type="text" asp-for="@Model.Adm.AdminName" placeholder="Name" value="@Model.Adm.AdminName" />
+        <input type="text" asp-for="@Model.Adm.Role" placeholder="Role" value="@Model.Adm.Role" />
+        <input type="text" asp-for="@Model.Adm.AdminEmail" placeholder="Email" value="@Model.Adm.AdminEmail" />
+        <input type="text" asp-for="@Model.Adm.AdminPassword" placeholder="Password" value="@Model.Adm.AdminPassword" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Admin</button>
+    </form>
+}

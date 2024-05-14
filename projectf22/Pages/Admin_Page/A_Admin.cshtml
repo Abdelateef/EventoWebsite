@@ -1,0 +1,71 @@
+﻿@page
+@model projectf22.Pages.Admin_Page.A_AdminModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<style>
+    .admin-data-table-heading {
+        margin-top: 20px; /* Add margin top for space */
+        text-align: center; /* Center the text */
+        font-weight: bold; /* Make the text bold */
+    }
+</style>
+
+<div class="page-heading-shows-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Admin</h2>
+                <span>Welcome, Admin! Your expertise keeps everything running smoothly.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="shows-events-tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="admin-data-table-heading mb-4">The Admin Data Table</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>AdminID</th>
+                                    <th>AdminName</th>
+                                    <th>Role</th>
+                                    <th>AdminEmail</th>
+                                    <th>AdminPassword</th>
+                                    <th>Actions</th> <!-- New column for actions -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    @foreach (var admin in Model.Adminslist)
+                                    {
+                                    <tr>
+                                        <td>@admin.AdminID</td>
+                                        <td>@admin.AdminName</td>
+                                        <td>@admin.Role</td>
+                                        <td>@admin.AdminEmail</td>
+                                        <td>@admin.AdminPassword</td>
+                                        <td class="text-right">
+                                            <a asp-page="/Update/Update_Admin" asp-route-id="@admin.AdminID">Update</a>
+                                            |
+                                            <a asp-page="/Delete/Delete" asp-route-id="@admin.AdminID">Delete</a>
+                                        </td>
+                                    </tr>
+                                    }
+                            </tbody>
+                        </table>
+                        <div class="text-center mt-3">
+                            <a class="btn btn-primary" asp-page="/Create/Create_Admin">Add new Admin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

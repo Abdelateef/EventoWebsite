@@ -179,3 +179,11 @@ F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project
 F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
 F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
 F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.AssemblyReference.cache
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\System.Data.SqlClient.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\University of Science and Technology at Zewail City\My-Github\CIE-206-Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.Up2Date

@@ -1,0 +1,12 @@
+﻿@page
+@model projectf22.Pages.Create.Create_AdminModel
+@{
+    <form method="post">
+        <input type="text" asp-for="Admin.AdminName" placeholder="Name" />
+        <input type="text" asp-for="Admin.Role" placeholder="Role" />
+        <input type="text" asp-for="Admin.AdminEmail" placeholder="Email" />
+        <input type="text" asp-for="Admin.AdminPassword" placeholder="Password" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new Admin</button>
+    </form>
+}
