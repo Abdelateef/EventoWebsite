@@ -4,7 +4,7 @@ using projectf22.Models;
 
 namespace projectf22.Pages.Delete
 {
-    public class DeleteModel : PageModel
+    public class Admin_DeleteModel : PageModel
     {
 
         [BindProperty]
@@ -12,7 +12,7 @@ namespace projectf22.Pages.Delete
 
         private DB db { get; set; }
 
-        public DeleteModel(DB db)
+        public Admin_DeleteModel(DB db)
         {
             this.db = db;
         }

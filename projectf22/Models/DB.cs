@@ -30,7 +30,7 @@ namespace projectf22.Models
         }
 
         ////////////////Admin
-       
+       ///// Admin sub page 
         public void AddAdmin(Admin Adm)
         {
             string Q = "INSERT INTO ADMIN (AdminName, Role, AdminEmail, AdminPassword) VALUES (@AdminName, @Role, @AdminEmail, @AdminPassword)";
@@ -95,6 +95,23 @@ namespace projectf22.Models
 
             con.Close();
         }
+
+        /// User Sub page
+
+
+        public void DeleteUser(int ID)
+        {
+            string Q = $"DELETE FROM [USER] WHERE UserID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
 
         ///////////////User
 

@@ -17,11 +17,12 @@ namespace projectf22.Models
         public string UserName { get; set; }
         public string UserEmail { get; set; }
         public string UserPassword { get; set; }
-        public string PromotionID { get; set; }
-        public string BookingID { get; set; }
-        public string EventID { get; set; }
-        public string TicketID { get; set; }
-        public string PaymentID { get; set; }
-        
+        public int PromotionID { get; set; }
+        public int BookingID { get; set; }
+        public int EventID { get; set; }
+        public int TicketID { get; set; }
+        public int PaymentID { get; set; }
+
+        public int AdminID { get; set; }
     }
 }
