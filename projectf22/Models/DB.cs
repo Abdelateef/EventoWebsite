@@ -110,6 +110,59 @@ namespace projectf22.Models
         }
 
 
+        public User GetUserinfo(int id)
+        {
+            string query = $"SELECT UserName, UserEmail, UserPassword FROM [USER] WHERE UserID = @UserID";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@UserID", id);
+
+            dt.Load(cmd.ExecuteReader());
+
+            if (dt.Rows.Count == 0)
+            {
+                con.Close();
+                return null; // or throw an exception if a user with the given ID does not exist
+            }
+
+            User user = new User
+            {
+                UserID = id,
+                UserName = dt.Rows[0]["UserName"].ToString(),
+                UserEmail = dt.Rows[0]["UserEmail"].ToString(),
+                UserPassword = dt.Rows[0]["UserPassword"].ToString()
+            };
+
+            con.Close();
+
+            return user;
+        }
+
+
+        public void UpdateUserInfo(User user)
+        {
+            string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword WHERE UserID = @UserID";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@UserName", user.UserName);
+            cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
+            cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
+            cmd.Parameters.AddWithValue("@UserID", user.UserID);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
 
         ///////////////User
 
