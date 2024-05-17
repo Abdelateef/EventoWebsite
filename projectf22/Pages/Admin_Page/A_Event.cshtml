@@ -1,4 +1,76 @@
 ﻿@page
-@model projectf22.Pages.Admin_Page.A_EventModel
+@model projectf22.Pages.Admin_Page.A_EventsModel
 @{
+    ViewData["Title"] = "Events";
 }
+
+<style>
+    .admin-data-table-heading {
+        margin-top: 20px; /* Add margin top for space */
+        text-align: center; /* Center the text */
+        font-weight: bold; /* Make the text bold */
+    }
+</style>
+
+<div class="page-heading-shows-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Events</h2>
+                <span>Welcome, Admin! Here are the upcoming events.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="shows-events-tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="admin-data-table-heading mb-4">Events Data Table</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>EventID</th>
+                                    <th>EventDate</th>
+                                    <th>EventImages</th>
+                                    <th>EventName</th>
+                                    <th>LocationID</th>
+                                    <th>AdminID</th>
+                                    <th>Type</th>
+                                    <th>Actions</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var _event in Model.EventsList)
+                                {
+                                    <tr>
+                                        <td>@_event.EventID</td>
+                                        <td>@_event.EventDate</td>
+                                        <td>@_event.EventImages</td>
+                                        <td>@_event.EventName</td>
+                                        <td>@_event.LocationID</td>
+                                        <td>@_event.AdminID</td>
+                                        <td>@_event.Type</td>
+                                        <td class="text-right">
+                                            <a asp-page="/Update/Update_Event" asp-route-id="@_event.EventID">Update</a>
+                                            |
+                                            <a asp-page="/Delete/Event_Delete" asp-route-id="@_event.EventID">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="text-center mt-3">
+                            <a class="btn btn-primary" asp-page="/Create/Create_Event">Add new Event</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

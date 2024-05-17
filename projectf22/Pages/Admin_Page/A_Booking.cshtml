@@ -2,3 +2,69 @@
 @model projectf22.Pages.Admin_Page.A_BookingModel
 @{
 }
+<style>
+    .admin-data-table-heading {
+        margin-top: 20px; /* Add margin top for space */
+        text-align: center; /* Center the text */
+        font-weight: bold; /* Make the text bold */
+    }
+</style>
+
+<div class="page-heading-shows-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Booking</h2>
+                <span>Welcome, Admin! Here are the recent bookings.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="shows-events-tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="admin-data-table-heading mb-4">The Admin Data Table</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>BookingID</th>
+                                    <th>UserID</th>
+                                    <th>BookingDate</th>
+                                    <th>NumOfTickets</th>
+                                    <th>TotalPrice</th>
+                                    <th>Actions</th> <!-- New column for actions -->
+                                </tr>
+                            </thead>
+                             <tbody>
+                            @foreach (var booking in Model.BookingsList)
+                            {
+                                <tr>
+                                    <td>@booking.BookingID</td>
+                                    <td>@booking.UserID</td>
+                                    <td>@booking.BookingDate</td>
+                                    <td>@booking.NumOfTickets</td>
+                                    <td>@booking.TotalPrice</td>
+                                    <td class="text-right">
+                                        <a asp-page="/Update/Update_Booking" asp-route-id="@booking.BookingID">Update</a>
+                                        |
+                                        <a asp-page="/Delete/Booking_Delete" asp-route-id="@booking.BookingID">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                            </tbody> 
+
+                        </table>
+                        <div class="text-center mt-3">
+                            <a class="btn btn-primary" asp-page="/Create/Create_Booking">Add new Booking</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

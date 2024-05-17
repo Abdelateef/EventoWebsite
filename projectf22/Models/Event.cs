@@ -2,11 +2,12 @@
 {
     public class Event
     {
-        public DateOnly EventDate { get; set; }
-        public string EventImages { get; set; }
-        public string EventLocation { get; set; }
-        public int EventAdminID { get; set; }
-        public string EventName { get; set; }
         public int EventID { get; set; }
+        public DateTime EventDate { get; set; }
+        public string EventImages { get; set; }
+        public string EventName { get; set; }
+        public int LocationID { get; set; }
+        public int AdminID { get; set; }
+        public string Type { get; set; }
     }
 }

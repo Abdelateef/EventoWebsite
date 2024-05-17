@@ -1,4 +1,72 @@
 ﻿@page
 @model projectf22.Pages.Admin_Page.A_ReviewsModel
 @{
+    ViewData["Title"] = "Reviews";
 }
+
+<style>
+    .admin-data-table-heading {
+        margin-top: 20px; /* Add margin top for space */
+        text-align: center; /* Center the text */
+        font-weight: bold; /* Make the text bold */
+    }
+</style>
+
+<div class="page-heading-shows-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Reviews</h2>
+                <span>Welcome, Admin! Here are the recent reviews.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="shows-events-tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="admin-data-table-heading mb-4">Reviews Data Table</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>ReviewID</th>
+                                    <th>Rating</th>
+                                    <th>Comment</th>
+                                    <th>ReviewDate</th>
+                                    <th>EventID</th>
+                                    <th>UserID</th>
+                                    <th>Actions</th> <!-- New column for actions -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var review in Model.ReviewsList)
+                                {
+                                    <tr>
+                                        <td>@review.ReviewID</td>
+                                        <td>@review.Rating</td>
+                                        <td>@review.Comment</td>
+                                        <td>@review.ReviewDate.ToString("yyyy-MM-dd")</td>
+                                        <td>@review.EventID</td>
+                                        <td>@review.UserID</td>
+                                        <td class="text-right">
+                                            <a asp-page="/Update/Update_Reviews" asp-route-id="@review.ReviewID">Update</a>
+                                            |
+                                            <a asp-page="/Delete/Reviews_Delete" asp-route-id="@review.ReviewID">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div class="text-center mt-3">
+                            <a class="btn btn-primary" asp-page="/Create/Create_Reviews">Add new Review</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
