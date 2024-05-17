@@ -1,4 +1,11 @@
 ﻿@page
 @model projectf22.Pages.Create.Create_UserModel
 @{
+    <form method="post">
+        <input type="text" asp-for="User.UserName" placeholder="Name" />
+        <input type="text" asp-for="User.UserEmail" placeholder="Email" />
+        <input type="text" asp-for="User.UserPassword" placeholder="Password" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new User</button>
+    </form>
 }

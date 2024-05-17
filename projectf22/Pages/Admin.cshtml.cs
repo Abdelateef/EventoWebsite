@@ -7,17 +7,18 @@ namespace projectf22.Pages
     {
         public IActionResult OnGet()
         {
-            if (HttpContext.Session.GetString("Name") is not null)
-            {
-                if (HttpContext.Session.GetString("Name").Contains("admin"))
-                { return Page(); }
-                else
-                { return RedirectToPage("/Index"); }
-            }
-            else
-            {
-                return RedirectToPage("/sign-up");
-            }
+            //if (HttpContext.Session.GetString("Name") is not null)
+            //{
+            //    if (HttpContext.Session.GetString("Name").Contains("admin"))
+            //    { return Page(); }
+            //    else
+            //    { return RedirectToPage("/Index"); }
+            //}
+            //else
+            //{
+            //    return RedirectToPage("/sign-up");
+            //}
+            return Page();
         }
     }
 }

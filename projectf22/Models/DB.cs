@@ -97,8 +97,6 @@ namespace projectf22.Models
         }
 
         /// User Sub page
-
-
         public void DeleteUser(int ID)
         {
             string Q = $"DELETE FROM [USER] WHERE UserID= {ID}";
