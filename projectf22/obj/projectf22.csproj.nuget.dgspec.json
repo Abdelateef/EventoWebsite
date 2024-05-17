@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
+    "G:\\old downloads\\Data_Base_Project-main\\Data_Base_Project-main\\projectf22\\projectf22.csproj": {}
   },
   "projects": {
-    "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {
+    "G:\\old downloads\\Data_Base_Project-main\\Data_Base_Project-main\\projectf22\\projectf22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "projectUniqueName": "G:\\old downloads\\Data_Base_Project-main\\Data_Base_Project-main\\projectf22\\projectf22.csproj",
         "projectName": "projectf22",
-        "projectPath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "projectPath": "G:\\old downloads\\Data_Base_Project-main\\Data_Base_Project-main\\projectf22\\projectf22.csproj",
         "packagesPath": "C:\\Users\\Abdelateef\\.nuget\\packages\\",
-        "outputPath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\",
+        "outputPath": "G:\\old downloads\\Data_Base_Project-main\\Data_Base_Project-main\\projectf22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdelateef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"

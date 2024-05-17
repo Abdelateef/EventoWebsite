@@ -5,8 +5,16 @@ namespace projectf22.Pages
 {
     public class ProfileModel : PageModel
     {
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("Name") is not null)
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/sign-up");
+            }
         }
     }
 }

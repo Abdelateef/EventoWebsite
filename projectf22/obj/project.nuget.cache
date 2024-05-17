@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T1bo+7syQXikYY1E0Y0w1sWufgw4VXa/sSsO0foP6ruFwBpwbzCo6W7qaiL9o1lUOcVBOLcXAf8SsG1+6MMK1A==",
+  "dgSpecHash": "ja9IZ15NNaJu2niRPHZPQE4DGN4/RhIIW8Tr1UyYsu687cDjffqhThIBB+b5/ji5+OeHTRR9aI9ZyR5I2Em0Zw==",
   "success": true,
-  "projectFilePath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+  "projectFilePath": "G:\\old downloads\\Data_Base_Project-main\\Data_Base_Project-main\\projectf22\\projectf22.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abdelateef\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\Abdelateef\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Abdelateef\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"

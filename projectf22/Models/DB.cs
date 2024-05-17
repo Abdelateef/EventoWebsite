@@ -1,5 +1,8 @@
-﻿using System.Data;
+﻿using Microsoft.VisualBasic;
+using System.Data;
 using System.Data.SqlClient;
+using System.Runtime.Intrinsics.Arm;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace projectf22.Models
 {
     public class DB
@@ -16,7 +19,7 @@ namespace projectf22.Models
         public DataTable ReadTable(string Tablename)
         {
             DataTable dt = new DataTable();
-            String Q = $"select * from {Tablename}";
+            string Q = $"select * from {Tablename}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -26,7 +29,8 @@ namespace projectf22.Models
 
         }
 
-
+        ////////////////Admin
+       
         public void AddAdmin(Admin Adm)
         {
             string Q = "INSERT INTO ADMIN (AdminName, Role, AdminEmail, AdminPassword) VALUES (@AdminName, @Role, @AdminEmail, @AdminPassword)";
@@ -45,7 +49,7 @@ namespace projectf22.Models
 
         public void DeleteAdmin(int ID)
         {
-            String Q = $"DELETE FROM ADMIN WHERE AdminID = {ID}";
+            string Q = $"DELETE FROM ADMIN WHERE AdminID = {ID}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -57,7 +61,7 @@ namespace projectf22.Models
 
         public Admin GetAdmininfo(int id)
         {
-            String Q = $"SELECT AdminName, Role, AdminEmail, AdminPassword FROM ADMIN WHERE AdminID = {id}";
+            string Q = $"SELECT AdminName, Role, AdminEmail, AdminPassword FROM ADMIN WHERE AdminID = {id}";
 
             DataTable dt = new DataTable();
             con.Open();
@@ -92,7 +96,87 @@ namespace projectf22.Models
             con.Close();
         }
 
+        ///////////////User
+
+        public void AddUser(User us)
+        {
+            string Q = $"INSERT INTO [USER] (Username, UserEmail,UserPassword)\r\nVALUES('{us.UserName}','{us.UserEmail}','{us.UserPassword}')";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+        public int GetID(int ID)
+        {
+            string Q = $"select UserID from [USER] WHERE UserID='{ID}'";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            int dt = (int)cmd.ExecuteScalar();
+
+           
+            con.Close();
+            return dt;
+        }
+
+        public DataTable GetAllTicketsInfo() 
+        {
+            string Q = $"SELECT * FROM TICKET";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+
+            con.Close();
+
+            return dt;
+        }
+
+        public void SetTicketsInfo(Tickets Tic,DataRow T)
+        {
+
+                Tic.TicketID = (int)T[0];
+                Tic.TicketPrice = (decimal)T[1];
+                Tic.Availability = (bool)T[2];
+                Tic.TicketType = (string)T[3];
+                Tic.EventID = (int)T[4];
+
+        }
+
+        public DataTable GetEventInfo(int ID)
+        {
+
+            string Q = $"SELECT * FROM EVENT WHERE EventID='{ID}'";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+
+            con.Close();
+
+            return dt;
+
+        }
+
+
     }
+
+
+    
 
 }
 
