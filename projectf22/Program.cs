@@ -1,7 +1,7 @@
 using projectf22.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//aaaa
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<DB>();
