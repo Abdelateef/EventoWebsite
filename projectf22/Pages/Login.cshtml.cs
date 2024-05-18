@@ -31,6 +31,7 @@ namespace projectf22.Pages
         {
             if (Data.GetID(ID)==ID)
             {
+                HttpContext.Session.SetString("UsID", ID.ToString());
                 HttpContext.Session.SetString("Name", Name);
                 return RedirectToPage("/Index");
             }

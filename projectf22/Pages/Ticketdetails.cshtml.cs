@@ -9,6 +9,7 @@ namespace projectf22.Pages
 {
     public class TicketdetailsModel : PageModel
     {
+        public int UserId;
         public int ID;
 
         [BindProperty]
@@ -62,6 +63,7 @@ namespace projectf22.Pages
             E.EventAdminID = (int)dt.Rows[0][5];
             Quantity = Quantity + 1;
             Total = ticket.TicketPrice * Quantity;
+            HttpContext.Session.SetString("Quantity", Quantity.ToString());
 
 
 
@@ -85,19 +87,21 @@ namespace projectf22.Pages
 
             }
             Total = ticket.TicketPrice * Quantity;
-
+            HttpContext.Session.SetString("Quantity", Quantity.ToString());
         }
 
         public void OnPostBook()
         {
+            int.TryParse(HttpContext.Session.GetString("EID"), out ID);
+            dt2 = Data.GetTicketFromEventId(ID);
+            Data.SetTicketsInfo(ticket, dt2.Rows[0]);
+            int.TryParse(HttpContext.Session.GetString("UsID"), out UserId);
 
-            int.TryParse(HttpContext.Session.GetString("UsID"), out int UserID);
-            Book.UserID = UserID;
+            Book.UserID = UserId;
             Book.BookingDate = DateTime.Now;
             Book.NumOfTickets = Quantity;
-            Book.TotalPrice = Total;
+            Book.TotalPrice = Quantity* ticket.TicketPrice;
             Data.AddBooking(Book);
-            int m = UserID;
         }
     }
 }

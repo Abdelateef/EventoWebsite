@@ -556,13 +556,24 @@ namespace projectf22.Models
 
         //////Booking
         public void AddBooking(Booking Book)
+
         {
-            string Q = $"INSERT INTO BOOKING( UserID, BookingDate, NumOfTickets, TotalPrice)\r\nVALUES ('{Book.UserID}','{Book.BookingDate}','{Book.NumOfTickets}','{Book.TotalPrice}');";
-            con.Open();
 
-            SqlCommand cmd = new SqlCommand(Q, con);
+            string query = "INSERT INTO BOOKING (UserID, BookingDate, NumOfTickets, TotalPrice) VALUES (@UserID, @BookingDate, @NumOfTickets, @TotalPrice);";
 
-            cmd.ExecuteNonQuery();
+            using (SqlConnection con = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@UserID", Book.UserID);
+                    cmd.Parameters.AddWithValue("@BookingDate", Book.BookingDate);
+                    cmd.Parameters.AddWithValue("@NumOfTickets", Book.NumOfTickets);
+                    cmd.Parameters.AddWithValue("@TotalPrice", Book.TotalPrice);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
 
             con.Close();
         }
