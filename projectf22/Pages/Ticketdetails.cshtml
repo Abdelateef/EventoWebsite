@@ -53,7 +53,10 @@
                     </div>
                     <div class="total">
                         <h4>Total: @Model.Total</h4>
-                        <div class="main-dark-button"><a href="#">Purchase Tickets</a></div>
+                        <form method="post">
+                            <div class="main-dark-button"><input type="submit" value="Purchase Tickets" asp-page-handler="Book" /></div>
+                        </form>
+
                     </div>
                     <div class="warn">
                         <p>*You Can Only Buy 10 Tickets For This Show</p>

@@ -22,6 +22,7 @@ namespace projectf22.Pages
         public Event E = new Event();
         public DataTable dt { get; set; }
         public DataTable dt2 { get; set; }
+        public Booking Book=new Booking();
         public Tickets ticket { get; set; } = new Tickets();
         private readonly DB Data;
 
@@ -39,7 +40,6 @@ namespace projectf22.Pages
             E.EventName = (string)dt.Rows[0][3];
             E.EventLocationID = (int)dt.Rows[0][4];
             E.EventAdminID = (int)dt.Rows[0][5];
-            E.Type = (string)dt.Rows[0][6];
             Quantity = 1;
             Total = ticket.TicketPrice * Quantity;
 
@@ -60,13 +60,11 @@ namespace projectf22.Pages
             E.EventName = (string)dt.Rows[0][3];
             E.EventLocationID = (int)dt.Rows[0][4];
             E.EventAdminID = (int)dt.Rows[0][5];
-            E.Type = (string)dt.Rows[0][6];
             Quantity = Quantity + 1;
             Total = ticket.TicketPrice * Quantity;
 
 
 
-       
         }
         public void OnPostMinus()
         {
@@ -80,7 +78,7 @@ namespace projectf22.Pages
             E.EventName = (string)dt.Rows[0][3];
             E.EventLocationID = (int)dt.Rows[0][4];
             E.EventAdminID = (int)dt.Rows[0][5];
-            E.Type = (string)dt.Rows[0][6];
+
             if (Quantity > 0)
             {
                 Quantity = Quantity - 1;
@@ -88,6 +86,18 @@ namespace projectf22.Pages
             }
             Total = ticket.TicketPrice * Quantity;
 
+        }
+
+        public void OnPostBook()
+        {
+
+            int.TryParse(HttpContext.Session.GetString("UsID"), out int UserID);
+            Book.UserID = UserID;
+            Book.BookingDate = DateTime.Now;
+            Book.NumOfTickets = Quantity;
+            Book.TotalPrice = Total;
+            Data.AddBooking(Book);
+            int m = UserID;
         }
     }
 }

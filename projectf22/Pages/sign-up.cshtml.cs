@@ -38,14 +38,16 @@ namespace projectf22.Pages
         }
         public IActionResult OnPost()
         {
-            HttpContext.Session.SetString("Name",UsName);
             if (ModelState.IsValid)
             {
+                HttpContext.Session.SetString("Name", UsName);
                 Us.UserPassword = UsPassword;
                 Us.UserEmail = UsEmail;
                 Us.UserName = UsName;
                 Data.AddUser(Us);
+                HttpContext.Session.SetString("UsID", Data.GetIDUsingInfo(Us.UserName, Us.UserEmail, Us.UserPassword).ToString());
                 return RedirectToPage("/Index");
+
 
             }
             else { return Page(); }

@@ -7,6 +7,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<DB>();
 builder.Services.AddScoped<User>();
 builder.Services.AddScoped<Tickets>();
+builder.Services.AddScoped<Event>();
+builder.Services.AddScoped<Booking>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 

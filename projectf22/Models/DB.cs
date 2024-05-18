@@ -305,6 +305,21 @@ namespace projectf22.Models
             return dt;
         }
 
+        public int GetIDUsingInfo(string name, string email, string pass)
+        {
+            string Q = $"select UserID from [USER] WHERE UserID='{name}' AND UserEmail='{email}' AND UserPassword='{pass}'";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            int dt = (int)cmd.ExecuteScalar();
+
+
+            con.Close();
+            return dt;
+        }
+
         public DataTable GetAllTicketsInfo()
         {
             string Q = $"SELECT * FROM TICKET";
@@ -424,9 +439,9 @@ namespace projectf22.Models
         }
 
         //////Booking
-        public void AddBooking(int UserId, DateTime Date, int NoTickets, decimal price)
+        public void AddBooking(Booking Book)
         {
-            string Q = $"INSERT INTO BOOKING( UserID, BookingDate, NumOfTickets, TotalPrice)\r\nVALUES ('{UserId}','{Date}','{NoTickets}','{price}');";
+            string Q = $"INSERT INTO BOOKING( UserID, BookingDate, NumOfTickets, TotalPrice)\r\nVALUES ('{Book.UserID}','{Book.BookingDate}','{Book.NumOfTickets}','{Book.TotalPrice}');";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -435,9 +450,9 @@ namespace projectf22.Models
 
             con.Close();
         }
-        public int GetBookingID(int UserId, DateTime Date, int NoTickets, decimal price)
+        public int GetBookingID(Booking Book)
         {
-            string Q = $"select BookingID from BOOKING WHERE UserID='{UserId}' AND BookingDate='{Date}' AND NumOfTickets='{NoTickets}' AND TotalPrice='{price}';";
+            string Q = $"select BookingID from BOOKING WHERE UserID='{Book.UserID}' AND BookingDate='{Book.BookingDate}' AND NumOfTickets='{Book.NumOfTickets}' AND TotalPrice='{Book.TotalPrice}';";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
