@@ -307,7 +307,7 @@ namespace projectf22.Models
 
         public int GetIDUsingInfo(string name, string email, string pass)
         {
-            string Q = $"select UserID from [USER] WHERE UserID='{name}' AND UserEmail='{email}' AND UserPassword='{pass}'";
+            string Q = $"select UserID from [USER] WHERE Username='{name}' AND UserEmail='{email}' AND UserPassword='{pass}'";
 
             con.Open();
 
