@@ -1,10 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\",
+  "WorkspaceRootPath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\promotions_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\promotions_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\promotions_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\promotions_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\booking_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\booking_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\booking_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\booking_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\admin_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\admin_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\admin_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\admin_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\organizer_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\organizer_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\delete\\organizer_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\organizer_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\shows_events.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\shows_events.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|f:\\university of science and technology at zewail city\\my-github\\cie-206-project\\data_base_project\\projectf22\\pages\\shows_events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\shows_events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +70,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin.cshtml",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml",
-              "RelativeToolTip": "projectf22\\Pages\\Admin.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAG4AAAAGAAAA",
+              "DocumentIndex": 3,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Models\\Promotion.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Promotion.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Models\\Promotion.cs",
+              "RelativeToolTip": "projectf22\\Models\\Promotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:56:15.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Promotions_Delete.cshtml",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Promotions_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Promotions_Delete.cshtml",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Promotions_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Promotions_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T23:46:53.63Z",
+              "WhenOpened": "2024-05-18T00:54:07.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Promotions_Delete.cshtml.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Promotions_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Promotions_Delete.cshtml.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Promotions_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Promotions_Delete.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:53:50.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking_Delete.cshtml.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Booking_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Booking_Delete.cshtml.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Booking_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Booking_Delete.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:51:03.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Booking_Delete.cshtml",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Booking_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Booking_Delete.cshtml",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Booking_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Booking_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T00:50:11.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DB.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\DB.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
+              "RelativeToolTip": "projectf22\\Models\\DB.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAiwNAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:32:22.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin_Delete.cshtml.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:30:38.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "organizer_Delete.cshtml.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:30:36.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Admin_Delete.cshtml",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T00:30:00.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Organizer.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Models\\Organizer.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Organizer.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Models\\Organizer.cs",
+              "RelativeToolTip": "projectf22\\Models\\Organizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:42:32.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "organizer_Delete.cshtml",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T00:29:58.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.cshtml.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin.cshtml.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:54:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "shows_events.cshtml.cs",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\shows_events.cshtml.cs",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\shows_events.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:54:09.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "shows_events.cshtml",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\shows_events.cshtml",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\shows_events.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T23:54:05.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin.cshtml",
+              "ToolTip": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T23:50:18.036Z",
               "EditorCaption": ""
             }
           ]

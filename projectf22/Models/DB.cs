@@ -159,6 +159,194 @@ namespace projectf22.Models
             con.Close();
         }
 
+        /// Organizer Sub
+        public void DeleteOrganizer(int ID)
+        {
+            string Q = $"DELETE FROM [ORGANIZER] WHERE EventID = {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /// Booking Sub
+        public void DeleteBooking(int ID)
+        {
+            string Q = $"DELETE FROM [BOOKING] WHERE BookingID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+        /// Promotion Sub
+        public void DeletePromotion(int ID)
+        {
+            string Q = $"DELETE FROM [PROMOTIONS] WHERE PromotionID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
+
+        /// Payment Sub
+        public void DeletePayment(int ID)
+        {
+            string Q = $"DELETE FROM PAYMNET WHERE PaymnetID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
+        /// Reviews Sub
+        public void DeleteReviews(int ID)
+        {
+            string Q = $"DELETE FROM REVIES WHERE ReviewID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
+
+        /// Location Sub
+        public void DeleteLocation(int ID)
+        {
+            string Q = $"DELETE FROM LOCATION WHERE LocationID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+        /// Ticket Sub
+        public void DeleteTicket(int ID)
+        {
+            string Q = $"DELETE FROM TICKET WHERE TicketID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
+        /// Payment Sub
+        public void DeleteEvent(int ID)
+        {
+            string Q = $"DELETE FROM EVENT WHERE EventID= {ID}";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
+
+
+        /// Socialmedia Sub
+        //public void DeleteSocialmedia(int ID)
+        //{
+        //    string Q = $"DELETE FROM PAYMNET WHERE PaymnetID= {ID}";
+        //    con.Open();
+
+        //    SqlCommand cmd = new SqlCommand(Q, con);
+
+        //    cmd.ExecuteNonQuery();
+
+        //    con.Close();
+        //}
+
+
+
+
 
 
 
