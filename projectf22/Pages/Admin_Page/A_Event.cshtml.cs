@@ -32,9 +32,9 @@ namespace projectf22.Pages.Admin_Page
                     EventDate = (DateTime)dt.Rows[i]["EventDate"],
                     EventImages = (string)dt.Rows[i]["EventImages"],
                     EventName = (string)dt.Rows[i]["EventName"],
-                    LocationID = (int)dt.Rows[i]["LocationID"],
-                    AdminID = (int)dt.Rows[i]["AdminID"],
-                    Type = (string)dt.Rows[i]["Type"]
+                    //LocationID = (int)dt.Rows[i]["LocationID"],
+                    //AdminID = (int)dt.Rows[i]["AdminID"],
+                    //Type = (string)dt.Rows[i]["Type"]
                 };
 
                 EventsList.Add(_event);
