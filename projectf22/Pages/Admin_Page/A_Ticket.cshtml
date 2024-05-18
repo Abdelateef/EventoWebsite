@@ -38,6 +38,8 @@
                                     <th>Availability</th>
                                     <th>TicketType</th>
                                     <th>EventID</th>
+                                    <th>Actions</th>
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -51,8 +53,8 @@
                                         <td>@ticket.EventID</td>
                                         <td class="text-right">
                                             <a asp-page="/Update/Update_Tickets" asp-route-id="@ticket.TicketID">Update</a>
-                                            |
-                                            <a asp-page="/Delete/Ticket_Delete" asp-route-id="@ticket.TicketID">Delete</a>
+@*                                             |
+                                            <a asp-page="/Delete/Ticket_Delete" asp-route-id="@ticket.TicketID">Delete</a> *@
                                         </td>
                                     </tr>
                                 }

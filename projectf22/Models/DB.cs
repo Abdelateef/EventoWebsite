@@ -227,7 +227,7 @@ namespace projectf22.Models
         /// Payment Sub
         public void DeletePayment(int ID)
         {
-            string Q = $"DELETE FROM PAYMNET WHERE PaymnetID= {ID}";
+            string Q = $"DELETE FROM [PAYMENT] WHERE PaymentID= {ID}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -248,7 +248,7 @@ namespace projectf22.Models
         /// Reviews Sub
         public void DeleteReviews(int ID)
         {
-            string Q = $"DELETE FROM REVIES WHERE ReviewID= {ID}";
+            string Q = $"DELETE FROM [REVIEWS] WHERE ReviewID= {ID}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -270,7 +270,7 @@ namespace projectf22.Models
         /// Location Sub
         public void DeleteLocation(int ID)
         {
-            string Q = $"DELETE FROM LOCATION WHERE LocationID= {ID}";
+            string Q = $"DELETE FROM LOCATION WHERE LocationID = {ID}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -332,23 +332,17 @@ namespace projectf22.Models
 
 
         /// Socialmedia Sub
-        //public void DeleteSocialmedia(int ID)
-        //{
-        //    string Q = $"DELETE FROM PAYMNET WHERE PaymnetID= {ID}";
-        //    con.Open();
+        public void DeleteSocialmedia(string SocialMediaPlatforms)
+        {
+            string Q = $"DELETE FROM [SOCIALMEDIALINKS] WHERE SocialMediaPlatforms = {SocialMediaPlatforms}";
+            con.Open();
 
-        //    SqlCommand cmd = new SqlCommand(Q, con);
+            SqlCommand cmd = new SqlCommand(Q, con);
 
-        //    cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
 
-        //    con.Close();
-        //}
-
-
-
-
-
-
+            con.Close();
+        }
 
 
 
