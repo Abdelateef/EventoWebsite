@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
-  "Hash": "mlTOUV1DWMuxG3HDUBM0qE6JSht5NjLBFndqdpmA88Q=",
-=======
-  "Hash": "wWIspOCYg1klJg2JVwM+rNC6oR0SVSMTrvkSq1LLLXI=",
->>>>>>> Stashed changes
+  "Hash": "LaTpWCVpYi8j0N7tVfIWytSIB6MxVUlLmdZH5jf9tIs=",
   "Source": "projectf22",
   "BasePath": "_content/projectf22",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "projectf22\\wwwroot",
       "Source": "projectf22",
-<<<<<<< Updated upstream
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css",
       "SourceId": "projectf22",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css",
-      "SourceId": "projectf22",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "projectf22.styles.css",
       "AssetKind": "All",
@@ -48,23 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< Updated upstream
-      "OriginalItemSpec": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css"
+      "OriginalItemSpec": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css",
       "SourceId": "projectf22",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css"
-    },
-    {
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css",
-      "SourceId": "projectf22",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "projectf22.bundle.scp.css",
       "AssetKind": "All",
@@ -77,23 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< Updated upstream
-      "OriginalItemSpec": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css"
+      "OriginalItemSpec": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\css\\font-awesome.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\font-awesome.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "OriginalItemSpec": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css"
-    },
-    {
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\font-awesome.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/font-awesome.css",
       "AssetKind": "All",
@@ -109,17 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\css\\owl-carousel.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\owl-carousel.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\owl-carousel.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/owl-carousel.css",
       "AssetKind": "All",
@@ -135,17 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl-carousel.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\css\\site.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\site.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\site.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -161,17 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\css\\tooplate-artxibition.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\tooplate-artxibition.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\css\\tooplate-artxibition.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/tooplate-artxibition.css",
       "AssetKind": "All",
@@ -187,17 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tooplate-artxibition.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\favicon.ico",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\favicon.ico",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\favicon.ico",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -213,17 +150,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about_bg.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about_bg.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/about_bg.jpg",
       "AssetKind": "All",
@@ -239,17 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about_bg.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-image.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-image.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-image.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/about-image.jpg",
       "AssetKind": "All",
@@ -265,17 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about-image.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-map-image.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-map-image.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-map-image.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/about-map-image.jpg",
       "AssetKind": "All",
@@ -291,17 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about-map-image.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Admin.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Admin.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Admin.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/Admin.jpg",
       "AssetKind": "All",
@@ -317,17 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Admin.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\banner_bg.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\banner_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\banner_bg.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/banner_bg.jpg",
       "AssetKind": "All",
@@ -343,17 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\banner_bg.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\consert.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\consert.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\consert.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/consert.jpg",
       "AssetKind": "All",
@@ -369,17 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\consert.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-01.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-01.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-01.jpg",
       "AssetKind": "All",
@@ -395,17 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-01.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-02.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-02.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-02.jpg",
       "AssetKind": "All",
@@ -421,17 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-02.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-03.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-03.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-03.jpg",
       "AssetKind": "All",
@@ -447,17 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-03.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-01.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-01.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-01.jpg",
       "AssetKind": "All",
@@ -473,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-01.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-02.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-02.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-02.jpg",
       "AssetKind": "All",
@@ -499,17 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-02.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-03.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-03.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-03.jpg",
       "AssetKind": "All",
@@ -525,17 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-03.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-04.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-04.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-04.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-04.jpg",
       "AssetKind": "All",
@@ -551,17 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-04.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\football.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\football.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\football.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/football.jpg",
       "AssetKind": "All",
@@ -577,17 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\football.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-01.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-01.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/like-01.jpg",
       "AssetKind": "All",
@@ -603,17 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\like-01.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-02.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-02.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/like-02.jpg",
       "AssetKind": "All",
@@ -629,17 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\like-02.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-03.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-03.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/like-03.jpg",
       "AssetKind": "All",
@@ -655,17 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\like-03.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\map-image.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\map-image.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\map-image.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/map-image.jpg",
       "AssetKind": "All",
@@ -681,17 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\map-image.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\random.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\random.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\random.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/random.jpg",
       "AssetKind": "All",
@@ -707,17 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\random.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\rent_venue_bg.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\rent_venue_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\rent_venue_bg.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/rent_venue_bg.jpg",
       "AssetKind": "All",
@@ -733,17 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\rent_venue_bg.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-01.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-01.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-01.jpg",
       "AssetKind": "All",
@@ -759,17 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-01.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-02.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-02.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-02.jpg",
       "AssetKind": "All",
@@ -785,17 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-02.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-03.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-03.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-03.jpg",
       "AssetKind": "All",
@@ -811,17 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-03.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-04.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-04.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-04.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-04.jpg",
       "AssetKind": "All",
@@ -837,17 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-04.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\shows_events_bg.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\shows_events_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\shows_events_bg.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/shows_events_bg.jpg",
       "AssetKind": "All",
@@ -863,17 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\shows_events_bg.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-01.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-01.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-01.jpg",
       "AssetKind": "All",
@@ -889,17 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-01.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-02.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-02.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-02.jpg",
       "AssetKind": "All",
@@ -915,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-02.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-03.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-03.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-03.jpg",
       "AssetKind": "All",
@@ -941,17 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-03.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-04.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-04.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-04.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-04.jpg",
       "AssetKind": "All",
@@ -967,17 +701,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-04.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-05.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-05.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-05.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-05.jpg",
       "AssetKind": "All",
@@ -993,17 +720,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-05.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-06.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-06.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-06.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-06.jpg",
       "AssetKind": "All",
@@ -1019,17 +739,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-06.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-details.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-details.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-details.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-details.jpg",
       "AssetKind": "All",
@@ -1045,17 +758,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-details.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-01.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-01.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/venue-01.jpg",
       "AssetKind": "All",
@@ -1071,17 +777,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\venue-01.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-02.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-02.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/venue-02.jpg",
       "AssetKind": "All",
@@ -1097,17 +796,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\venue-02.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-03.jpg",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-03.jpg",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/venue-03.jpg",
       "AssetKind": "All",
@@ -1123,17 +815,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\venue-03.jpg"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\accordions.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\accordions.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\accordions.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/accordions.js",
       "AssetKind": "All",
@@ -1149,17 +834,10 @@
       "OriginalItemSpec": "wwwroot\\js\\accordions.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\bootstrap.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1175,17 +853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\custom.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\custom.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\custom.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -1201,17 +872,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\imgfix.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\imgfix.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\imgfix.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/imgfix.min.js",
       "AssetKind": "All",
@@ -1227,17 +891,10 @@
       "OriginalItemSpec": "wwwroot\\js\\imgfix.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery.counterup.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery.counterup.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery.counterup.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -1253,17 +910,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.counterup.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery-2.1.0.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery-2.1.0.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery-2.1.0.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/jquery-2.1.0.min.js",
       "AssetKind": "All",
@@ -1279,17 +929,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-2.1.0.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\mixitup.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\mixitup.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\mixitup.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/mixitup.js",
       "AssetKind": "All",
@@ -1305,17 +948,10 @@
       "OriginalItemSpec": "wwwroot\\js\\mixitup.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\owl-carousel.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\owl-carousel.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\owl-carousel.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/owl-carousel.js",
       "AssetKind": "All",
@@ -1331,17 +967,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl-carousel.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\popper.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\popper.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\popper.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/popper.js",
       "AssetKind": "All",
@@ -1357,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\quantity.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\quantity.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\quantity.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/quantity.js",
       "AssetKind": "All",
@@ -1383,17 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\js\\quantity.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\scrollreveal.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\scrollreveal.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\scrollreveal.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/scrollreveal.min.js",
       "AssetKind": "All",
@@ -1409,17 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scrollreveal.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\site.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\site.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\site.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1435,17 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\js\\waypoints.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\waypoints.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\js\\waypoints.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/waypoints.min.js",
       "AssetKind": "All",
@@ -1461,17 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\js\\waypoints.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1487,17 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1513,17 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1539,17 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1565,17 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1591,17 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1617,17 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1643,17 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1669,17 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1695,17 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1721,17 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1747,17 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1773,17 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1799,17 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1825,17 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1851,17 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1877,17 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1903,17 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1929,17 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1955,17 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1981,17 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2007,17 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2033,17 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2059,17 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2085,17 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2111,17 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2137,17 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2163,17 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2189,17 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2215,17 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2241,17 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2267,17 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2293,17 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2319,17 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2345,17 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2371,17 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2397,17 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2423,17 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2449,17 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2475,17 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2501,17 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2527,17 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2553,17 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2579,17 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2605,17 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2631,17 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2657,17 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2683,17 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2709,17 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2735,17 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2761,17 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2787,17 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2813,17 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2839,17 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2865,17 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2891,17 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2917,17 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< Updated upstream
-      "Identity": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayayo\\Desktop\\Data_Base_Project\\projectf22\\wwwroot\\",
-=======
-      "Identity": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "projectf22",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\wwwroot\\",
->>>>>>> Stashed changes
+      "ContentRoot": "G:\\old downloads\\Data_Base_Project\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

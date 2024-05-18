@@ -1,4 +1,11 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_EventModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.Evnt.EventDate" placeholder="EventDate" value="@Model.Evnt.EventDate" />
+        <input type="text" asp-for="@Model.Evnt.EventImages" placeholder="EventImages" value="@Model.Evnt.EventImages" />
+        <input type="text" asp-for="@Model.Evnt.EventName" placeholder="EventName" value="@Model.Evnt.EventName" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Event</button>
+    </form>
 }

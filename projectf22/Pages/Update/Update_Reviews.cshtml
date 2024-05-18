@@ -1,4 +1,12 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_ReviewsModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.rev.Rating" placeholder="Rating" value="@Model.rev.Rating" />
+        <input type="text" asp-for="@Model.rev.Comment" placeholder="Comment" value="@Model.rev.Comment" />
+        <input type="text" asp-for="@Model.rev.ReviewDate" placeholder="Email" value="@Model.rev.ReviewDate" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Review</button>
+    </form>
 }
+

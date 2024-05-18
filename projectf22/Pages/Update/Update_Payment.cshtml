@@ -1,4 +1,11 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_PaymentModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.pay.PaymentDate" placeholder="PaymentDate" value="@Model.pay.PaymentDate" />
+        <input type="text" asp-for="@Model.pay.PaymentAmount" placeholder="PaymentAmount" value="@Model.pay.PaymentAmount" />
+        <input type="text" asp-for="@Model.pay.PaymentMethod" placeholder="PaymentMethod" value="@Model.pay.PaymentMethod" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Payment</button>
+    </form>
 }

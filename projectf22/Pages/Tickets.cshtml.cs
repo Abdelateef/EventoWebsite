@@ -30,7 +30,7 @@ namespace projectf22.Pages
 
 
             if (HttpContext.Session.GetString("Name") is not null)
-             {
+            {
                 dt = Data.GetAllTicketsInfo();
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
@@ -40,8 +40,8 @@ namespace projectf22.Pages
                 }
                 return Page();
 
-             }
-             else
+            }
+            else
             {
                 return RedirectToPage("/sign-up");
             }

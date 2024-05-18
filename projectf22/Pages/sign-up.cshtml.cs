@@ -6,14 +6,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace projectf22.Pages
 {
-    
+
     public class sign_upModel : PageModel
     {
         private readonly User Us;
         private readonly DB Data;
         [BindProperty]
-        [Required(ErrorMessage ="This field is required")]
-        [EmailAddress(ErrorMessage ="Please enter a valid email")]
+        [Required(ErrorMessage = "This field is required")]
+        [EmailAddress(ErrorMessage = "Please enter a valid email")]
         public string UsEmail { get; set; }
         [BindProperty]
         [Required(ErrorMessage = "This field is required")]
@@ -21,7 +21,7 @@ namespace projectf22.Pages
         public string UsName { get; set; }
         [BindProperty]
         [Required(ErrorMessage = "This field is required")]
-        [MinLength(5,ErrorMessage ="Please enter minimum 5 charachters")]
+        [MinLength(5, ErrorMessage = "Please enter minimum 5 charachters")]
         public string UsPassword { get; set; }
 
         public sign_upModel(DB db, User U) { Data = db; Us = U; }

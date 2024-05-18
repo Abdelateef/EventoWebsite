@@ -35,29 +35,29 @@
 
 
                     <form method="post">
-                    <div class="quantity-content">
-                        <div class="left-content">
-                            <h6>Standard Ticket</h6>
-                            <p>$@Model.ticket.TicketPrice per ticket</p>
-                        </div>
-                        <div class="right-content">
-                            <div class="quantity buttons_added">
-                                
+                        <div class="quantity-content">
+                            <div class="left-content">
+                                <h6>Standard Ticket</h6>
+                                <p>$@Model.ticket.TicketPrice per ticket</p>
+                            </div>
+                            <div class="right-content">
+                                <div class="quantity buttons_added">
+
                                     <input type="submit" class="plus" value="+" asp-page-handler="Plus" />
                                     <input type="number" step="1" min="1" max="" name="quantity" asp-for="@Model.Quantity" value="@Model.Quantity" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                     <input type="submit" class="minus" value="-" asp-page-handler="Minus" />
-                                
 
+
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="total">
-                        <h4>Total: @Model.Total</h4>
-                        
-                            <div class="main-dark-button"><input type="submit" asp-for="@Model.Quantity" asp-for="@Model.Total" value="Purchase Tickets" asp-page-handler="Book" /></div>
-                       
+                        <div class="total">
+                            <h4>Total: @Model.Total</h4>
 
-                    </div>
+                            <div class="main-dark-button"><input type="submit" asp-for="@Model.Quantity" asp-for="@Model.Total" value="Purchase Tickets" asp-page-handler="Book" /></div>
+
+
+                        </div>
                     </form>
                     <div class="warn">
                         <p>*You Can Only Buy 10 Tickets For This Show</p>

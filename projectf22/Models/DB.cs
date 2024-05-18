@@ -325,6 +325,42 @@ namespace projectf22.Models
             con.Close();
         }
 
+        public Payment GetPaymentinfo(int id)
+        {
+            string Q = $"SELECT PaymentDate, PaymentAmount, PaymentMethod FROM PAYMENT WHERE PaymentID = {id}";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+            Payment payment = new Payment();
+
+            payment.PaymentID = id;
+            payment.PaymentDate = (DateTime)dt.Rows[0]["PaymentDate"];
+            payment.PaymentAmount = (decimal)dt.Rows[0]["PaymentAmount"];
+            payment.PaymentMethod = (string)dt.Rows[0]["PaymentMethod"];
+
+            con.Close();
+
+            return payment;
+        }
+
+        public void UpdatePaymentInfo(Payment pay)
+        {
+            string Q = $"UPDATE PAYMENT SET PaymentDate = '{pay.PaymentDate}', PaymentAmount = {pay.PaymentAmount}, PaymentMethod = '{pay.PaymentMethod}' WHERE PaymentID = {pay.PaymentID}";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
         /// Reviews Sub
         public void DeleteReviews(int ID)
         {
@@ -338,6 +374,44 @@ namespace projectf22.Models
             con.Close();
         }
 
+
+        public Review GetReviewinfo(int id)
+        {
+            string Q = $"SELECT Rating, Comment, ReviewDate FROM REVIEWS WHERE ReviewID = {id}";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+            Review review = new Review();
+
+            review.ReviewID = id;
+            review.Rating = (int)dt.Rows[0]["Rating"];
+            review.Comment = (string)dt.Rows[0]["Comment"];
+            review.ReviewDate = (DateTime)dt.Rows[0]["ReviewDate"];
+
+            con.Close();
+
+            return review;
+        }
+
+        public void UpdateReviewInfo(Review rev)
+        {
+            string Q = $"UPDATE REVIEWS SET Rating = '{rev.Rating}', Comment = '{rev.Comment}', ReviewDate = '{rev.ReviewDate}' WHERE ReviewID = {rev.ReviewID}";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
         /// Location Sub
         public void DeleteLocation(int ID)
         {
@@ -350,6 +424,42 @@ namespace projectf22.Models
 
             con.Close();
         }
+        public Location GetLocationinfo(int id)
+        {
+            string Q = $"SELECT LocationName, LocationCapacity, LocationFacilities FROM LOCATION WHERE LocationID = {id}";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+            Location location = new Location();
+
+            location.LocationID = id;
+            location.LocationName = (string)dt.Rows[0]["LocationName"];
+            location.LocationCapacity = (int)dt.Rows[0]["LocationCapacity"];
+            location.LocationFacilities = (string)dt.Rows[0]["LocationFacilities"];
+
+            con.Close();
+
+            return location;
+        }
+
+        public void UpdateLocationInfo(Location loc)
+        {
+            string Q = $"UPDATE LOCATION SET LocationName = '{loc.LocationName}', LocationCapacity = '{loc.LocationCapacity}', LocationFacilities = '{loc.LocationFacilities}' WHERE LocationID = {loc.LocationID}";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
 
         /// Ticket Sub
         public void DeleteTicket(int ID)
@@ -363,6 +473,43 @@ namespace projectf22.Models
 
             con.Close();
         }
+        public Tickets GetTicketinfo(int id)
+        {
+            string Q = $"SELECT TicketPrice, Availability, TicketType FROM TICKET WHERE TicketID = {id}";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+            Tickets tickets = new Tickets();
+
+            tickets.TicketID = id;
+            tickets.TicketPrice = (decimal)dt.Rows[0]["TicketPrice"];
+            tickets.Availability = (bool)dt.Rows[0]["Availability"];
+            tickets.TicketType = (string)dt.Rows[0]["TicketType"];
+
+
+            con.Close();
+
+            return tickets;
+        }
+
+        public void UpdateTicketinfo(Tickets Tic)
+        {
+            string Q = $"UPDATE TICKET SET TicketPrice = {Tic.TicketPrice}, Availability = '{Tic.Availability}', TicketType = '{Tic.TicketType}' WHERE TicketID = {Tic.TicketID}";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
 
         /// Payment Sub
         public void DeleteEvent(int ID)
@@ -376,6 +523,44 @@ namespace projectf22.Models
 
             con.Close();
         }
+        public Event GetEventtinfo(int id)
+        {
+            string Q = $"SELECT EventDate, EventImages, EventName FROM EVENT WHERE EventID = {id}";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+            Event eevent = new Event();
+
+            eevent.EventID = id;
+            eevent.EventDate = (DateTime)dt.Rows[0]["EventDate"];
+            eevent.EventImages = (string)dt.Rows[0]["EventImages"];
+            eevent.EventName = (string)dt.Rows[0]["EventName"];
+
+
+            con.Close();
+
+            return eevent;
+        }
+
+        public void UpdateEventinfo(Event evt)
+        {
+            string Q = $"UPDATE EVENT SET EventDate = '{evt.EventDate}', EventImages = '{evt.EventImages}', EventName = '{evt.EventName}' WHERE EventID = {evt.EventID}";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+
+
 
         /// Socialmedia Sub
         public void DeleteSocialmedia(string SocialMediaPlatforms)

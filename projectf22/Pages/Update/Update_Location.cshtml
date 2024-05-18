@@ -1,4 +1,11 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_LocationModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.Loc.LocationName" placeholder="LocationName" value="@Model.Loc.LocationName" />
+        <input type="text" asp-for="@Model.Loc.LocationCapacity" placeholder="LocationCapacity" value="@Model.Loc.LocationCapacity" />
+        <input type="text" asp-for="@Model.Loc.LocationFacilities" placeholder="LocationFacilities" value="@Model.Loc.LocationFacilities" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Location</button>
+    </form>
 }

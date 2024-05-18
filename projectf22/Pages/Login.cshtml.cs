@@ -29,7 +29,7 @@ namespace projectf22.Pages
 
         public IActionResult OnPost()
         {
-            if (Data.GetID(ID)==ID)
+            if (Data.GetID(ID) == ID)
             {
                 HttpContext.Session.SetString("UsID", ID.ToString());
                 HttpContext.Session.SetString("Name", Name);

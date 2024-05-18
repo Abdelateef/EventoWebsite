@@ -1,4 +1,11 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_TicketsModel
 @{
+    <form>
+        <input type="text" asp-for="@Model.Tic.TicketPrice" placeholder="TicketPrice" value="@Model.Tic.TicketPrice" />
+        <input type="text" asp-for="@Model.Tic.Availability" placeholder="Availability" value="@Model.Tic.Availability" />
+        <input type="text" asp-for="@Model.Tic.TicketType" placeholder="TicketType" value="@Model.Tic.TicketType" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Ticket</button>
+    </form>
 }
