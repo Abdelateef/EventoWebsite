@@ -29,14 +29,62 @@ namespace projectf22.Pages
 
             }
             return Page();
-            if (HttpContext.Session.GetString("Name") is not null)
+            //if (HttpContext.Session.GetString("Name") is not null)
+            //{
+            //    return Page();
+            //}
+            //else
+            //{
+            //    return RedirectToPage("/sign-up");
+            //}
+        }
+        public IActionResult OnPostReadJuly()
+        {
+            tb = db.ReadTableSportdate(7);
+            for (int i = 0; i < tb.Rows.Count; i++)
             {
-                return Page();
+                myevent = new Event();
+                myevent.EventLocationID = (int)tb.Rows[i]["LocationID"];
+                myevent.EventID = (int)tb.Rows[i]["EventID"];
+                myevent.EventName = (string)tb.Rows[i]["EventName"];
+                myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
+                myevent.Type = (string)tb.Rows[i]["Type"];
+                Events.Add(myevent);
+
             }
-            else
+            return Page();
+        }
+        public IActionResult OnPostReadAugust()
+        {
+            tb = db.ReadTableSportdate(8);
+            for (int i = 0; i < tb.Rows.Count; i++)
             {
-                return RedirectToPage("/sign-up");
+                myevent = new Event();
+                myevent.EventLocationID = (int)tb.Rows[i]["LocationID"];
+                myevent.EventID = (int)tb.Rows[i]["EventID"];
+                myevent.EventName = (string)tb.Rows[i]["EventName"];
+                myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
+                myevent.Type = (string)tb.Rows[i]["Type"];
+                Events.Add(myevent);
+
             }
+            return Page();
+        }
+        public IActionResult OnPostReadSeptember()
+        {
+            tb = db.ReadTableSportdate(9);
+            for (int i = 0; i < tb.Rows.Count; i++)
+            {
+                myevent = new Event();
+                myevent.EventLocationID = (int)tb.Rows[i]["LocationID"];
+                myevent.EventID = (int)tb.Rows[i]["EventID"];
+                myevent.EventName = (string)tb.Rows[i]["EventName"];
+                myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
+                myevent.Type = (string)tb.Rows[i]["Type"];
+                Events.Add(myevent);
+
+            }
+            return Page();
         }
     }
 }

@@ -28,15 +28,16 @@ namespace projectf22.Pages
                 Events.Add(myevent);
 
             }
+            return Page();
 
-            if (HttpContext.Session.GetString("Name") is not null)
-            {
-                return Page();
-            }
-            else
-            {
-                return RedirectToPage("/sign-up");
-            }
+            //if (HttpContext.Session.GetString("Name") is not null)
+            //{
+            //    return Page();
+            //}
+            //else
+            //{
+            //    return RedirectToPage("/sign-up");
+            //}
         }
     }
 }

@@ -55,9 +55,21 @@
                                                     <div class="month">
                                                         <h6>Month</h6>
                                                         <ul>
-                                                            <li><a href="#">July</a></li>
-                                                            <li><a href="#">August</a></li>
-                                                            <li><a href="#">September</a></li>
+                                                            <li>
+                                                                <form method="post" asp-page-handler="ReadJuly">
+                                                                    <button type="submit" >July</button>
+                                                                </form>
+                                                            </li>
+                                                            <li>
+                                                                <form method="post" asp-page-handler="ReadAugust">
+                                                                    <button type="submit">August</button>
+                                                                </form>
+                                                            </li>
+                                                            <li>
+                                                                <form method="post" asp-page-handler="ReadSeptember">
+                                                                    <button type="submit">September</button>
+                                                                </form>
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -128,15 +140,7 @@
                                             }
                                             
                                             <div class="col-lg-12">
-                                                <div class="pagination">
-                                                    <ul>
-                                                        <li><a href="#">Prev</a></li>
-                                                        <li><a href="#">1</a></li>
-                                                        <li class="active"><a href="#">2</a></li>
-                                                        <li><a href="#">3</a></li>
-                                                        <li><a href="#">Next</a></li>
-                                                    </ul>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>

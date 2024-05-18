@@ -30,7 +30,7 @@ namespace projectf22.Models
         }
 
         ////////////////Admin
-       ///// Admin sub page 
+        ///// Admin sub page 
         public void AddAdmin(Admin Adm)
         {
             string Q = "INSERT INTO ADMIN (AdminName, Role, AdminEmail, AdminPassword) VALUES (@AdminName, @Role, @AdminEmail, @AdminPassword)";
@@ -300,12 +300,12 @@ namespace projectf22.Models
 
             int dt = (int)cmd.ExecuteScalar();
 
-           
+
             con.Close();
             return dt;
         }
 
-        public DataTable GetAllTicketsInfo() 
+        public DataTable GetAllTicketsInfo()
         {
             string Q = $"SELECT * FROM TICKET";
 
@@ -322,14 +322,14 @@ namespace projectf22.Models
             return dt;
         }
 
-        public void SetTicketsInfo(Tickets Tic,DataRow T)
+        public void SetTicketsInfo(Tickets Tic, DataRow T)
         {
 
-                Tic.TicketID = (int)T[0];
-                Tic.TicketPrice = (decimal)T[1];
-                Tic.Availability = (bool)T[2];
-                Tic.TicketType = (string)T[3];
-                Tic.EventID = (int)T[4];
+            Tic.TicketID = (int)T[0];
+            Tic.TicketPrice = (decimal)T[1];
+            Tic.Availability = (bool)T[2];
+            Tic.TicketType = (string)T[3];
+            Tic.EventID = (int)T[4];
 
         }
 
@@ -378,11 +378,35 @@ namespace projectf22.Models
 
         }
 
+        public DataTable ReadTableMay(int x)
+        {
+            DataTable dt = new DataTable();
+            string Q = $"SELECT * FROM EVENT WHERE MONTH(eventdate) = {x} and Type='Entertainment';";
+            con.Open();
 
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
+
+        public DataTable ReadTableSportdate(int x)
+        {
+            DataTable dt = new DataTable();
+            string Q = $"SELECT * FROM EVENT WHERE MONTH(eventdate) = {x} and Type='Sports';";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
     }
 
 
-    
+
 
 }
 
