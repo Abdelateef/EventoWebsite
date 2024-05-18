@@ -141,7 +141,6 @@ namespace projectf22.Models
             return user;
         }
 
-
         public void UpdateUserInfo(User user)
         {
             string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword WHERE UserID = @UserID";
@@ -172,19 +171,6 @@ namespace projectf22.Models
             con.Close();
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         /// Booking Sub
         public void DeleteBooking(int ID)
         {
@@ -198,10 +184,6 @@ namespace projectf22.Models
             con.Close();
         }
 
-
-
-
-
         /// Promotion Sub
         public void DeletePromotion(int ID)
         {
@@ -214,16 +196,6 @@ namespace projectf22.Models
 
             con.Close();
         }
-
-
-
-
-
-
-
-
-
-
         /// Payment Sub
         public void DeletePayment(int ID)
         {
@@ -236,14 +208,6 @@ namespace projectf22.Models
 
             con.Close();
         }
-
-
-
-
-
-
-
-
 
         /// Reviews Sub
         public void DeleteReviews(int ID)
@@ -258,15 +222,6 @@ namespace projectf22.Models
             con.Close();
         }
 
-
-
-
-
-
-
-
-
-
         /// Location Sub
         public void DeleteLocation(int ID)
         {
@@ -279,13 +234,6 @@ namespace projectf22.Models
 
             con.Close();
         }
-
-
-
-
-
-
-
 
         /// Ticket Sub
         public void DeleteTicket(int ID)
@@ -300,14 +248,6 @@ namespace projectf22.Models
             con.Close();
         }
 
-
-
-
-
-
-
-
-
         /// Payment Sub
         public void DeleteEvent(int ID)
         {
@@ -321,20 +261,10 @@ namespace projectf22.Models
             con.Close();
         }
 
-
-
-
-
-
-
-
-
-
-
         /// Socialmedia Sub
         public void DeleteSocialmedia(string SocialMediaPlatforms)
         {
-            string Q = $"DELETE FROM [SOCIALMEDIALINKS] WHERE SocialMediaPlatforms = {SocialMediaPlatforms}";
+            string Q = $"DELETE FROM SOCIALMEDIALINKS WHERE SocialMediaPlatforms = {SocialMediaPlatforms}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);

@@ -18,7 +18,7 @@ namespace projectf22.Pages.Delete
 
         public void OnGet(string socialmediatype)
         {
-            Socialmediatype = socialmediatype;
+            this.Socialmediatype = socialmediatype;
         }
 
         public IActionResult OnPost()
