@@ -8,5 +8,6 @@
         public int EventAdminID { get; set; }
         public string EventName { get; set; }
         public int EventID { get; set; }
+        public string Type { get; set; }
     }
 }
