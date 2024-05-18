@@ -14,10 +14,6 @@ namespace projectf22.Pages
         private readonly DB Data;
         [BindProperty(SupportsGet = true)]
         public int eventID { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public bool Av { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public decimal Pr { get; set; }
 
 
         public List<Tickets> ListofTickets = new List<Tickets>();
@@ -67,9 +63,9 @@ namespace projectf22.Pages
             int.TryParse(index, out int selectedIndex);
 
             eventID = ListofTickets[selectedIndex].EventID;
-            Av = ListofTickets[selectedIndex].Availability;
-            Pr = ListofTickets[selectedIndex].TicketPrice;
-            return RedirectToPage("/Ticketdetails", new { ID = eventID, Available = Av, Price = Pr });
+            HttpContext.Session.SetString("EID", eventID.ToString());
+
+            return RedirectToPage("/Ticketdetails");
 
 
         }

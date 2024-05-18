@@ -24,27 +24,35 @@
             <div class="col-lg-4">
                 <div class="right-content">
                     <h4>@Model.E.EventName</h4>
-                    <span>@Model.Available Tickets still available</span>
-                    <ul>
-                        <li><i class="fa fa-clock-o"></i>  @Model.E.EventDate </li>
-                        <li><i class="fa fa-map-marker"></i> @Model.E.EventLocationID </li>
-                    </ul>
+                    <span>@Model.ticket.Availability Tickets still available</span>
+                    <div class="quantity-content">
+                        <div class="left-content">
+                            <h6>Date and Time</h6>
+                            <p>@Model.E.EventDate</p>
+                        </div>
+                    </div>
+
+
+
+
                     <div class="quantity-content">
                         <div class="left-content">
                             <h6>Standard Ticket</h6>
-                            <p>$@Model.Price per ticket</p>
+                            <p>$@Model.ticket.TicketPrice per ticket</p>
                         </div>
                         <div class="right-content">
                             <div class="quantity buttons_added">
                                 <form method="post">
-                                    <input type="button" value="-" class="minus" asp-page-handler="minus"><input type="number" step="1" min="1" max="" name="quantity" value="@Model.quantity" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus" asp-page-handler="plus">
+                                    <input type="submit" class="plus" value="+" asp-page-handler="Plus" />
+                                    <input type="number" step="1" min="1" max="" name="quantity" asp-for="@Model.Quantity" value="@Model.Quantity" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                                    <input type="submit" class="minus" value="-" asp-page-handler="Minus" />
                                 </form>
 
                             </div>
                         </div>
                     </div>
                     <div class="total">
-                        <h4>Total: $210.00</h4>
+                        <h4>Total: @Model.Total</h4>
                         <div class="main-dark-button"><a href="#">Purchase Tickets</a></div>
                     </div>
                     <div class="warn">

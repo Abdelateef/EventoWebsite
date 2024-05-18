@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.VisualBasic;
@@ -8,31 +9,29 @@ namespace projectf22.Pages
 {
     public class TicketdetailsModel : PageModel
     {
-        [BindProperty(SupportsGet = true)]
-        public int ID { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public bool Available { get; set; }
-        [BindProperty(SupportsGet = true)]
-        public decimal Price { get; set; }
+        public int ID;
+
         [BindProperty]
-        public int quantity { get; set; }
+        public decimal Total { get; set; }
+
+        [BindProperty]
+        public int Quantity { get; set; }
+
+        public int temp { get; set; }
 
         public Event E = new Event();
         public DataTable dt { get; set; }
+        public DataTable dt2 { get; set; }
+        public Tickets ticket { get; set; } = new Tickets();
         private readonly DB Data;
 
         public TicketdetailsModel(DB db) { Data = db; }
         public void OnGet()
         {
-            if (HttpContext.Session.GetString("value") is not null)
-            {
-                int.TryParse(HttpContext.Session.GetString("value"), out int n);
-                quantity = n;
-            }
-            else
-            {
-                quantity = 1;
-            }
+
+            int.TryParse(HttpContext.Session.GetString("EID"), out ID);
+            dt2 = Data.GetTicketFromEventId(ID);
+            Data.SetTicketsInfo(ticket, dt2.Rows[0]);
             dt = Data.GetEventInfo(ID);
             E.EventID = (int)dt.Rows[0][0];
             E.EventDate = (DateTime)dt.Rows[0][1];
@@ -40,22 +39,54 @@ namespace projectf22.Pages
             E.EventName = (string)dt.Rows[0][3];
             E.EventLocationID = (int)dt.Rows[0][4];
             E.EventAdminID = (int)dt.Rows[0][5];
+            E.Type = (string)dt.Rows[0][6];
+            Quantity = 1;
+            Total = ticket.TicketPrice * Quantity;
+
 
         }
 
 
-        public IActionResult OnPostplus()
-        {
-            quantity++;
-            HttpContext.Session.SetString("value", quantity.ToString());
-            return RedirectToPage();
 
-        }
-        public IActionResult OnPostminus()
+        public void OnPostPlus()
         {
-            quantity--;
-            HttpContext.Session.SetString("value", quantity.ToString());
-            return RedirectToPage();
+            int.TryParse(HttpContext.Session.GetString("EID"), out ID);
+            dt2 = Data.GetTicketFromEventId(ID);
+            Data.SetTicketsInfo(ticket, dt2.Rows[0]);
+            dt = Data.GetEventInfo(ID);
+            E.EventID = (int)dt.Rows[0][0];
+            E.EventDate = (DateTime)dt.Rows[0][1];
+            E.EventImages = (string)dt.Rows[0][2];
+            E.EventName = (string)dt.Rows[0][3];
+            E.EventLocationID = (int)dt.Rows[0][4];
+            E.EventAdminID = (int)dt.Rows[0][5];
+            E.Type = (string)dt.Rows[0][6];
+            Quantity = Quantity + 1;
+            Total = ticket.TicketPrice * Quantity;
+
+
+
+       
+        }
+        public void OnPostMinus()
+        {
+            int.TryParse(HttpContext.Session.GetString("EID"), out ID);
+            dt2 = Data.GetTicketFromEventId(ID);
+            Data.SetTicketsInfo(ticket, dt2.Rows[0]);
+            dt = Data.GetEventInfo(ID);
+            E.EventID = (int)dt.Rows[0][0];
+            E.EventDate = (DateTime)dt.Rows[0][1];
+            E.EventImages = (string)dt.Rows[0][2];
+            E.EventName = (string)dt.Rows[0][3];
+            E.EventLocationID = (int)dt.Rows[0][4];
+            E.EventAdminID = (int)dt.Rows[0][5];
+            E.Type = (string)dt.Rows[0][6];
+            if (Quantity > 0)
+            {
+                Quantity = Quantity - 1;
+
+            }
+            Total = ticket.TicketPrice * Quantity;
 
         }
     }

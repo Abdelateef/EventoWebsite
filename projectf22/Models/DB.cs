@@ -352,6 +352,25 @@ namespace projectf22.Models
 
         }
 
+        public DataTable GetTicketFromEventId(int ID)
+        {
+
+            string Q = $"SELECT * FROM TICKET WHERE EventID='{ID}'";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+
+            con.Close();
+
+            return dt;
+
+        }
+
         //////Events
         public DataTable ReadTablesports()
         {
