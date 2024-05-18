@@ -263,3 +263,42 @@ G:\old downloads\Data_Base_Project-main\Data_Base_Project-main\projectf22\obj\De
 G:\old downloads\Data_Base_Project-main\Data_Base_Project-main\projectf22\obj\Debug\net8.0\projectf22.pdb
 G:\old downloads\Data_Base_Project-main\Data_Base_Project-main\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
 G:\old downloads\Data_Base_Project-main\Data_Base_Project-main\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.Development.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.exe
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.deps.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.pdb
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.AssemblyReference.cache
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.sourcelink.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.Up2Date
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+D:\year 4\Semester 2\Database\yoooooo\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll

@@ -352,6 +352,32 @@ namespace projectf22.Models
 
         }
 
+        //////Events
+        public DataTable ReadTablesports()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"SELECT * from EVENT where Type='Sports'";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
+        public DataTable ReadTablemusic()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"SELECT * from EVENT where Type='Entertainment'";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
+
 
     }
 
