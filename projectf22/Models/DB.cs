@@ -422,6 +422,32 @@ namespace projectf22.Models
             return dt;
 
         }
+
+        //////Booking
+        public void AddBooking(int UserId, DateTime Date, int NoTickets, decimal price)
+        {
+            string Q = $"INSERT INTO BOOKING( UserID, BookingDate, NumOfTickets, TotalPrice)\r\nVALUES ('{UserId}','{Date}','{NoTickets}','{price}');";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+        }
+        public int GetBookingID(int UserId, DateTime Date, int NoTickets, decimal price)
+        {
+            string Q = $"select BookingID from BOOKING WHERE UserID='{UserId}' AND BookingDate='{Date}' AND NumOfTickets='{NoTickets}' AND TotalPrice='{price}';";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            int BID = cmd.ExecuteNonQuery();
+
+
+            con.Close();
+            return BID;
+        }
     }
 
 
