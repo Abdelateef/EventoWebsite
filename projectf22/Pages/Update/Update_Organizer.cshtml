@@ -1,4 +1,14 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_OrganizerModel
 @{
+    <form method="post">
+
+        <input type="text" asp-for="@Model.Org.CLocation" placeholder="companyLocation" value="@Model.Org.CLocation" />
+        <input type="text" asp-for="@Model.Org.CName" placeholder="companyName" value="@Model.Org.CName" />
+        <input type="text" asp-for="@Model.Org.CEmail" placeholder="companyEmail" value="@Model.Org.CEmail" />
+        <input type="text" asp-for="@Model.Org.PName" placeholder="personName" value="@Model.Org.PName" />
+        <input type="text" asp-for="@Model.Org.PEmail" placeholder="personEmail" value="@Model.Org.PEmail" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Orangizer </button>
+    </form>
 }

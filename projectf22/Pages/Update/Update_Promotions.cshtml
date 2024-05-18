@@ -1,4 +1,12 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_PromotionsModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.Prom.PromotionType" placeholder="PromotionType" value="@Model.Prom.PromotionType" />
+        <input type="text" asp-for="@Model.Prom.DiscountAmount" placeholder="DiscountAmount" value="@Model.Prom.DiscountAmount" />
+        <input type="text" asp-for="@Model.Prom.UsageLimit" placeholder="UsageLimit" value="@Model.Prom.UsageLimit" />
+        <input type="text" asp-for="@Model.Prom.ExpirationDate" placeholder="ExpirationDate" value="@Model.Prom.ExpirationDate" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Promotion</button>
+    </form>
 }

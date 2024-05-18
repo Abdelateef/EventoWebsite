@@ -1,4 +1,11 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_BookingModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.Book.BookingDate" placeholder="BookingDate" value="@Model.Book.BookingDate" />
+        <input type="text" asp-for="@Model.Book.NumOfTickets" placeholder="NumOfTickets" value="@Model.Book.NumOfTickets" />
+        <input type="text" asp-for="@Model.Book.TotalPrice" placeholder="TotalPrice" value="@Model.Book.TotalPrice" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Booking</button>
+    </form>
 }
