@@ -11,6 +11,9 @@ namespace projectf22.Pages
     {
         private readonly User Us;
         private readonly DB Data;
+        public bool ShowResult { get; set; }
+        public string ModalTitle { get; set; }
+        public string ModalContent { get; set; }
         [BindProperty]
         [Required(ErrorMessage = "This field is required")]
         [EmailAddress(ErrorMessage = "Please enter a valid email")]
@@ -36,7 +39,7 @@ namespace projectf22.Pages
                 return Page();
             }
         }
-        public IActionResult OnPost()
+        public void OnPost()
         {
             if (ModelState.IsValid)
             {
@@ -46,11 +49,17 @@ namespace projectf22.Pages
                 Us.UserName = UsName;
                 Data.AddUser(Us);
                 HttpContext.Session.SetString("UsID", Data.GetIDUsingInfo(Us.UserName, Us.UserEmail, Us.UserPassword).ToString());
-                return RedirectToPage("/Index");
+
+                ShowResult = true;
+                ModalTitle = "You Signed up successfully!!";
+                ModalContent = "This is your ID: "+HttpContext.Session.GetString("UsID")
+                    +". You will be redirect automatically after 5 seconds";
 
 
             }
-            else { return Page(); }
+            else { }
+
+
         }
     }
 }
