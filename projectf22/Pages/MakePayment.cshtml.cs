@@ -12,7 +12,7 @@ namespace projectf22.Pages
         Payment P=new Payment();
         private readonly DB Data;
         int EVID;
-        int TotalPrice;
+        Decimal TotalPrice;
         string Method;
 
         public MakePaymentModel(DB db)
@@ -27,8 +27,9 @@ namespace projectf22.Pages
         {
             Method = Request.Form["Method"];
             int.TryParse(HttpContext.Session.GetString("EID"), out EVID);
-            int.TryParse(HttpContext.Session.GetString("Total"), out TotalPrice);
-            P.PaymentDate=DateTime.Now;
+            Decimal.TryParse(HttpContext.Session.GetString("Total"), out TotalPrice);
+
+            P.PaymentDate=DateTime.Now; 
             P.EventID=EVID;
             P.PaymentMethod=Method;
             P.PaymentAmount=TotalPrice;

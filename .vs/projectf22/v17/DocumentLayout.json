@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\makepayment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\makepayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\makepayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\create\\create_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -254,14 +254,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DB.cs",
-              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
-              "RelativeDocumentMoniker": "projectf22\\Models\\DB.cs",
-              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
-              "RelativeToolTip": "projectf22\\Models\\DB.cs",
-              "ViewState": "AQIAAGMBAAAAAAAAAAAkwHIBAACkAAAA",
+              "Title": "Ticketdetails.cshtml.cs",
+              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAUwGoAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T12:00:24.471Z",
+              "WhenOpened": "2024-05-19T12:09:21.348Z",
               "EditorCaption": ""
             },
             {
@@ -272,7 +272,7 @@
               "RelativeDocumentMoniker": "projectf22\\Pages\\MakePayment.cshtml.cs",
               "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\MakePayment.cshtml.cs",
               "RelativeToolTip": "projectf22\\Pages\\MakePayment.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCQAAAAIAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T11:01:53.524Z",
               "EditorCaption": ""
@@ -280,6 +280,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Ticketdetails.cshtml",
+              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml",
+              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T12:09:18.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Event.cs",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\Event.cs",
               "RelativeDocumentMoniker": "projectf22\\Models\\Event.cs",
@@ -287,25 +300,11 @@
               "RelativeToolTip": "projectf22\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:26:37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T20:26:37Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Ticketdetails.cshtml",
-              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml",
-              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml",
-              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T11:51:36.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MakePayment.cshtml",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\MakePayment.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\MakePayment.cshtml",
@@ -313,8 +312,7 @@
               "RelativeToolTip": "projectf22\\Pages\\MakePayment.cshtml",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAwBUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T08:46:59.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T08:46:59.58Z"
             },
             {
               "$type": "Document",

@@ -65,7 +65,7 @@ namespace projectf22.Pages
             E.Type = (string)dt.Rows[0][6];
             Quantity = Quantity + 1;
             Total = ticket.TicketPrice * Quantity;
-            HttpContext.Session.SetString("Total", Total.ToString());
+            
 
 
 
@@ -90,7 +90,7 @@ namespace projectf22.Pages
 
             }
             Total = ticket.TicketPrice * Quantity;
-            HttpContext.Session.SetString("Total", Total.ToString());
+            
         }
 
         public IActionResult OnPostBook()
@@ -104,6 +104,7 @@ namespace projectf22.Pages
             Book.BookingDate = DateTime.Now;
             Book.NumOfTickets = Quantity;
             Book.TotalPrice = Quantity * ticket.TicketPrice;
+            HttpContext.Session.SetString("Total", Book.TotalPrice.ToString());
             Data.AddBooking(Book);
             return RedirectToPage("/MakePayment");
         }
