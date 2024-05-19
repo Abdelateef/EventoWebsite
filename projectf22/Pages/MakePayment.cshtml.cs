@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace projectf22.Pages
 {
-    public class PaymentDetailsModel : PageModel
+    public class MakePaymentModel : PageModel
     {
         public void OnGet()
         {

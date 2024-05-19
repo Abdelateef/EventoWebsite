@@ -1,0 +1,103 @@
+﻿@page
+@model projectf22.Pages.MakePaymentModel
+@{
+
+}
+
+
+<div class="page-heading-shows-events">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Payment Details</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ticket-details-page">
+    <div class="container">
+
+                
+                    <form method="post" action="/process-payment" id="payment-form">
+                        <h2>Payment Method</h2><br />
+                        <div class="left-image">
+                            <label>
+                                <input type="radio" name="paymentMethod" value="creditCard" class="h4" onclick="showForm('creditCardForm')">
+                                Credit Card
+                            </label><br><br />
+                            <label>
+                                <input type="radio" name="paymentMethod" value="paypal" class="h4" onclick="showForm('paypalForm')">
+                                PayPal
+                            </label><br><br />
+                            <label>
+                                <input type="radio" name="paymentMethod" value="bankTransfer" class="h4" onclick="showForm('bankTransferForm')">
+                                Bank Transfer
+                            </label><br><br />
+                            <label>
+                                <input type="radio" name="paymentMethod" value="applePay" class="h4" onclick="showForm('applePayForm')">
+                                Apple Pay
+                            </label><br><br><br><br>
+                        </div>
+            <div class="row">
+                <div class="col-lg-4">
+                       <div class="right-content">
+
+                         <!-- Additional Forms -->
+                            <div id="creditCardForm" class="visually-hidden"><br />
+                                <h2>Credit Card Details</h2><br />
+                                <label for="cc-number">Card Number:</label>
+                                <input type="text" id="cc-number" name="cc-number"><br><br>
+                                <label for="cc-expiry">Expiry Date:</label>
+                                <input type="text" id="cc-expiry" name="cc-expiry"><br><br>
+                                <label for="cc-cvc">CVC:</label>
+                                <input type="text" id="cc-cvc" name="cc-cvc"><br><br>
+                            </div>
+
+                            <div id="paypalForm" class="visually-hidden">
+                                <h2>PayPal Details</h2><br />
+                                <label for="paypal-email">PayPal Email:</label>
+                                <input type="email" id="paypal-email" name="paypal-email"><br><br>
+                            </div>
+
+                            <div id="bankTransferForm" class="visually-hidden">
+                                <h2>Bank Transfer Details</h2><br />
+                                <label for="bank-account">Account Number:</label>
+                                <input type="text" id="bank-account" name="bank-account"><br><br>
+                                <label for="bank-routing">Routing Number:</label>
+                                <input type="text" id="bank-routing" name="bank-routing"><br><br>
+                            </div>
+
+                            <div id="applePayForm" class="visually-hidden">
+                                <h2>Apple Pay Details</h2>
+                                <label for="apple-pay-email">Apple Pay Email:</label>
+                                <input type="email" id="apple-pay-email" name="apple-pay-email"><br><br>
+                            </div>
+
+                        <button type="submit" class="submit-button">Submit</button>
+                        </div>
+                </div>
+            </div> 
+                    </form>
+
+                    <script>
+                        function showForm(formId) {
+                            // Hide all forms
+                            document.getElementById('creditCardForm').classList.add('visually-hidden');
+                            document.getElementById('paypalForm').classList.add('visually-hidden');
+                            document.getElementById('bankTransferForm').classList.add('visually-hidden');
+                            document.getElementById('applePayForm').classList.add('visually-hidden');
+
+                            // Show the selected form
+                            document.getElementById(formId).classList.remove('visually-hidden');
+                        }
+                    </script>
+
+
+
+                
+           
+       
+    </div>
+</div>
+

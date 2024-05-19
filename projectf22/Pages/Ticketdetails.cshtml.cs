@@ -105,7 +105,7 @@ namespace projectf22.Pages
             Book.NumOfTickets = Quantity;
             Book.TotalPrice = Quantity * ticket.TicketPrice;
             Data.AddBooking(Book);
-            return RedirectToPage("/PaymentDetails");
+            return RedirectToPage("/MakePayment");
         }
     }
 }
