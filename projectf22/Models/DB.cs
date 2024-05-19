@@ -368,7 +368,7 @@ namespace projectf22.Models
 
         public void AddPayment(Payment payment)
         {
-            string query = "INSERT INTO Payment (PaymentDate, PaymentAmount, PaymentMethod, EventID) VALUES (@PaymentDate, @PaymentAmount, @PaymentMethod, @EventID)";
+            string query = "INSERT INTO PAYMENT (PaymentDate, PaymentAmount, PaymentMethod, EventID) VALUES (@PaymentDate, @PaymentAmount, @PaymentMethod, @EventID)";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(query, con);

@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.VisualBasic;
 using projectf22.Models;
+using System.Data;
 
 namespace projectf22.Pages
 {
@@ -10,6 +13,7 @@ namespace projectf22.Pages
         private readonly DB Data;
         int EVID;
         int TotalPrice;
+        string Method;
 
         public MakePaymentModel(DB db)
         {
@@ -21,12 +25,13 @@ namespace projectf22.Pages
 
         public void OnPostPay() 
         {
+            Method = Request.Form["Method"];
             int.TryParse(HttpContext.Session.GetString("EID"), out EVID);
             int.TryParse(HttpContext.Session.GetString("Total"), out TotalPrice);
-            P.PaymentDate;
-            P.EventID;
-            P.PaymentMethod;
-            P.PaymentAmount;
+            P.PaymentDate=DateTime.Now;
+            P.EventID=EVID;
+            P.PaymentMethod=Method;
+            P.PaymentAmount=TotalPrice;
 
             Data.AddPayment(P);
         }

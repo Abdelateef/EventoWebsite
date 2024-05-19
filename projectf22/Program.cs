@@ -9,6 +9,7 @@ builder.Services.AddScoped<User>();
 builder.Services.AddScoped<Tickets>();
 builder.Services.AddScoped<Event>();
 builder.Services.AddScoped<Booking>();
+builder.Services.AddScoped<Payment>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
