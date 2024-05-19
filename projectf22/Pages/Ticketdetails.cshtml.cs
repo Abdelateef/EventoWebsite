@@ -65,7 +65,7 @@ namespace projectf22.Pages
             E.Type = (string)dt.Rows[0][6];
             Quantity = Quantity + 1;
             Total = ticket.TicketPrice * Quantity;
-            HttpContext.Session.SetString("Quantity", Quantity.ToString());
+            HttpContext.Session.SetString("Total", Total.ToString());
 
 
 
@@ -90,7 +90,7 @@ namespace projectf22.Pages
 
             }
             Total = ticket.TicketPrice * Quantity;
-            HttpContext.Session.SetString("Quantity", Quantity.ToString());
+            HttpContext.Session.SetString("Total", Total.ToString());
         }
 
         public IActionResult OnPostBook()
