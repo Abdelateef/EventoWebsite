@@ -786,6 +786,36 @@ namespace projectf22.Models
             return dt;
         }
 
+        public string GetPassUsingID(int ID)
+        {
+            string Q = $"select UserPassword From [USER] WHERE UserID='{ID}'";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            string dt = (string)cmd.ExecuteScalar();
+
+
+            con.Close();
+            return dt;
+        }
+
+        public string GetNameUsingID(int ID)
+        {
+            string Q = $"select Username From [USER] WHERE UserID='{ID}'";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            string dt = (string)cmd.ExecuteScalar();
+
+
+            con.Close();
+            return dt;
+        }
+
         public DataTable GetAllTicketsInfo()
         {
             string Q = $"SELECT * FROM TICKET";
