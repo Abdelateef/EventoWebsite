@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\music.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\music.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\music.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\music.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\music.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|e:\\zc\\spc 3\\semester 2\\project\\data_base_project\\projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -282,64 +282,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ticketdetails.cshtml.cs",
-              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wCMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T17:33:53.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml.cs",
               "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "projectf22\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA8wBgAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwCoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T17:00:01.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml",
               "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAoAAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAwIgAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-19T16:49:22.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Music.cshtml.cs",
-              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Music.cshtml.cs",
-              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\Music.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "sports.cshtml.cs",
+              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml.cs",
+              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\sports.cshtml.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:26:37.006Z",
+              "WhenOpened": "2024-05-18T20:26:37.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DB.cs",
+              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\DB.cs",
+              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
+              "RelativeToolTip": "projectf22\\Models\\DB.cs",
+              "ViewState": "AQIAAFwCAAAAAAAAAAAAwGMCAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:04:22.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Tickets.cshtml.cs",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Tickets.cshtml.cs",
               "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml.cs",
               "RelativeToolTip": "projectf22\\Pages\\Tickets.cshtml.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAkwEMAAAA0AAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T14:14:06.435Z",
               "EditorCaption": ""
@@ -352,27 +352,39 @@
               "RelativeDocumentMoniker": "projectf22\\Pages\\Tickets.cshtml",
               "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\Tickets.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAAjAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAACGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-19T13:59:58.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DB.cs",
-              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
-              "RelativeDocumentMoniker": "projectf22\\Models\\DB.cs",
-              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\DB.cs",
-              "RelativeToolTip": "projectf22\\Models\\DB.cs",
-              "ViewState": "AQIAALoCAAAAAAAAAAAAwNACAAAVAAAA",
+              "DocumentIndex": 7,
+              "Title": "Music.cshtml.cs",
+              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Music.cshtml.cs",
+              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Music.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T13:04:22.62Z",
+              "WhenOpened": "2024-05-18T20:26:37.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ticketdetails.cshtml.cs",
+              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:33:53.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Music.cshtml",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Music.cshtml",
@@ -380,12 +392,11 @@
               "RelativeToolTip": "projectf22\\Pages\\Music.cshtml",
               "ViewState": "AQIAAFIAAAAAAAAAAAAYwG8AAACpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T20:26:36.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T20:26:36.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "sign-up.cshtml",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\sign-up.cshtml",
@@ -393,12 +404,11 @@
               "RelativeToolTip": "projectf22\\Pages\\sign-up.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T15:39:20.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T15:39:20.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Event.cs",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Models\\Event.cs",
               "RelativeDocumentMoniker": "projectf22\\Models\\Event.cs",
@@ -406,12 +416,11 @@
               "RelativeToolTip": "projectf22\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:26:37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T20:26:37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Shared\\_Layout.cshtml",
@@ -419,12 +428,11 @@
               "RelativeToolTip": "projectf22\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T16:48:56.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T16:48:56.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "sign-up.cshtml.cs",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\sign-up.cshtml.cs",
@@ -432,12 +440,11 @@
               "RelativeToolTip": "projectf22\\Pages\\sign-up.cshtml.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAIwD8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:26:36.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T20:26:36.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Login.cshtml.cs",
@@ -446,18 +453,6 @@
               "ViewState": "AQIAABcAAAAAAAAAAAA9wA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T15:07:14.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "sports.cshtml.cs",
-              "DocumentMoniker": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml.cs",
-              "ToolTip": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\sports.cshtml.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAIwF4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:26:37.003Z"
             },
             {
               "$type": "Document",

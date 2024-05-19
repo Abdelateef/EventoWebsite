@@ -608,6 +608,23 @@ namespace projectf22.Models
 
             con.Close();
         }
+
+        public DataTable Get3SoonerTicketS()
+        {
+            string Q = $"SELECT TicketPrice\r\nFROM TICKET\r\nWHERE EventID IN (\r\n    SELECT TOP 3 EventID\r\n    FROM EVENT\r\n    ORDER BY EventDate DESC\r\n)";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+
+            con.Close();
+
+            return dt;
+        }
         public Tickets GetTicketinfo(int id)
         {
             string Q = $"SELECT TicketPrice, Availability, TicketType FROM TICKET WHERE TicketID = {id}";
@@ -720,6 +737,25 @@ namespace projectf22.Models
 
             return dt;
         }
+
+        public DataTable Get3SoonerEventS()
+        {
+            string Q = $"SELECT *\r\nFROM EVENT\r\nWHERE EventDate IN (\r\n    SELECT TOP 3 EventDate\r\n    FROM EVENT\r\n    ORDER BY EventDate DESC\r\n)";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+
+            con.Close();
+
+            return dt;
+        }
+
+
 
 
         public void UpdateEventinfo(Event evt)

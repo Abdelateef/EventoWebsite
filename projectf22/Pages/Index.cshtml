@@ -118,81 +118,46 @@
                         <h2>Upcoming Events</h2>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="venue-item">
-                        <div class="thumb">
-                            <img src="assets/Images/venue-01.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <div class="left-content">
-                                <div class="main-white-button">
-                                    <a href="/Tickets">Purchase Tickets</a>
+
+                    
+                        
+                        <form method="post">
+
+                          @for(int i=0; i<Model.dt2.Rows.Count;i++)
+                            {
+                            <div class="col-lg-12 align-content-center">
+                                <div class="venue-item">
+                                    <div class="thumb">
+                                        <img src="assets/Images/venue-01.jpg" alt="">
+                                    </div>
+                                        <div class="down-content">
+                                            
+                                                <div class="left-content align-content-center">
+                                                    <div>
+                                                        <button type="submit" class="bg-dark p-4 text-light" name="index" value="@Model.dt2.Rows[i][0]" asp-page-handler="Upcoming">Purchase Tickets</button>
+                                                    </div>
+                                                </div>
+                                                <div class="right-content">
+                                                        <h4>@Model.dt2.Rows[i][3]</h4>
+                                                        <p>Explore this event now!!.</p>
+                                                    <div class="price">
+                                                        <span>1 ticket<br>from <em>$@Model.dt3.Rows[i][0]</em></span>
+                                                    </div>
+                                                </div>
+                                        </div>
                                 </div>
                             </div>
-                            <div class="right-content">
-                                <h4>Radio City Musical Hall</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.</p>
-                                <ul>
-                                    <li><i class="fa fa-sitemap"></i>250</li>
-                                    <li><i class="fa fa-user"></i>500</li>
-                                </ul>
-                                <div class="price">
-                                    <span>1 ticket<br>from <em>$45</em></span>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
+
+                             }
+
+                        </form>
+                            
+                        
+                    
                 </div>
-                <div class="col-lg-4">
-                    <div class="venue-item">
-                        <div class="thumb">
-                            <img src="assets/Images/venue-02.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <div class="left-content">
-                                <div class="main-white-button">
-                                <a href="/Tickets">Purchase Tickets</a>
-                                </div>
-                            </div>
-                            <div class="right-content">
-                                <h4>Madison Square Garden</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.</p>
-                                <ul>
-                                    <li><i class="fa fa-sitemap"></i>450</li>
-                                    <li><i class="fa fa-user"></i>650</li>
-                                </ul>
-                                <div class="price">
-                                    <span>1 ticket<br>from <em>$55</em></span>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="venue-item">
-                        <div class="thumb">
-                            <img src="assets/Images/venue-03.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <div class="left-content">
-                                <div class="main-white-button">
-                                <a href="/Tickets">Purchase Tickets</a>
-                                </div>
-                            </div>
-                            <div class="right-content">
-                                <h4>Royce Hall</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.</p>
-                                <ul>
-                                    <li><i class="fa fa-sitemap"></i>450</li>
-                                    <li><i class="fa fa-user"></i>750</li>
-                                </ul>
-                                <div class="price">
-                                    <span>1 ticket<br>from <em>$65</em></span>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
+
+
+                
             </div>
         </div>
     </div>
