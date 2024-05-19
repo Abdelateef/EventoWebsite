@@ -9,11 +9,15 @@ namespace projectf22.Pages
 {
     public class MakePaymentModel : PageModel
     {
-        Payment P=new Payment();
+        public Payment P=new Payment();
         private readonly DB Data;
-        int EVID;
-        Decimal TotalPrice;
-        string Method;
+        public int EVID;
+        [BindProperty]
+        public decimal TotalPrice { get; set; }
+        public string Method;
+        public decimal Discount;
+        [BindProperty]
+        public string Code { get; set; }
 
         public MakePaymentModel(DB db)
         {
@@ -21,13 +25,16 @@ namespace projectf22.Pages
         }
         public void OnGet()
         {
+            decimal.TryParse(HttpContext.Session.GetString("Total"), out decimal T);
+            TotalPrice = T;
         }
 
-        public void OnPostPay() 
+        public IActionResult OnPostPay() 
         {
             Method = Request.Form["Method"];
             int.TryParse(HttpContext.Session.GetString("EID"), out EVID);
-            Decimal.TryParse(HttpContext.Session.GetString("Total"), out TotalPrice);
+            decimal.TryParse(HttpContext.Session.GetString("Total"), out decimal T);
+            TotalPrice = T;
 
             P.PaymentDate=DateTime.Now; 
             P.EventID=EVID;
@@ -35,6 +42,17 @@ namespace projectf22.Pages
             P.PaymentAmount=TotalPrice;
 
             Data.AddPayment(P);
+            return RedirectToPage("/Done");
+        }
+
+        public void OnPostPromot()
+        {
+            Discount = Data.GetDiscountAmount(Code);
+            decimal.TryParse(HttpContext.Session.GetString("Total"), out decimal T);
+            TotalPrice = T;
+            TotalPrice = (1 - Discount/100) * TotalPrice;
+
+
         }
 
     }

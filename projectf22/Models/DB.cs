@@ -363,6 +363,23 @@ namespace projectf22.Models
         }
 
 
+        public decimal GetDiscountAmount(string code)
+        {
+            string Q = $"SELECT DiscountAmount FROM PROMOTIONS WHERE PromotionType='{code}' AND DiscountAmount IN (SELECT DiscountAmount FROM PROMOTIONS)";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            decimal dt=(decimal)cmd.ExecuteScalar();
+
+
+            con.Close();
+
+            return dt;
+        }
+
+
 
         /// Payment Sub
 
