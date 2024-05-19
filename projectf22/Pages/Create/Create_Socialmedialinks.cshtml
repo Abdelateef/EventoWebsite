@@ -1,4 +1,10 @@
 ﻿@page
 @model projectf22.Pages.Create.Create_SocialmedialinksModel
 @{
+    <form method="post">
+        <input type="text" asp-for="socialMediaLink.SocialMediaPlatforms" placeholder="Social Media Platform" />
+        <input type="text" asp-for="socialMediaLink.LinkURL" placeholder="Link URL" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new Social Media Link</button>
+    </form>
 }

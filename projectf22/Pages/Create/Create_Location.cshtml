@@ -1,4 +1,11 @@
 ﻿@page
-@model projectf22.Pages.Create.Create_LoationModel
+@model projectf22.Pages.Create.Create_LocationModel
 @{
+    <form method="post">
+        <input type="text" asp-for="location.LocationName" placeholder="Location Name" />
+        <input type="number" asp-for="location.LocationCapacity" placeholder="Location Capacity" />
+        <input type="text" asp-for="location.LocationFacilities" placeholder="Location Facilities" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new Location</button>
+    </form>
 }

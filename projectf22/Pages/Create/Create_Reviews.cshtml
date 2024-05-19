@@ -1,4 +1,13 @@
 ﻿@page
 @model projectf22.Pages.Create.Create_ReviewsModel
 @{
+    <form method="post">
+        <input type="number" asp-for="review.Rating" placeholder="Rating" />
+        <textarea asp-for="review.Comment" placeholder="Comment"></textarea>
+        <input type="datetime-local" asp-for="review.ReviewDate" placeholder="Review Date" />
+        <input type="number" asp-for="review.EventID" placeholder="Event ID" />
+        <input type="number" asp-for="review.UserID" placeholder="User ID" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new Review</button>
+    </form>
 }

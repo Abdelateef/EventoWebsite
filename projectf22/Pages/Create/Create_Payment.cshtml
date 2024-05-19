@@ -1,4 +1,12 @@
 ﻿@page
 @model projectf22.Pages.Create.Create_PaymentModel
 @{
+    <form method="post">
+        <input type="datetime-local" asp-for="payment.PaymentDate" placeholder="Payment Date" />
+        <input type="number" step="0.01" asp-for="payment.PaymentAmount" placeholder="Payment Amount" />
+        <input type="text" asp-for="payment.PaymentMethod" placeholder="Payment Method" />
+        <input type="number" asp-for="payment.EventID" placeholder="Event ID" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new Payment</button>
+    </form>
 }

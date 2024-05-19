@@ -28,13 +28,13 @@ namespace projectf22.Pages.Admin_Page
             {
                 Event _event = new Event
                 {
-                    EventID = (int)dt.Rows[i]["EventID"],
-                    EventDate = (DateTime)dt.Rows[i]["EventDate"],
-                    EventImages = (string)dt.Rows[i]["EventImages"],
-                    EventName = (string)dt.Rows[i]["EventName"],
-                    //LocationID = (int)dt.Rows[i]["LocationID"],
-                    //AdminID = (int)dt.Rows[i]["AdminID"],
-                    //Type = (string)dt.Rows[i]["Type"]
+                    EventID = dt.Rows[i]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["EventID"],
+                    EventDate = dt.Rows[i]["EventDate"] == DBNull.Value ? DateTime.MinValue : (DateTime)dt.Rows[i]["EventDate"],
+                    EventImages = dt.Rows[i]["EventImages"] == DBNull.Value ? "" : (string)dt.Rows[i]["EventImages"],
+                    EventName = dt.Rows[i]["EventName"] == DBNull.Value ? "" : (string)dt.Rows[i]["EventName"],
+                    EventLocationID = dt.Rows[i]["LocationID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["LocationID"],
+                    EventAdminID = dt.Rows[i]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["AdminID"],
+                    Type = dt.Rows[i]["Type"] == DBNull.Value ? "" : (string)dt.Rows[i]["Type"]
                 };
 
                 EventsList.Add(_event);

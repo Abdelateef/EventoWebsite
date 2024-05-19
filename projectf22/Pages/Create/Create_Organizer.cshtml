@@ -1,4 +1,14 @@
 ﻿@page
 @model projectf22.Pages.Create.Create_OrganizerModel
 @{
+    <form method="post">
+        <input type="text" asp-for="organizer.CLocation" placeholder="Location" />
+        <input type="text" asp-for="organizer.CName" placeholder="Contact Name" />
+        <input type="email" asp-for="organizer.CEmail" placeholder="Contact Email" />
+        <input type="text" asp-for="organizer.PName" placeholder="Person Name" />
+        <input type="email" asp-for="organizer.PEmail" placeholder="Person Email" />
+        <input type="number" asp-for="organizer.EventID" placeholder="Event ID" />
+        <br />
+        <button class="btn btn-primary" type="submit">Add new Organizer</button>
+    </form>
 }

@@ -2,6 +2,7 @@
 {
     public class Event
     {
+
         public DateTime EventDate { get; set; }
         public string EventImages { get; set; }
         public int EventLocationID { get; set; }

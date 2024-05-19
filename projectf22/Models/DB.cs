@@ -159,6 +159,24 @@ namespace projectf22.Models
         }
 
         /// Organizer Sub
+
+        public void AddOrganizer(Organizer organizer)
+        {
+            string query = "INSERT INTO Organizer (CLocation, CName, CEmail, PName, PEmail, EventID) VALUES (@CLocation, @CName, @CEmail, @PName, @PEmail, @EventID)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@CLocation", organizer.CLocation);
+            cmd.Parameters.AddWithValue("@CName", organizer.CName);
+            cmd.Parameters.AddWithValue("@CEmail", organizer.CEmail);
+            cmd.Parameters.AddWithValue("@PName", organizer.PName);
+            cmd.Parameters.AddWithValue("@PEmail", organizer.PEmail);
+            cmd.Parameters.AddWithValue("@EventID", organizer.EventID);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         public void DeleteOrganizer(int ID)
         {
             string Q = $"DELETE FROM [ORGANIZER] WHERE EventID = {ID}";
@@ -211,6 +229,23 @@ namespace projectf22.Models
 
 
         /// Booking Sub
+
+        //public void AddBooking(Booking booking)
+        //{
+        //    string Q = "INSERT INTO BOOKING (UserID, BookingDate, NumOfTickets, TotalPrice) VALUES (@UserID, @BookingDate, @NumOfTickets, @TotalPrice)";
+        //    con.Open();
+
+        //    SqlCommand cmd = new SqlCommand(Q, con);
+        //    cmd.Parameters.AddWithValue("@UserID", booking.UserID);
+        //    cmd.Parameters.AddWithValue("@BookingDate", booking.BookingDate);
+        //    cmd.Parameters.AddWithValue("@NumOfTickets", booking.NumOfTickets);
+        //    cmd.Parameters.AddWithValue("@TotalPrice", booking.TotalPrice);
+
+        //    cmd.ExecuteNonQuery();
+
+        //    con.Close();
+        //}
+
         public void DeleteBooking(int ID)
         {
             string Q = $"DELETE FROM [BOOKING] WHERE BookingID= {ID}";
@@ -262,6 +297,23 @@ namespace projectf22.Models
 
 
         /// Promotion Sub
+
+        public void AddPromotion(Promotion promotion)
+        {
+            string query = "INSERT INTO Promotions (PromotionType, DiscountAmount, UsageLimit, ExpirationDate) VALUES (@PromotionType, @DiscountAmount, @UsageLimit, @ExpirationDate)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@PromotionType", promotion.PromotionType);
+            cmd.Parameters.AddWithValue("@DiscountAmount", promotion.DiscountAmount);
+            cmd.Parameters.AddWithValue("@UsageLimit", promotion.UsageLimit);
+            cmd.Parameters.AddWithValue("@ExpirationDate", promotion.ExpirationDate);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
         public void DeletePromotion(int ID)
         {
             string Q = $"DELETE FROM [PROMOTIONS] WHERE PromotionID= {ID}";
@@ -313,6 +365,22 @@ namespace projectf22.Models
 
 
         /// Payment Sub
+
+        public void AddPayment(Payment payment)
+        {
+            string query = "INSERT INTO Payment (PaymentDate, PaymentAmount, PaymentMethod, EventID) VALUES (@PaymentDate, @PaymentAmount, @PaymentMethod, @EventID)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@PaymentDate", payment.PaymentDate);
+            cmd.Parameters.AddWithValue("@PaymentAmount", payment.PaymentAmount);
+            cmd.Parameters.AddWithValue("@PaymentMethod", payment.PaymentMethod);
+            cmd.Parameters.AddWithValue("@EventID", payment.EventID);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         public void DeletePayment(int ID)
         {
             string Q = $"DELETE FROM [PAYMENT] WHERE PaymentID= {ID}";
@@ -362,6 +430,22 @@ namespace projectf22.Models
         }
 
         /// Reviews Sub
+        public void AddReview(Review review)
+        {
+            string query = "INSERT INTO Reviews (Rating, Comment, ReviewDate, EventID, UserID) VALUES (@Rating, @Comment, @ReviewDate, @EventID, @UserID)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@Rating", review.Rating);
+            cmd.Parameters.AddWithValue("@Comment", review.Comment);
+            cmd.Parameters.AddWithValue("@ReviewDate", review.ReviewDate);
+            cmd.Parameters.AddWithValue("@EventID", review.EventID);
+            cmd.Parameters.AddWithValue("@UserID", review.UserID);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         public void DeleteReviews(int ID)
         {
             string Q = $"DELETE FROM [REVIEWS] WHERE ReviewID= {ID}";
@@ -413,6 +497,22 @@ namespace projectf22.Models
 
 
         /// Location Sub
+
+        public void AddLocation(Location location)
+        {
+            string query = "INSERT INTO Location (LocationName, LocationCapacity, LocationFacilities) VALUES (@LocationName, @LocationCapacity, @LocationFacilities)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@LocationName", location.LocationName);
+            cmd.Parameters.AddWithValue("@LocationCapacity", location.LocationCapacity);
+            cmd.Parameters.AddWithValue("@LocationFacilities", location.LocationFacilities);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
         public void DeleteLocation(int ID)
         {
             string Q = $"DELETE FROM LOCATION WHERE LocationID = {ID}";
@@ -462,6 +562,22 @@ namespace projectf22.Models
 
 
         /// Ticket Sub
+
+        public void AddTicket(Tickets ticket)
+        {
+            string query = "INSERT INTO Ticket (TicketPrice, Availability, TicketType, EventID) VALUES (@TicketPrice, @Availability, @TicketType, @EventID)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@TicketPrice", ticket.TicketPrice);
+            cmd.Parameters.AddWithValue("@Availability", ticket.Availability);
+            cmd.Parameters.AddWithValue("@TicketType", ticket.TicketType);
+            cmd.Parameters.AddWithValue("@EventID", ticket.EventID);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         public void DeleteTicket(int ID)
         {
             string Q = $"DELETE FROM TICKET WHERE TicketID= {ID}";
@@ -511,7 +627,28 @@ namespace projectf22.Models
         }
 
 
-        /// Payment Sub
+        /// Event Sub
+
+        public void AddEvent(Event ev)
+        {
+            string query = "INSERT INTO EVENT (EventName, EventDate, EventImages, LocationID, AdminID, Type) VALUES (@EventName, @EventDate, @EventImages, @LocationID, @AdminID, @Type)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@EventName", ev.EventName);
+            cmd.Parameters.AddWithValue("@EventDate", ev.EventDate);
+            cmd.Parameters.AddWithValue("@EventImages", ev.EventImages);
+            cmd.Parameters.AddWithValue("@LocationID", ev.EventLocationID);
+            cmd.Parameters.AddWithValue("@AdminID", ev.EventAdminID);
+            cmd.Parameters.AddWithValue("@Type", ev.Type);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
+
+
         public void DeleteEvent(int ID)
         {
             string Q = $"DELETE FROM EVENT WHERE EventID= {ID}";
@@ -560,9 +697,20 @@ namespace projectf22.Models
             con.Close();
         }
 
-
-
         /// Socialmedia Sub
+        public void AddSocialMediaLink(SocialMediaLink socialMediaLink)
+        {
+            string query = "INSERT INTO SOCIALMEDIALINKS (SocialMediaPlatforms, LinkURL) VALUES (@SocialMediaPlatforms, @LinkURL)";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@SocialMediaPlatforms", socialMediaLink.SocialMediaPlatforms);
+            cmd.Parameters.AddWithValue("@LinkURL", socialMediaLink.LinkURL);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         public void DeleteSocialmedia(string SocialMediaPlatforms)
         {
             string Q = $"DELETE FROM SOCIALMEDIALINKS WHERE SocialMediaPlatforms = '{SocialMediaPlatforms}'";
