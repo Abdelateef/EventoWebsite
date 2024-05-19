@@ -380,3 +380,42 @@ G:\old downloads\Data_Base_Project\Data_Base_Project\projectf22\obj\Debug\net8.0
 G:\old downloads\Data_Base_Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
 G:\old downloads\Data_Base_Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
 G:\old downloads\Data_Base_Project\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.Development.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.exe
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.deps.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.pdb
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\System.Data.SqlClient.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.AssemblyReference.cache
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.sourcelink.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.Up2Date
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+E:\ZC\SPC 3\Semester 2\Project\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll

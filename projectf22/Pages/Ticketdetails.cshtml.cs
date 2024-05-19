@@ -93,7 +93,7 @@ namespace projectf22.Pages
             HttpContext.Session.SetString("Quantity", Quantity.ToString());
         }
 
-        public void OnPostBook()
+        public IActionResult OnPostBook()
         {
             int.TryParse(HttpContext.Session.GetString("EID"), out ID);
             dt2 = Data.GetTicketFromEventId(ID);
@@ -105,6 +105,7 @@ namespace projectf22.Pages
             Book.NumOfTickets = Quantity;
             Book.TotalPrice = Quantity * ticket.TicketPrice;
             Data.AddBooking(Book);
+            return RedirectToPage("/PaymentDetails");
         }
     }
 }
