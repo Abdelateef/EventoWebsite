@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 using projectf22.Models;
 using System.Data;
 
@@ -10,6 +11,7 @@ namespace projectf22.Pages
         private readonly ILogger<IndexModel> _logger;
         public List<Event> Events { get; set; } = new List<Event>();
         public DataTable tb { get; set; }
+        public int eventID;
         private DB db { get; set; }
         public Event myevent { get; set; }
         public MusicModel(DB db)
@@ -85,6 +87,17 @@ namespace projectf22.Pages
 
             }
             return Page();
+        }
+
+        public IActionResult OnPost()
+        {
+            string EvID = Request.Form["index"];
+
+            int.TryParse(EvID, out eventID);
+
+            HttpContext.Session.SetString("EID", eventID.ToString());
+
+            return RedirectToPage("/Ticketdetails");
         }
     }
 }

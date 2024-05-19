@@ -91,23 +91,11 @@ namespace projectf22.Pages
 
         public IActionResult OnPost()
         {
-            tb = db.ReadTablesports();
-            for (int i = 0; i < tb.Rows.Count; i++)
-            {
-                myevent = new Event();
-                myevent.EventLocationID = (int)tb.Rows[i]["LocationID"];
-                myevent.EventID = (int)tb.Rows[i]["EventID"];
-                myevent.EventName = (string)tb.Rows[i]["EventName"];
-                myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
-                myevent.Type = (string)tb.Rows[i]["Type"];
-                Events.Add(myevent);
 
-            }
-            string index = Request.Form["index"];
+            string EvID = Request.Form["index"];
 
-            int.TryParse(index, out int selectedIndex);
+            int.TryParse(EvID, out eventID);
 
-            eventID = Events[selectedIndex].EventID;
             HttpContext.Session.SetString("EID", eventID.ToString());
 
             return RedirectToPage("/Ticketdetails");
