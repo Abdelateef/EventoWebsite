@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualBasic;
+﻿using Microsoft.AspNetCore.Mvc.Diagnostics;
+using Microsoft.Extensions.Logging;
+using Microsoft.VisualBasic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Runtime.Intrinsics.Arm;
@@ -658,10 +660,11 @@ namespace projectf22.Models
             cmd.Parameters.AddWithValue("@LocationID", ev.EventLocationID);
             cmd.Parameters.AddWithValue("@AdminID", ev.EventAdminID);
             cmd.Parameters.AddWithValue("@Type", ev.Type);
-
             cmd.ExecuteNonQuery();
             con.Close();
         }
+
+       
 
 
 
@@ -700,6 +703,24 @@ namespace projectf22.Models
 
             return eevent;
         }
+
+        public DataTable GetSoonerEvent()
+        {
+            string Q = $"SELECT* FROM EVENT WHERE EventDate=(SELECT MAX(EventDate) from EVENT)";
+
+            DataTable dt = new DataTable();
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            dt.Load(cmd.ExecuteReader());
+
+
+            con.Close();
+
+            return dt;
+        }
+
 
         public void UpdateEventinfo(Event evt)
         {
