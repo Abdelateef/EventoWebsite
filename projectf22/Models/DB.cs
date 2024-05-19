@@ -785,17 +785,20 @@ namespace projectf22.Models
             con.Close();
         }
 
-        public void DeleteSocialmedia(string SocialMediaPlatforms)
+        public void DeleteSocialMediaLink(string linkURL)
         {
-            string Q = $"DELETE FROM SOCIALMEDIALINKS WHERE SocialMediaPlatforms = '{SocialMediaPlatforms}'";
+            string query = "DELETE FROM SocialMediaLink WHERE LinkURL = @LinkURL";
             con.Open();
 
-            SqlCommand cmd = new SqlCommand(Q, con);
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@LinkURL", linkURL);
 
             cmd.ExecuteNonQuery();
-
             con.Close();
         }
+
+
+
 
 
 

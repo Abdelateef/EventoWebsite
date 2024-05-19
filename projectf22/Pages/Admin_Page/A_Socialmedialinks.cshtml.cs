@@ -10,7 +10,11 @@ namespace projectf22.Pages.Admin_Page
     {
         private readonly ILogger<A_SocialMediaLinksModel> _logger;
         private DB db { get; set; }
+
         public DataTable dt { get; set; }
+
+        public SocialMediaLink socialMediaLink { get; set; }
+       
         public List<SocialMediaLink> SocialMediaLinksList { get; set; } = new List<SocialMediaLink>();
 
         public A_SocialMediaLinksModel(ILogger<A_SocialMediaLinksModel> logger, DB db)
@@ -25,11 +29,9 @@ namespace projectf22.Pages.Admin_Page
 
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                SocialMediaLink socialMediaLink = new SocialMediaLink
-                {
-                    SocialMediaPlatforms = (string)dt.Rows[i]["SocialMediaPlatforms"],
-                    LinkURL = (string)dt.Rows[i]["LinkURL"]
-                };
+                socialMediaLink = new SocialMediaLink();
+                socialMediaLink.SocialMediaPlatforms = (string)dt.Rows[i]["SocialMediaPlatforms"];
+                socialMediaLink. LinkURL = (string)dt.Rows[i]["LinkURL"];
 
                 SocialMediaLinksList.Add(socialMediaLink);
             }

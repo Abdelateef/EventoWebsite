@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using projectf22.Models;
 using System;
 using System.Collections.Generic;
+using System.Net.Sockets;
 
 namespace projectf22.Pages.Admin_Page
 {
@@ -30,9 +31,13 @@ namespace projectf22.Pages.Admin_Page
                 payment.PaymentDate = (DateTime)dt.Rows[i]["PaymentDate"];
                 payment.PaymentAmount = (decimal)dt.Rows[i]["PaymentAmount"];
                 payment.PaymentMethod = (string)dt.Rows[i]["PaymentMethod"];
-                payment.EventID = (int)dt.Rows[i]["EventID"];
 
-                PaymentsList.Add(payment);
+
+                payment.EventID = dt.Rows[i]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["EventID"];
+                if (payment.EventID != 0)
+                {
+                    PaymentsList.Add(payment);
+                }
             }
         }
     }

@@ -7,23 +7,23 @@ namespace projectf22.Pages.Delete
     public class Socialmedialinks_DeleteModel : PageModel
     {
         [BindProperty]
-        public string Socialmediatype { get; set; }
+        public string linkURL { get; set; }
 
-        private readonly DB db;
+        private DB db { get; set; }
 
         public Socialmedialinks_DeleteModel(DB db)
         {
             this.db = db;
         }
 
-        public void OnGet(string socialmediatype)
+        public void OnGet(string linkURL)
         {
-            this.Socialmediatype = socialmediatype;
+            this.linkURL = linkURL;
         }
 
         public IActionResult OnPost()
         {
-            db.DeleteSocialmedia(Socialmediatype);
+            db.DeleteSocialMediaLink(linkURL);
             return RedirectToPage("/Admin_Page/A_Socialmedialinks");
         }
     }

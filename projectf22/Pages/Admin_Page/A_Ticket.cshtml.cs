@@ -4,6 +4,7 @@ using projectf22.Models;
 using System.Collections.Generic;
 using System.Data;
 using System.Net.Sockets;
+using System.Runtime.ConstrainedExecution;
 
 namespace projectf22.Pages.Admin_Page
 {
@@ -26,17 +27,18 @@ namespace projectf22.Pages.Admin_Page
 
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                Tickets ticket = new Tickets
-                {
-                    TicketID = (int)dt.Rows[i]["TicketID"],
-                    TicketPrice = (decimal)dt.Rows[i]["TicketPrice"],
-                    Availability = (bool)dt.Rows[i]["Availability"],
-                    TicketType = (string)dt.Rows[i]["TicketType"],
-                    EventID = (int)dt.Rows[i]["EventID"]
-                };
-
-                TicketsList.Add(ticket);
+                
+                Tickets ticket = new Tickets();
+                ticket.TicketID = (int)dt.Rows[i]["TicketID"];
+                ticket.TicketPrice = (decimal)dt.Rows[i]["TicketPrice"];
+                ticket.Availability = (bool)dt.Rows[i]["Availability"];
+                ticket.TicketType = (string)dt.Rows[i]["TicketType"];
+                ticket.EventID = dt.Rows[i]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["EventID"];
+                if (ticket.EventID != 0) {
+                    TicketsList.Add(ticket);
+                }
             }
+
         }
     }
 }

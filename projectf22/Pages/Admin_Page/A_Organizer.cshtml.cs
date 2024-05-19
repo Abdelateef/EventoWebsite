@@ -31,7 +31,10 @@ namespace projectf22.Pages.Admin_Page
                 organizer.CEmail = (string)dt.Rows[i]["CEmail"];
                 organizer.PName = (string)dt.Rows[i]["PName"];
                 organizer.PEmail = (string)dt.Rows[i]["PEmail"];
-                organizer.EventID = (int)dt.Rows[i]["EventID"];
+                organizer.EventID = dt.Rows[i]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["EventID"];
+
+
+
 
                 Organizerlist.Add(organizer);
             }
