@@ -31,8 +31,8 @@ namespace projectf22.Pages
         public IActionResult OnPost()
         {
             dt = Data.GetSoonerEvent();
-
             int eventID = (int)dt.Rows[0][0];
+
             HttpContext.Session.SetString("EID", eventID.ToString());
 
             return RedirectToPage("/Ticketdetails");
@@ -41,12 +41,13 @@ namespace projectf22.Pages
         public IActionResult OnPostUpcoming()
         {
             dt2 = Data.Get3SoonerEventS();
-            string eventID = Request.Form["index"];
+            
 
 
-            int.TryParse(eventID, out int FinalID);
+            int.TryParse(Request.Form["index"], out int FinalID);
+            int eventID = (int)dt.Rows[FinalID][0];
 
-            HttpContext.Session.SetString("EID", FinalID.ToString());
+            HttpContext.Session.SetString("EID", eventID.ToString());
 
             return RedirectToPage("/Ticketdetails");
         }
