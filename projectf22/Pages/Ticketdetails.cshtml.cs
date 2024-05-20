@@ -80,7 +80,15 @@ namespace projectf22.Pages
             E.EventDate = (DateTime)dt.Rows[0][1];
             E.EventImages = (string)dt.Rows[0][2];
             E.EventName = (string)dt.Rows[0][3];
-            E.EventLocationID = (int)dt.Rows[0][4];
+            if ((int)dt.Rows[0][4] == null)
+            {
+
+            }
+            else
+            {
+                E.EventLocationID = (int)dt.Rows[0][4];
+            }
+            
             E.EventAdminID = (int)dt.Rows[0][5];
             E.Type = (string)dt.Rows[0][6];
 
