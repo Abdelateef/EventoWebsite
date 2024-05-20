@@ -11,6 +11,7 @@ namespace projectf22.Pages
         private readonly ILogger<IndexModel> _logger;
         public List<Event> Events { get; set; } = new List<Event>();
         public int eventID;
+        public DataTable eventloc { get; set; }
         public DataTable tb { get; set; }
         private DB db { get; set; }
         public Event myevent { get; set; }
@@ -18,6 +19,7 @@ namespace projectf22.Pages
         { this.db = db; }
         public IActionResult OnGet()
         {
+            eventloc = db.EventLocationsports();
             tb = db.ReadTablesports();
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -43,6 +45,7 @@ namespace projectf22.Pages
         }
         public IActionResult OnPostReadJuly()
         {
+            eventloc = db.EventLocationsports();
             tb = db.ReadTableSportdate(7);
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -60,6 +63,7 @@ namespace projectf22.Pages
         }
         public IActionResult OnPostReadAugust()
         {
+            eventloc = db.EventLocationsports();
             tb = db.ReadTableSportdate(8);
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -77,6 +81,7 @@ namespace projectf22.Pages
         }
         public IActionResult OnPostReadSeptember()
         {
+            eventloc = db.EventLocationsports();
             tb = db.ReadTableSportdate(9);
             for (int i = 0; i < tb.Rows.Count; i++)
             {

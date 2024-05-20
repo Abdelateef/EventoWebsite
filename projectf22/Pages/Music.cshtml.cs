@@ -14,10 +14,12 @@ namespace projectf22.Pages
         public int eventID;
         private DB db { get; set; }
         public Event myevent { get; set; }
+        public DataTable eventloc { get; set; }
         public MusicModel(DB db)
         { this.db = db; }
         public IActionResult OnGet()
         {
+            eventloc = db.EventLocation();
             tb = db.ReadTablemusic();
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -31,6 +33,7 @@ namespace projectf22.Pages
                 Events.Add(myevent);
 
             }
+
             return Page();
             //if (HttpContext.Session.GetString("Name") is not null)
             //{
@@ -43,6 +46,7 @@ namespace projectf22.Pages
         }
         public IActionResult OnPostReadJuly()
         {
+            eventloc = db.EventLocation();
             tb = db.ReadTableMay(7);
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -56,10 +60,12 @@ namespace projectf22.Pages
                 Events.Add(myevent);
 
             }
+            
             return Page();
         }
         public IActionResult OnPostReadAugust()
         {
+            eventloc = db.EventLocation();
             tb = db.ReadTableMay(8);
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -77,6 +83,7 @@ namespace projectf22.Pages
         }
         public IActionResult OnPostReadSeptember()
         {
+            eventloc = db.EventLocation();
             tb = db.ReadTableMay(9);
             for (int i = 0; i < tb.Rows.Count; i++)
             {

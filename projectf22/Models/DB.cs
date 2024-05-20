@@ -675,6 +675,30 @@ namespace projectf22.Models
 
         }
 
+        public DataTable EventLocation()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"select LocationName from EVENT inner join LOCATION on EVENT.LocationID=LOCATION.LocationID where Type='Entertainment'";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
+        public DataTable EventLocationsports()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"select LocationName from EVENT inner join LOCATION on EVENT.LocationID=LOCATION.LocationID where Type='Sports'";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
 
         /// Event Sub
 
