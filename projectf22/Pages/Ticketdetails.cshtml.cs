@@ -10,7 +10,7 @@ namespace projectf22.Pages
     public class TicketdetailsModel : PageModel
     {
         public int UserId;
-        public DateTime EventDate = new DateTime(2024, 5, 20);
+       // public DateTime EventDate = new DateTime(2024, 5, 20);
         public int ID;
         
 
@@ -120,13 +120,13 @@ namespace projectf22.Pages
             int.TryParse(HttpContext.Session.GetString("UsID"), out UserId);
 
             Book.UserID = UserId;
-            Book.BookingDate = EventDate;
+            Book.BookingDate = DateTime.Now;
             Book.NumOfTickets = Quantity;
             Book.TotalPrice = Quantity * ticket.TicketPrice;
             HttpContext.Session.SetString("Total", Book.TotalPrice.ToString());
             Data.AddBooking(Book);
             int BID = Data.GetBookingID(Book);
-            Data.UPdateUserBookingID(UserId, BID);
+            Data.UPdateUserBookingIDANDEventID(UserId, BID,ID);
             return RedirectToPage("/MakePayment");
         }
     }

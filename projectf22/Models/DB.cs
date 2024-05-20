@@ -1067,9 +1067,9 @@ namespace projectf22.Models
         }
 
 
-        public void UPdateUserBookingID(int ID, int BID)
+        public void UPdateUserBookingIDANDEventID(int ID, int BID,int EID)
         {
-            string Q = $"UPDATE [USER]\r\nSET BookingID = '{BID}' \r\nWHERE UserID = '{ID}';";
+            string Q = $"UPDATE [USER]\r\nSET BookingID = '{BID}' , EventID='{EID}' \r\nWHERE UserID = '{ID}';";
 
             con.Open();
 
