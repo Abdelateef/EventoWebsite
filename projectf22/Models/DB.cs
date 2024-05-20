@@ -1131,7 +1131,11 @@ namespace projectf22.Models
             Tic.TicketPrice = (decimal)T[1];
             Tic.Availability = (bool)T[2];
             Tic.TicketType = (string)T[3];
-            Tic.EventID = (int)T[4];
+            if (T[4] == null)
+            {
+                Tic.EventID = 0;
+            }
+            else { Tic.EventID = (int)T[4]; }
 
         }
 
