@@ -46,6 +46,25 @@ namespace projectf22.Pages
             
 
         }
+
+        public IActionResult OnPost()
+        {
+            HttpContext.Session.SetString("EID", Events[1].EventID.ToString());
+            return RedirectToPage("/Ticketdetails");
+        }
+
+        public IActionResult OnPostNext3()
+        {
+            string index = Request.Form["index"];
+
+
+            int.TryParse(index, out int selectedIndex);
+
+            int eventID = Events[selectedIndex].EventID;
+            HttpContext.Session.SetString("EID", eventID.ToString());
+
+            return RedirectToPage("/Ticketdetails");
+        }
     }
 
 }

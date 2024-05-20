@@ -30,7 +30,10 @@
 
                         <span><i class="fa fa-ticket"></i> Tickets Starting From @Model.myprice.Rows[0]["TicketPrice"]</span>
                             <div class="main-dark-button">
-                                <a href="/Ticketdetails">Purchase Tickets</a>
+                                <form method="post">
+                                <button type="submit" class="bg-dark p-2 text-light">Purchase Tickets</button>
+                                </form>
+                            
                             </div>
                         </div>
                     </div>
@@ -66,9 +69,10 @@
                                 <h5>@Model.Events[i].EventName</h5>
                                 <span>@Model.Events[i].EventDate</span>
                                 <div class="icon-button">
-                                    <a href="/Ticketdetails">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
+                                    <form method="post" asp-page-handler="Next3">
+
+                                        <button type="submit" class="bg-dark p-2 text-light" name="index" value="@i">Ticket Details</button>
+                                    </form>
                                 </div>
                             </li>
                         }
@@ -101,9 +105,10 @@
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="/Tickets">
-                                                <i class="fa fa-ticket"></i>
-                                            </a>
+                                            <form method="post" asp-page-handler="Next3">
+
+                                                <button type="submit" class="bg-dark p-2 text-light" name="index" value="@i">Discover More</button>
+                                            </form>
                                         </li>
                                     </ul>
                                 </div>
