@@ -45,7 +45,7 @@ namespace projectf22.Pages
 
 
             int.TryParse(Request.Form["index"], out int FinalID);
-            int eventID = (int)dt.Rows[FinalID][0];
+            int eventID = (int)dt2.Rows[FinalID][0];
 
             HttpContext.Session.SetString("EID", eventID.ToString());
 
