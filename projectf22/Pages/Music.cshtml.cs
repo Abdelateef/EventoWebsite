@@ -22,11 +22,12 @@ namespace projectf22.Pages
             for (int i = 0; i < tb.Rows.Count; i++)
             {
                 myevent = new Event();
-                myevent.EventLocationID = (int)tb.Rows[i]["LocationID"];
+                myevent.EventLocationID = tb.Rows[i]["LocationID"] == DBNull.Value ? 0 : (int)tb.Rows[i]["LocationID"];
                 myevent.EventID = (int)tb.Rows[i]["EventID"];
                 myevent.EventName = (string)tb.Rows[i]["EventName"];
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
+                myevent.EventImages = (string)tb.Rows[i]["EventImages"];
                 Events.Add(myevent);
 
             }
@@ -51,6 +52,7 @@ namespace projectf22.Pages
                 myevent.EventName = (string)tb.Rows[i]["EventName"];
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
+                myevent.EventImages = (string)tb.Rows[i]["EventImages"];
                 Events.Add(myevent);
 
             }
@@ -67,6 +69,7 @@ namespace projectf22.Pages
                 myevent.EventName = (string)tb.Rows[i]["EventName"];
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
+                myevent.EventImages = (string)tb.Rows[i]["EventImages"];
                 Events.Add(myevent);
 
             }
@@ -83,6 +86,7 @@ namespace projectf22.Pages
                 myevent.EventName = (string)tb.Rows[i]["EventName"];
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
+                myevent.EventImages = (string)tb.Rows[i]["EventImages"];
                 Events.Add(myevent);
 
             }
