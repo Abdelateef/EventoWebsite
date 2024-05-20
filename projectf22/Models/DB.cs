@@ -500,7 +500,7 @@ namespace projectf22.Models
 
             SqlCommand cmd = new SqlCommand(Q, con);
 
-            int PID = cmd.ExecuteNonQuery();
+            int PID = (int)cmd.ExecuteScalar();
             Pay.PaymentID = PID; ;
 
 
@@ -1285,7 +1285,7 @@ namespace projectf22.Models
 
             SqlCommand cmd = new SqlCommand(Q, con);
 
-            int BID =(int) cmd.ExecuteNonQuery();
+            int BID =(int) cmd.ExecuteScalar();
             Book.BookingID=BID; 
 
 
