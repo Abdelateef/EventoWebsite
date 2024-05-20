@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\music.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\music.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\music.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\music.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Login.cshtml",
@@ -118,8 +118,7 @@
               "RelativeToolTip": "projectf22\\Pages\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T06:28:36.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T06:28:36.89Z"
             },
             {
               "$type": "Document",
@@ -207,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Privacy.cshtml.cs",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Privacy.cshtml.cs",
@@ -215,18 +214,17 @@
               "RelativeToolTip": "projectf22\\Pages\\Privacy.cshtml.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAcwBwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T03:43:15.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:43:15.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Privacy.cshtml",
               "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-20T03:39:46.587Z",
               "EditorCaption": ""
@@ -289,12 +287,11 @@
               "RelativeToolTip": "projectf22\\Models\\DB.cs",
               "ViewState": "AQIAAKICAAAAAAAAAAAIwLgCAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T03:26:58.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:26:58.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml.cs",
@@ -302,12 +299,11 @@
               "RelativeToolTip": "projectf22\\Pages\\Index.cshtml.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T03:29:56.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:29:56.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml",
@@ -315,12 +311,11 @@
               "RelativeToolTip": "projectf22\\Pages\\Index.cshtml",
               "ViewState": "AQIAAD8AAAAAAAAAAAAAAIMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T03:28:31.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:28:31.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "sports.cshtml.cs",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml.cs",
@@ -328,18 +323,17 @@
               "RelativeToolTip": "projectf22\\Pages\\sports.cshtml.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAIwCAAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T03:18:28.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:18:28.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Music.cshtml.cs",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Music.cshtml.cs",
               "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml.cs",
               "RelativeToolTip": "projectf22\\Pages\\Music.cshtml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBUAAAAqAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T03:06:24.249Z",
               "EditorCaption": ""
@@ -354,18 +348,17 @@
               "RelativeToolTip": "projectf22\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T03:06:46.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T03:06:46.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "sports.cshtml",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml",
               "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\sports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAuAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHgAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-20T02:52:23.477Z",
               "EditorCaption": ""
@@ -384,20 +377,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Music.cshtml",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Music.cshtml",
               "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\Music.cshtml",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHsAAAB9AAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIMAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-20T03:07:46.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "shows_events.cshtml.cs",
               "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\shows_events.cshtml.cs",
@@ -405,8 +398,7 @@
               "RelativeToolTip": "projectf22\\Pages\\shows_events.cshtml.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA1wBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:50:47.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:50:47.586Z"
             }
           ]
         }
