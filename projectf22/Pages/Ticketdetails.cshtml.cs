@@ -10,7 +10,7 @@ namespace projectf22.Pages
     public class TicketdetailsModel : PageModel
     {
         public int UserId;
-       // public DateTime EventDate = new DateTime(2024, 5, 20);
+       
         public int ID;
         
 
