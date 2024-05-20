@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
+    "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
   },
   "projects": {
-    "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj": {
+    "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "projectUniqueName": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
         "projectName": "projectf22",
-        "projectPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj",
-        "packagesPath": "C:\\Users\\seifi\\.nuget\\packages\\",
-        "outputPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\",
+        "projectPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "packagesPath": "C:\\Users\\ayayo\\.nuget\\packages\\",
+        "outputPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\seifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ayayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -47,7 +47,8 @@ namespace projectf22.Pages
             P.PaymentAmount=TotalPrice;
 
             Data.AddPayment(P);
-            Data.UPdateUserInfo2(UserId, TickID, P.PaymentID);
+            int PID=Data.GetPaymentID(P);
+            Data.UPdateUserInfo2(UserId, TickID, PID);
             return RedirectToPage("/Done");
         }
 

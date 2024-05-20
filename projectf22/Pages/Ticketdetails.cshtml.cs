@@ -123,7 +123,8 @@ namespace projectf22.Pages
             Book.TotalPrice = Quantity * ticket.TicketPrice;
             HttpContext.Session.SetString("Total", Book.TotalPrice.ToString());
             Data.AddBooking(Book);
-            Data.UPdateUserBookingID(UserId, Book.BookingID);
+            int BID = Data.GetBookingID(Book);
+            Data.UPdateUserBookingID(UserId, BID);
             return RedirectToPage("/MakePayment");
         }
     }

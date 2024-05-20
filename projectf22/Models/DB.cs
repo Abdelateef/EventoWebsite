@@ -378,6 +378,22 @@ namespace projectf22.Models
             con.Close();
         }
 
+        public int GetProID(Promotion Pro)
+        {
+            string Q = $"select PromotionID from PAYMENT WHERE PromotionType='{Pro.PromotionType}' AND DiscountAmount='{Pro.DiscountAmount}' AND EventID='{Pay.EventID}' AND PaymentAmount='{Pay.PaymentAmount}';";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            int PID = cmd.ExecuteNonQuery();
+            Pay.PaymentID = PID; ;
+
+
+            con.Close();
+            return PID;
+        }
+
+
 
         public void DeletePromotion(int ID)
         {
@@ -476,6 +492,20 @@ namespace projectf22.Models
 
             cmd.ExecuteNonQuery();
             con.Close();
+        }
+        public int GetPaymentID(Payment Pay)
+        {
+            string Q = $"select PaymentID from PAYMENT WHERE PaymentDate='{Pay.PaymentDate}' AND PaymentMethod='{Pay.PaymentMethod}' AND EventID='{Pay.EventID}' AND PaymentAmount='{Pay.PaymentAmount}';";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            int PID = cmd.ExecuteNonQuery();
+            Pay.PaymentID = PID; ;
+
+
+            con.Close();
+            return PID;
         }
 
         public void DeletePayment(int ID)
@@ -1256,6 +1286,7 @@ namespace projectf22.Models
             SqlCommand cmd = new SqlCommand(Q, con);
 
             int BID = cmd.ExecuteNonQuery();
+            Book.BookingID=BID; ;
 
 
             con.Close();
