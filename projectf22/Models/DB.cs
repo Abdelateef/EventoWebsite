@@ -4,7 +4,10 @@ using Microsoft.VisualBasic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.Sockets;
+<<<<<<< Updated upstream
 using System.Runtime.InteropServices;
+=======
+>>>>>>> Stashed changes
 using System.Runtime.Intrinsics.Arm;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace projectf22.Models
@@ -115,7 +118,12 @@ namespace projectf22.Models
 
         public User GetUserInfo(int id)
         {
+<<<<<<< Updated upstream
             string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID FROM [USER] WHERE UserID = @UserID";
+=======
+            // Adding Bio and ProfileImageUrl to the query if they are part of the database schema
+            string query = $"SELECT UserName, UserEmail, UserPassword, Bio, ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
+>>>>>>> Stashed changes
 
             DataTable dt = new DataTable();
             con.Open();
@@ -125,6 +133,7 @@ namespace projectf22.Models
 
             dt.Load(cmd.ExecuteReader());
 
+<<<<<<< Updated upstream
             User user = new User();
 
             user.UserID = id;
@@ -145,14 +154,34 @@ namespace projectf22.Models
             user.PaymentID = dt.Rows[0]["PaymentID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["PaymentID"];
             user.AdminID = dt.Rows[0]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["AdminID"];
 
+=======
+            if (dt.Rows.Count == 0)
+            {
+                con.Close();
+                return null; // Optionally, you could throw an exception here if the user does not exist
+            }
+
+            // Creating the user object and assigning fetched values
+            User user = new User
+            {
+                UserID = id,
+                UserName = dt.Rows[0]["UserName"].ToString(),
+                UserEmail = dt.Rows[0]["UserEmail"].ToString(),
+                UserPassword = dt.Rows[0]["UserPassword"].ToString(),
+                Bio = dt.Rows[0]["Bio"]?.ToString(), // Using ?.ToString() to handle potential DBNull values
+                ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"]?.ToString() // Using ?.ToString() for the same reason
+            };
+>>>>>>> Stashed changes
 
             con.Close();
 
             return user;
         }
 
+
         public void UpdateUserInfo(User user)
         {
+<<<<<<< Updated upstream
             string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID WHERE UserID = @UserID";
 
             con.Open();
@@ -170,8 +199,53 @@ namespace projectf22.Models
             cmd.Parameters.AddWithValue("@PaymentID", user.PaymentID == 0 ? (object)DBNull.Value : user.PaymentID);
             cmd.Parameters.AddWithValue("@AdminID", user.AdminID == 0 ? (object)DBNull.Value : user.AdminID);
 
-            cmd.ExecuteNonQuery();
+=======
+            List<string> updates = new List<string>();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
 
+            if (!string.IsNullOrEmpty(user.UserName))
+            {
+                updates.Add("UserName = @UserName");
+                cmd.Parameters.AddWithValue("@UserName", user.UserName);
+            }
+
+            if (!string.IsNullOrEmpty(user.UserEmail))
+            {
+                updates.Add("UserEmail = @UserEmail");
+                cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
+            }
+
+            if (!string.IsNullOrEmpty(user.UserPassword))
+            {
+                updates.Add("UserPassword = @UserPassword");
+                cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
+            }
+
+            if (!string.IsNullOrEmpty(user.Bio))
+            {
+                updates.Add("Bio = @Bio");
+                cmd.Parameters.AddWithValue("@Bio", user.Bio);
+            }
+
+            if (!string.IsNullOrEmpty(user.ProfileImageUrl))
+            {
+                updates.Add("ProfileImageUrl = @ProfileImageUrl");
+                cmd.Parameters.AddWithValue("@ProfileImageUrl", user.ProfileImageUrl);
+            }
+
+            if (updates.Count == 0)
+            {
+                return; // No updates to apply
+            }
+
+            string query = $"UPDATE [USER] SET {string.Join(", ", updates)} WHERE UserID = @UserID";
+            cmd.Parameters.AddWithValue("@UserID", user.UserID);
+            cmd.CommandText = query;
+
+            con.Open();
+>>>>>>> Stashed changes
+            cmd.ExecuteNonQuery();
             con.Close();
         }
 
@@ -1125,17 +1199,76 @@ namespace projectf22.Models
 
         public string GetNameUsingID(int ID)
         {
-            string Q = $"select Username From [USER] WHERE UserID='{ID}'";
-
+            string Q = "select Username From [USER] WHERE UserID = @UserID";
             con.Open();
-
             SqlCommand cmd = new SqlCommand(Q, con);
-
-            string dt = (string)cmd.ExecuteScalar();
-
-
+            cmd.Parameters.AddWithValue("@UserID", ID);
+            string name = (string)cmd.ExecuteScalar();
             con.Close();
-            return dt;
+            return name;
+        }
+
+        // Assuming you have added a Bio column to the [USER] table
+        public string GetBioUsingID(int ID)
+        {
+            string Q = "select Bio From [USER] WHERE UserID = @UserID";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(Q, con);
+            cmd.Parameters.AddWithValue("@UserID", ID);
+            string bio = cmd.ExecuteScalar() as string; // Using 'as' for safe casting
+            con.Close();
+            return bio ?? ""; // Return an empty string if bio is null
+        }
+
+        // Assuming you have added a ProfileImageUrl column to the [USER] table
+        public string GetProfileImageUrlUsingID(int ID)
+        {
+            string Q = "select ProfileImageUrl From [USER] WHERE UserID = @UserID";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(Q, con);
+            cmd.Parameters.AddWithValue("@UserID", ID);
+            string imageUrl = cmd.ExecuteScalar() as string; // Using 'as' for safe casting
+            con.Close();
+            return imageUrl ?? ""; // Return an empty string if imageUrl is null
+        }
+
+        public void UpdateNameUsingID(int userID, string username)
+        {
+            using (var connection = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                string query = "UPDATE [USER] SET Username = @Username WHERE UserID = @UserID";
+                var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Username", username);
+                command.Parameters.AddWithValue("@UserID", userID);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public void UpdateBioUsingID(int userID, string bio)
+        {
+            using (var connection = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                string query = "UPDATE [USER] SET Bio = @Bio WHERE UserID = @UserID";
+                var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Bio", bio);
+                command.Parameters.AddWithValue("@UserID", userID);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public void UpdateProfileImageUrlUsingID(int userID, string imageUrl)
+        {
+            using (var connection = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                string query = "UPDATE [USER] SET ProfileImageUrl = @ProfileImageUrl WHERE UserID = @UserID";
+                var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@ProfileImageUrl", imageUrl);
+                command.Parameters.AddWithValue("@UserID", userID);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
         }
 
         public DataTable GetAllTicketsInfo()
@@ -1278,6 +1411,43 @@ namespace projectf22.Models
 
             con.Close();
         }
+        public List<Tickets> GetUserTickets(int userID)
+        {
+            List<Tickets> ticketsList = new List<Tickets>();
+            string query = @"
+       SELECT 
+    t.TicketID, 
+    t.TicketPrice, 
+    t.TicketType, 
+    t.EventID
+FROM 
+    [USER] u
+JOIN 
+    TICKET t ON u.TicketID = t.TicketID
+WHERE 
+    u.UserID = @UserID";
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@UserID", userID);
+
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                ticketsList.Add(new Tickets
+                {
+                    TicketID = reader.IsDBNull(0) ? 0 : reader.GetInt32(0),
+                    TicketPrice = reader.IsDBNull(1) ? 0 : reader.GetDecimal(1),
+                    TicketType = reader.IsDBNull(2) ? string.Empty : reader.GetString(2),
+                    EventID = reader.IsDBNull(3) ? 0 : reader.GetInt32(3)
+                });
+            }
+            con.Close();
+            return ticketsList;
+        }
+
+
+
         public int GetBookingID(Booking Book)
         {
             string Q = $"select BookingID from BOOKING WHERE UserID='{Book.UserID}' AND BookingDate='{Book.BookingDate}' AND NumOfTickets='{Book.NumOfTickets}' AND TotalPrice='{Book.TotalPrice}';";

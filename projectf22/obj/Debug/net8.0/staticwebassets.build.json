@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5vvlvKPpbm373T4CovG6KuJZM7NetFUHG8MHrNK2UKg=",
+  "Hash": "ovWGKAyYgXuhGFR4SqdKuSPUS0gorbyQnu0BPpLX37s=",
   "Source": "projectf22",
   "BasePath": "_content/projectf22",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "projectf22\\wwwroot",
       "Source": "projectf22",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css",
       "SourceId": "projectf22",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "projectf22.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css"
+      "OriginalItemSpec": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\bundle\\projectf22.styles.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css",
       "SourceId": "projectf22",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "projectf22.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css"
+      "OriginalItemSpec": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\projectf22.bundle.scp.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\css\\font-awesome.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\css\\font-awesome.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/font-awesome.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\font-awesome.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\css\\owl-carousel.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\css\\owl-carousel.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/owl-carousel.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\owl-carousel.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\css\\site.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\css\\site.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\css\\tooplate-artxibition.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\css\\tooplate-artxibition.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "css/tooplate-artxibition.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tooplate-artxibition.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\favicon.ico",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\favicon.ico",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about_bg.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/about_bg.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about_bg.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-image.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-image.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/about-image.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about-image.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-map-image.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\about-map-image.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/about-map-image.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about-map-image.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Admin.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Admin.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/Admin.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Admin.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\banner_bg.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\banner_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/banner_bg.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\banner_bg.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\consert.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\consert.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/consert.jpg",
       "AssetKind": "All",
@@ -264,10 +264,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\consert.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-01.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Current Vs Wires .png",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "BasePath": "_content/projectf22",
+      "RelativePath": "Images/Current Vs Wires .png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Current Vs Wires .png"
+    },
+    {
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-01.jpg",
+      "SourceId": "projectf22",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-01.jpg",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-01.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-02.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-02.jpg",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-02.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-03.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-03.jpg",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-03.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-01.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-01.jpg",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-01.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-02.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-02.jpg",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-02.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-03.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-03.jpg",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-03.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-04.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\event-page-04.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/event-page-04.jpg",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\event-page-04.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\football.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\football.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/football.jpg",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\football.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image1.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image1.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image1.jpg",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image1.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image10.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image10.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image10.jpg",
       "AssetKind": "All",
@@ -454,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image10.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image11.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image11.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image11.jpg",
       "AssetKind": "All",
@@ -473,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image11.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image12.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image12.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image12.jpg",
       "AssetKind": "All",
@@ -492,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image12.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image13.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image13.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image13.jpg",
       "AssetKind": "All",
@@ -511,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image13.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image14.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image14.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image14.jpg",
       "AssetKind": "All",
@@ -530,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image14.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image15.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image15.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image15.jpg",
       "AssetKind": "All",
@@ -549,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image15.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image16.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image16.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image16.jpg",
       "AssetKind": "All",
@@ -568,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image16.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image17.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image17.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image17.jpg",
       "AssetKind": "All",
@@ -587,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image17.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image18.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image18.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image18.jpg",
       "AssetKind": "All",
@@ -606,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image18.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image19.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image19.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image19.jpg",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image19.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image2.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image2.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image2.jpg",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image2.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image20.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image20.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image20.jpg",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image20.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image21.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image21.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image21.jpg",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image21.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image22.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image22.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image22.jpg",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image22.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image23.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image23.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image23.jpg",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image23.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image24.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image24.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image24.jpg",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image24.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image25.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image25.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image25.jpg",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image25.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image3.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image3.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image3.jpg",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image3.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image4.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image4.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image4.jpg",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image4.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image5.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image5.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image5.jpg",
       "AssetKind": "All",
@@ -815,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image5.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image6.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image6.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image6.jpg",
       "AssetKind": "All",
@@ -834,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image6.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image7.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image7.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image7.jpg",
       "AssetKind": "All",
@@ -853,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image7.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image8.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image8.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image8.jpg",
       "AssetKind": "All",
@@ -872,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image8.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image9.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\image9.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/image9.jpg",
       "AssetKind": "All",
@@ -891,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image9.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-01.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/like-01.jpg",
       "AssetKind": "All",
@@ -910,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\like-01.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-02.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/like-02.jpg",
       "AssetKind": "All",
@@ -929,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\like-02.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-03.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\like-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/like-03.jpg",
       "AssetKind": "All",
@@ -948,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\like-03.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\map-image.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\map-image.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/map-image.jpg",
       "AssetKind": "All",
@@ -967,10 +986,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\map-image.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\random.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Personal ID.jpeg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "BasePath": "_content/projectf22",
+      "RelativePath": "Images/Personal ID.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Personal ID.jpeg"
+    },
+    {
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\random.jpg",
+      "SourceId": "projectf22",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/random.jpg",
       "AssetKind": "All",
@@ -986,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\random.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\rent_venue_bg.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\rent_venue_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/rent_venue_bg.jpg",
       "AssetKind": "All",
@@ -1005,10 +1043,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\rent_venue_bg.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-01.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\Robot model.jpeg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "BasePath": "_content/projectf22",
+      "RelativePath": "Images/Robot model.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Robot model.jpeg"
+    },
+    {
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-01.jpg",
+      "SourceId": "projectf22",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-01.jpg",
       "AssetKind": "All",
@@ -1024,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-01.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-02.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-02.jpg",
       "AssetKind": "All",
@@ -1043,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-02.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-03.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-03.jpg",
       "AssetKind": "All",
@@ -1062,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-03.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-04.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\show-events-04.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/show-events-04.jpg",
       "AssetKind": "All",
@@ -1081,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\show-events-04.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\shows_events_bg.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\shows_events_bg.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/shows_events_bg.jpg",
       "AssetKind": "All",
@@ -1100,10 +1157,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\shows_events_bg.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-01.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\SPCR behavioural diagram.png",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "BasePath": "_content/projectf22",
+      "RelativePath": "Images/SPCR behavioural diagram.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\SPCR behavioural diagram.png"
+    },
+    {
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-01.jpg",
+      "SourceId": "projectf22",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-01.jpg",
       "AssetKind": "All",
@@ -1119,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-01.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-02.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-02.jpg",
       "AssetKind": "All",
@@ -1138,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-02.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-03.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-03.jpg",
       "AssetKind": "All",
@@ -1157,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-03.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-04.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-04.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-04.jpg",
       "AssetKind": "All",
@@ -1176,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-04.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-05.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-05.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-05.jpg",
       "AssetKind": "All",
@@ -1195,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-05.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-06.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-06.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-06.jpg",
       "AssetKind": "All",
@@ -1214,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-06.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-details.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\ticket-details.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/ticket-details.jpg",
       "AssetKind": "All",
@@ -1233,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ticket-details.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-01.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-01.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/venue-01.jpg",
       "AssetKind": "All",
@@ -1252,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\venue-01.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-02.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-02.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/venue-02.jpg",
       "AssetKind": "All",
@@ -1271,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\venue-02.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-03.jpg",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\Images\\venue-03.jpg",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "Images/venue-03.jpg",
       "AssetKind": "All",
@@ -1290,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\venue-03.jpg"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\accordions.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\accordions.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/accordions.js",
       "AssetKind": "All",
@@ -1309,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\js\\accordions.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1328,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\custom.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\custom.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -1347,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\imgfix.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\imgfix.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/imgfix.min.js",
       "AssetKind": "All",
@@ -1366,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\js\\imgfix.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery.counterup.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery.counterup.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -1385,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.counterup.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery-2.1.0.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\jquery-2.1.0.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/jquery-2.1.0.min.js",
       "AssetKind": "All",
@@ -1404,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-2.1.0.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\mixitup.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\mixitup.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/mixitup.js",
       "AssetKind": "All",
@@ -1423,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\js\\mixitup.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\owl-carousel.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\owl-carousel.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/owl-carousel.js",
       "AssetKind": "All",
@@ -1442,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl-carousel.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\popper.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\popper.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/popper.js",
       "AssetKind": "All",
@@ -1461,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\quantity.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\quantity.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/quantity.js",
       "AssetKind": "All",
@@ -1480,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\js\\quantity.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\scrollreveal.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\scrollreveal.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/scrollreveal.min.js",
       "AssetKind": "All",
@@ -1499,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scrollreveal.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\site.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\site.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1518,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\js\\waypoints.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\js\\waypoints.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "js/waypoints.min.js",
       "AssetKind": "All",
@@ -1537,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\js\\waypoints.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1556,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1575,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1594,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1613,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1632,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1651,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1670,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1689,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1708,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1727,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1746,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1765,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1784,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1803,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1822,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1841,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1860,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1879,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1898,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1936,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1955,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1974,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2012,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2031,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2050,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2088,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2107,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2126,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2164,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2183,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2202,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2221,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2240,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2259,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2278,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2297,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2316,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2335,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2354,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2373,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2392,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2411,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2430,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2449,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2468,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2487,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2506,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2525,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2544,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2563,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2582,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2601,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "projectf22",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\wwwroot\\",
+      "ContentRoot": "D:\\The last semster\\Database\\Data_Base_Project\\projectf22\\wwwroot\\",
       "BasePath": "_content/projectf22",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

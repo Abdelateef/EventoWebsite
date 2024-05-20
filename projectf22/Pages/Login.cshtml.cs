@@ -34,18 +34,18 @@ namespace projectf22.Pages
 
         public IActionResult OnPost()
         {
-            if (Data.GetID(ID) == ID && Data.GetPassUsingID(ID)==pass && Data.GetNameUsingID(ID)==Name)
+            if (Data.GetID(ID) == ID && Data.GetPassUsingID(ID) == pass && Data.GetNameUsingID(ID) == Name)
             {
-                HttpContext.Session.SetString("UsID", ID.ToString());
+                HttpContext.Session.SetString("UserId", ID.ToString()); // Changed from "UsID" to "UserId"
                 HttpContext.Session.SetString("Name", Name);
                 return RedirectToPage("/Index");
             }
-
             else
             {
-                ErrorMessage = "Name,ID, or Password might be wrong";
+                ErrorMessage = "Name, ID, or Password might be wrong";
                 return Page();
             }
         }
+
     }
 }
