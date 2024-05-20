@@ -4,6 +4,7 @@ using Microsoft.VisualBasic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.Sockets;
+using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.Arm;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace projectf22.Models
@@ -1131,13 +1132,8 @@ namespace projectf22.Models
             Tic.TicketPrice = (decimal)T[1];
             Tic.Availability = (bool)T[2];
             Tic.TicketType = (string)T[3];
-            if (T[4] == null)
-            {
-                Tic.EventID = 0;
-            }
-            else { Tic.EventID = (int)T[4]; }
-
-        }
+            Tic.EventID = T[4] == DBNull.Value ? 0 : (int)T[4];
+    }
 
         public DataTable GetEventInfo(int ID)
         {
