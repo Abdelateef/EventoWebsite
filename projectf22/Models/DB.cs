@@ -380,13 +380,13 @@ namespace projectf22.Models
 
         public int GetProID(Promotion Pro)
         {
-            string Q = $"select PromotionID from PAYMENT WHERE PromotionType='{Pro.PromotionType}' AND DiscountAmount='{Pro.DiscountAmount}' AND EventID='{Pay.EventID}' AND PaymentAmount='{Pay.PaymentAmount}';";
+            string Q = $"select PromotionID from PAYMENT WHERE PromotionType='{Pro.PromotionType}' AND DiscountAmount='{Pro.DiscountAmount}' AND UsageLimit='{Pro.UsageLimit}' ExpirationDate='{Pro.ExpirationDate}';";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
 
-            int PID = cmd.ExecuteNonQuery();
-            Pay.PaymentID = PID; ;
+            int PID =(int) cmd.ExecuteNonQuery();
+            Pro.PromotionID = PID; 
 
 
             con.Close();
@@ -1285,8 +1285,8 @@ namespace projectf22.Models
 
             SqlCommand cmd = new SqlCommand(Q, con);
 
-            int BID = cmd.ExecuteNonQuery();
-            Book.BookingID=BID; ;
+            int BID =(int) cmd.ExecuteNonQuery();
+            Book.BookingID=BID; 
 
 
             con.Close();
