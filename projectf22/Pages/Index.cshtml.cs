@@ -9,9 +9,12 @@ namespace projectf22.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        public DataTable tb { get; set; }
         public DataTable dt = new DataTable();
         public DataTable dt2 = new DataTable();
         public DataTable dt3 = new DataTable();
+        public Event myevent { get; set; }
+        public List<Event> Events { get; set; } = new List<Event>();
         private readonly DB Data;
         [BindProperty] 
         public string text1 { get; set; }
@@ -23,9 +26,19 @@ namespace projectf22.Pages
 
         public void OnGet()
         {
+            tb = Data.ReadTablemusic();
             dt2 = Data.Get3SoonerEventS();
             dt = Data.GetSoonerEvent();
             dt3 = Data.Get3SoonerTicketS();
+            for (int i = 0; i < tb.Rows.Count; i++)
+            {
+                myevent = new Event();
+
+                myevent.EventImages = (string)tb.Rows[i]["EventImages"];
+
+                Events.Add(myevent);
+
+            }
         }
 
         public IActionResult OnPost()
