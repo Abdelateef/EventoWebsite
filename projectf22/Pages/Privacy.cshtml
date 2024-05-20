@@ -7,8 +7,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Radio City Musical Hall</h2>
-                    <span>September 24-28, 2021 in Rio de Janeiro</span>
+                    <h2>@Model.Events[1].EventName</h2>
+                <span>@Model.Events[1].EventDate, @Model.Events[1].EventLocationID</span>
                 </div>
             </div>
         </div>
@@ -22,12 +22,13 @@
                     <div class="right-content">
                         
                         <div class="down-content">
-                            <h4>Radio City Musical Hall</h4>
+                        <h4>@Model.Events[1].EventName</h4>
                             <ul>
-                                <li>August 24 Friday</li>
-                                <li>09:30 AM - 07:00 PM</li>
+                            <li>@Model.Events[1].EventDate</li>
+                            <li>@Model.Events[1].EventLocationID</li>
                             </ul>
-                            <span><i class="fa fa-ticket"></i> Tickets Starting From $34.00</span>
+
+                        <span><i class="fa fa-ticket"></i> Tickets Starting From @Model.myprice.Rows[0]["TicketPrice"]</span>
                             <div class="main-dark-button">
                                 <a href="/Ticketdetails">Purchase Tickets</a>
                             </div>
@@ -59,33 +60,19 @@
                     <div class="next-shows">
                         <h4><i class="fa fa-clock-o"></i> Get The Next Show Tickets</h4>
                         <ul>
+                        @for (int i = 0; i < 3; i++)
+                        {
                             <li>
-                                <h5>Copacabana Festival</h5>
-                                <span>Sep 24 Fri<br>08:30 AM - 11:00 PM</span>
+                                <h5>@Model.Events[i].EventName</h5>
+                                <span>@Model.Events[i].EventDate</span>
                                 <div class="icon-button">
                                     <a href="/Ticketdetails">
                                         <i class="fa fa-shopping-cart"></i>
                                     </a>
                                 </div>
                             </li>
-                            <li>
-                                <h5>Rock Music Festival</h5>
-                                <span>Sep 22 Wed<br>11:00 AM - 09:00 PM</span>
-                                <div class="icon-button">
-                                <a href="/Ticketdetails">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <h5>Water Splash Festival</h5>
-                                <span>July 18 Friday<br>10:00 AM - 11:00 PM</span>
-                                <div class="icon-button">
-                                <a href="/Ticketdetails">
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </a>
-                                </div>
-                            </li>
+                        }
+                       
                         </ul>
                     </div>
                 </div>
@@ -98,11 +85,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>You Might Also Like...</h2>
-                </div>
-                <div class="col-lg-4">
+                @for (int i = 3; i < 6; i++)
+                {
+                    
+                    <div class="col-lg-4">
                     <div class="like-item">
                         <div class="thumb">
-                        <a href="/Ticketdetails"><img src="assets/Images/like-01.jpg" alt=""></a>
+                        <a href="/Ticketdetails"><img src="~/Images/@Model.Events[i].EventImages" alt=""></a>
                             <div class="icons">
                                 <ul>
                                 <li><a href="/Ticketdetails"><i class="fa fa-arrow-right"></i></a></li>
@@ -111,46 +100,13 @@
                             </div>
                         </div>
                         <div class="down-content">
-                            <span>Sept 10 to 14, 2021</span>
-                            <a href="/Tickets"><h4>Wonder Land Music and Arts Festival</h4></a>
+                            <span>@Model.Events[i].EventDate</span>
+                            <a href="/Tickets"><h4>@Model.Events[i].EventName</h4></a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="like-item">
-                        <div class="thumb">
-                        <a href="/Ticketdetails"><img src="assets/Images/like-02.jpg" alt=""></a>
-                            <div class="icons">
-                                <ul>
-                                    <li><a href="event-details.html"><i class="fa fa-arrow-right"></i></a></li>
-                                    <li><a href="Ticketdetails.html"><i class="fa fa-ticket"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <span>Oct 11 to 16, 2021</span>
-                        <a href="/Ticketdetails"><h4>Big Water Splashing Festival</h4></a>
-                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="like-item">
-                        <div class="thumb">
-                        <a href="/Ticketdetails"><img src="assets/Images/like-03.jpg" alt=""></a>
-                            <div class="icons">
-                                <ul>
-                                <li><a href="/Ticketdetails"><i class="fa fa-arrow-right"></i></a></li>
-                                <li><a href="/Tickets"><i class="fa fa-ticket"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="down-content">
-                            <span>Nov 10 to 18, 2021</span>
-                        <a href="/Ticketdetails"><h4>Tiger Dance Hip Hop Festival</h4></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                }
+            
         </div>
     </div>
 

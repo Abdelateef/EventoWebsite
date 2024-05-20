@@ -662,6 +662,19 @@ namespace projectf22.Models
             con.Close();
         }
 
+        public DataTable SortTicketPricesAsc()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"SELECT TicketPrice FROM TICKET ORDER BY TicketPrice ASC;";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
+
 
         /// Event Sub
 
