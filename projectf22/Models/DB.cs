@@ -4,10 +4,10 @@ using Microsoft.VisualBasic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.Sockets;
-<<<<<<< Updated upstream
+
 using System.Runtime.InteropServices;
-=======
->>>>>>> Stashed changes
+
+
 using System.Runtime.Intrinsics.Arm;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace projectf22.Models
@@ -118,12 +118,12 @@ namespace projectf22.Models
 
         public User GetUserInfo(int id)
         {
-<<<<<<< Updated upstream
-            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID FROM [USER] WHERE UserID = @UserID";
-=======
+
+            
+
             // Adding Bio and ProfileImageUrl to the query if they are part of the database schema
             string query = $"SELECT UserName, UserEmail, UserPassword, Bio, ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
->>>>>>> Stashed changes
+
 
             DataTable dt = new DataTable();
             con.Open();
@@ -133,8 +133,15 @@ namespace projectf22.Models
 
             dt.Load(cmd.ExecuteReader());
 
-<<<<<<< Updated upstream
-            User user = new User();
+            User user = new User
+            {
+                UserID = id,
+                UserName = dt.Rows[0]["UserName"].ToString(),
+                UserEmail = dt.Rows[0]["UserEmail"].ToString(),
+                UserPassword = dt.Rows[0]["UserPassword"].ToString(),
+                Bio = dt.Rows[0]["Bio"]?.ToString(), // Using ?.ToString() to handle potential DBNull values
+                ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"]?.ToString() // Using ?.ToString() for the same reason
+            };
 
             user.UserID = id;
             user.UserName = (string)dt.Rows[0]["UserName"];
@@ -154,7 +161,7 @@ namespace projectf22.Models
             user.PaymentID = dt.Rows[0]["PaymentID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["PaymentID"];
             user.AdminID = dt.Rows[0]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["AdminID"];
 
-=======
+
             if (dt.Rows.Count == 0)
             {
                 con.Close();
@@ -162,16 +169,8 @@ namespace projectf22.Models
             }
 
             // Creating the user object and assigning fetched values
-            User user = new User
-            {
-                UserID = id,
-                UserName = dt.Rows[0]["UserName"].ToString(),
-                UserEmail = dt.Rows[0]["UserEmail"].ToString(),
-                UserPassword = dt.Rows[0]["UserPassword"].ToString(),
-                Bio = dt.Rows[0]["Bio"]?.ToString(), // Using ?.ToString() to handle potential DBNull values
-                ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"]?.ToString() // Using ?.ToString() for the same reason
-            };
->>>>>>> Stashed changes
+            
+
 
             con.Close();
 
@@ -181,27 +180,16 @@ namespace projectf22.Models
 
         public void UpdateUserInfo(User user)
         {
-<<<<<<< Updated upstream
-            string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID WHERE UserID = @UserID";
 
-            con.Open();
 
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("@UserName", user.UserName);
-            cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
-            cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
-            cmd.Parameters.AddWithValue("@UserID", user.UserID);
-
-            cmd.Parameters.AddWithValue("@PromotionID", user.PromotionID == 0 ? (object)DBNull.Value : user.PromotionID);
-            cmd.Parameters.AddWithValue("@BookingID", user.BookingID == 0 ? (object)DBNull.Value : user.BookingID);
-            cmd.Parameters.AddWithValue("@EventID", user.EventID == 0 ? (object)DBNull.Value : user.EventID);
-            cmd.Parameters.AddWithValue("@TicketID", user.TicketID == 0 ? (object)DBNull.Value : user.TicketID);
-            cmd.Parameters.AddWithValue("@PaymentID", user.PaymentID == 0 ? (object)DBNull.Value : user.PaymentID);
-            cmd.Parameters.AddWithValue("@AdminID", user.AdminID == 0 ? (object)DBNull.Value : user.AdminID);
-
-=======
-            List<string> updates = new List<string>();
+            
             SqlCommand cmd = new SqlCommand();
+
+           
+
+
+            List<string> updates = new List<string>();
+            
             cmd.Connection = con;
 
             if (!string.IsNullOrEmpty(user.UserName))
@@ -244,7 +232,7 @@ namespace projectf22.Models
             cmd.CommandText = query;
 
             con.Open();
->>>>>>> Stashed changes
+
             cmd.ExecuteNonQuery();
             con.Close();
         }
