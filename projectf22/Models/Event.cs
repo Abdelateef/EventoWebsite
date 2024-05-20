@@ -10,5 +10,6 @@
         public string EventName { get; set; }
         public int EventID { get; set; }
         public string Type { get; set; }
+        public string Eventdescription { get; set; }
     }
 }

@@ -30,6 +30,7 @@ namespace projectf22.Pages
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
                 myevent.EventImages = (string)tb.Rows[i]["EventImages"];
+                myevent.Eventdescription = (string)tb.Rows[i]["event_description"];
                 Events.Add(myevent);
 
             }
@@ -56,6 +57,7 @@ namespace projectf22.Pages
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
                 myevent.EventImages = (string)tb.Rows[i]["EventImages"];
+                myevent.Eventdescription = (string)tb.Rows[i]["event_description"];
                 Events.Add(myevent);
 
             }
@@ -74,6 +76,7 @@ namespace projectf22.Pages
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
                 myevent.EventImages = (string)tb.Rows[i]["EventImages"];
+                myevent.Eventdescription = (string)tb.Rows[i]["event_description"];
                 Events.Add(myevent);
 
             }
@@ -92,6 +95,7 @@ namespace projectf22.Pages
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
                 myevent.EventImages = (string)tb.Rows[i]["EventImages"];
+                myevent.Eventdescription = (string)tb.Rows[i]["event_description"];
                 Events.Add(myevent);
 
             }

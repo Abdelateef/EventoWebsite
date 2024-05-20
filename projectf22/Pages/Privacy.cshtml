@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>@Model.Events[1].EventName</h2>
-                <span>@Model.Events[1].EventDate, @Model.Events[1].EventLocationID</span>
+                <span>@Model.Events[1].EventDate, @Model.eventloc.Rows[1]["LocationName"]</span>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                         <h4>@Model.Events[1].EventName</h4>
                             <ul>
                             <li>@Model.Events[1].EventDate</li>
-                            <li>@Model.Events[1].EventLocationID</li>
+                            <li>@Model.eventloc.Rows[1]["LocationName"]</li>
                             </ul>
 
                         <span><i class="fa fa-ticket"></i> Tickets Starting From @Model.myprice.Rows[0]["TicketPrice"]</span>

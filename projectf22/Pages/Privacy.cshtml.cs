@@ -8,6 +8,7 @@ namespace projectf22.Pages
     public class PrivacyModel : PageModel
     {
         public DataTable tb { get; set; }
+        public DataTable eventloc { get; set; }
         public DataTable myprice { get; set; }
         public Tickets Tiepri { get; set; }
         public int eventID;
@@ -25,6 +26,7 @@ namespace projectf22.Pages
 
         public void OnGet()
         {
+            eventloc = db.EventLocation();
             tb = db.ReadTable("EVENT");
             for (int i = 0; i < tb.Rows.Count; i++)
             {
@@ -35,6 +37,7 @@ namespace projectf22.Pages
                 myevent.EventDate = (DateTime)tb.Rows[i]["EventDate"];
                 myevent.Type = (string)tb.Rows[i]["Type"];
                 myevent.EventImages = (string)tb.Rows[i]["EventImages"];
+                myevent.Eventdescription = (string)tb.Rows[i]["event_description"];
                 Events.Add(myevent);
 
             }
