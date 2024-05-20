@@ -675,6 +675,18 @@ namespace projectf22.Models
 
         }
 
+        public DataTable Getticketimages()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"select EventImages from EVENT inner join TICKET on EVENT.EventID=TICKET.EventID";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
         public DataTable EventLocation()
         {
             DataTable dt = new DataTable();

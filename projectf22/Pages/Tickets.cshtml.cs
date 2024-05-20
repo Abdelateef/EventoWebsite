@@ -14,7 +14,7 @@ namespace projectf22.Pages
         private readonly DB Data;
         [BindProperty(SupportsGet = true)]
         public int eventID { get; set; }
-
+        public DataTable imgs { get; set; }
 
         public List<Tickets> ListofTickets = new List<Tickets>();
         public TicketsModel(DB data)
@@ -31,6 +31,7 @@ namespace projectf22.Pages
 
             if (HttpContext.Session.GetString("Name") is not null)
             {
+                imgs = Data.Getticketimages();
                 dt = Data.GetAllTicketsInfo();
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
