@@ -40,14 +40,8 @@ namespace projectf22.Pages
 
         public IActionResult OnPostUpcoming()
         {
-            dt2 = Data.Get3SoonerEventS();
-            
-
-
             int.TryParse(Request.Form["index"], out int FinalID);
-            int eventID = (int)dt2.Rows[FinalID][0];
-
-            HttpContext.Session.SetString("EID", eventID.ToString());
+            HttpContext.Session.SetString("EID", FinalID.ToString());
 
             return RedirectToPage("/Ticketdetails");
         }
