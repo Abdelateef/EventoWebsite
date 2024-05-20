@@ -87,23 +87,34 @@
                     <h2>You Might Also Like...</h2>
                 @for (int i = 3; i < 6; i++)
                 {
-                    
-                    <div class="col-lg-4">
-                    <div class="like-item">
-                        <div class="thumb">
-                        <a href="/Ticketdetails"><img src="~/Images/@Model.Events[i].EventImages" alt=""></a>
-                            <div class="icons">
-                                <ul>
-                                <li><a href="/Ticketdetails"><i class="fa fa-arrow-right"></i></a></li>
-                                <li><a href="/Tickets"><i class="fa fa-ticket"></i></a></li>
-                                </ul>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="like-item">
+                            <div class="thumb">
+                                <a href="/Ticketdetails">
+                                    <img src="~/Images/@Model.Events[i].EventImages" alt="" class="img-fluid">
+                                </a>
+                                <div class="icons">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="/Ticketdetails">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="/Tickets">
+                                                <i class="fa fa-ticket"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="down-content">
+                                <span>@Model.Events[i].EventDate</span>
+                                <a href="/Tickets">
+                                    <h4>@Model.Events[i].EventName</h4>
+                                </a>
                             </div>
                         </div>
-                        <div class="down-content">
-                            <span>@Model.Events[i].EventDate</span>
-                            <a href="/Tickets"><h4>@Model.Events[i].EventName</h4></a>
-                        </div>
-                    </div>
                     </div>
                 }
             
