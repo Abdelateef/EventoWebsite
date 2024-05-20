@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.VisualBasic;
 using projectf22.Models;
 using System.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace projectf22.Pages
 {
@@ -11,7 +12,9 @@ namespace projectf22.Pages
     {
         public Payment P=new Payment();
         private readonly DB Data;
+        public int TickID;
         public int EVID;
+        public int UserId;
         [BindProperty]
         public decimal TotalPrice { get; set; }
         public string Method;
@@ -34,6 +37,8 @@ namespace projectf22.Pages
             Method = Request.Form["Method"];
             int.TryParse(HttpContext.Session.GetString("EID"), out EVID);
             decimal.TryParse(HttpContext.Session.GetString("Total"), out decimal T);
+            int.TryParse(HttpContext.Session.GetString("UsID"), out UserId);
+            TickID = (int)Data.GetTicketFromEventId(EVID).Rows[0][0];
             TotalPrice = T;
 
             P.PaymentDate=DateTime.Now; 
@@ -42,13 +47,16 @@ namespace projectf22.Pages
             P.PaymentAmount=TotalPrice;
 
             Data.AddPayment(P);
+            Data.UPdateUserInfo2(UserId, TickID, P.PaymentID);
             return RedirectToPage("/Done");
         }
 
         public void OnPostPromot()
         {
+            int.TryParse(HttpContext.Session.GetString("UsID"), out UserId);
             Discount = Data.GetDiscountAmount(Code);
             decimal.TryParse(HttpContext.Session.GetString("Total"), out decimal T);
+            Data.UPdateUserInfo3(UserId, Data.GetProID(Code)); 
             TotalPrice = T;
             TotalPrice = (1 - Discount/100) * TotalPrice;
 

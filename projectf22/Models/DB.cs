@@ -443,6 +443,21 @@ namespace projectf22.Models
             return dt;
         }
 
+        public int GetProID(string code)
+        {
+            string Q = $"SELECT PromotionID FROM PROMOTIONS WHERE PromotionType='{code}' ";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            int dt = (int)cmd.ExecuteScalar();
+
+
+            con.Close();
+
+            return dt;
+        }
 
 
         /// Payment Sub
@@ -1020,6 +1035,48 @@ namespace projectf22.Models
             return dt;
         }
 
+
+        public void UPdateUserBookingID(int ID, int BID)
+        {
+            string Q = $"UPDATE [USER]\r\nSET BookingID = '{BID}' \r\nWHERE UserID = '{ID}';";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteScalar();
+
+
+            con.Close();
+        }
+
+        public void UPdateUserInfo2(int ID, int TickID, int PayID)
+        {
+            string Q = $"UPDATE [USER]\r\nSET  TicketID ='{TickID}', PaymentID='{PayID}'\r\nWHERE UserID = '{ID}';";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteScalar();
+
+
+            con.Close();
+        }
+
+        public void UPdateUserInfo3(int ID, int ProID)
+        {
+            string Q = $"UPDATE [USER]\r\nSET  PromotionID= '{ProID}'\r\nWHERE UserID = '{ID}';";
+
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+
+            cmd.ExecuteScalar();
+
+
+            con.Close();
+        }
         public string GetPassUsingID(int ID)
         {
             string Q = $"select UserPassword From [USER] WHERE UserID='{ID}'";

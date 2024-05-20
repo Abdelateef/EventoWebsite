@@ -10,7 +10,6 @@ namespace projectf22.Pages
         public string ErrorMessage { get; set; }
         private readonly DB Data;
         [BindProperty]
-        [Required(ErrorMessage = "This field is required")]
 
         public int ID { get; set; }
         [BindProperty]

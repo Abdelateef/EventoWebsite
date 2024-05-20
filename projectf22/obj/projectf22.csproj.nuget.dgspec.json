@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdelateef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
+  },
+  "projects": {
+    "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "projectName": "projectf22",
+        "projectPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "packagesPath": "C:\\Users\\ayayo\\.nuget\\packages\\",
+        "outputPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
