@@ -574,19 +574,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ayayo\\.nuget\\packages\\": {}
+    "C:\\Users\\seifi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+      "projectUniqueName": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj",
       "projectName": "projectf22",
-      "projectPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
-      "packagesPath": "C:\\Users\\ayayo\\.nuget\\packages\\",
-      "outputPath": "E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\obj\\",
+      "projectPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj",
+      "packagesPath": "C:\\Users\\seifi\\.nuget\\packages\\",
+      "outputPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ayayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\seifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -648,13 +648,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\ZC\\SPC 3\\Semester 2\\Project\\Data_Base_Project\\projectf22\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
