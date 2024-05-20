@@ -33,6 +33,7 @@
                         <table class="table">
                             <thead>
                                 <tr>
+                                    <th>Social Media ID</th>
                                     <th>Social Media Platforms</th>
                                     <th>Link URL</th>
                                     <th>Actions</th>
@@ -43,19 +44,20 @@
                                 @foreach (var socialMediaLink in Model.SocialMediaLinksList)
                                 {
                                     <tr>
+                                        <td>@socialMediaLink.ID</td>
                                         <td>@socialMediaLink.SocialMediaPlatforms</td>
                                         <td>@socialMediaLink.LinkURL</td>
                                         <td class="text-right">
-                                            <a asp-page="/Update/Update_Socialmedialinks" asp-route-id="@socialMediaLink.SocialMediaPlatforms">Update</a>
+                                            <a asp-page="/Update/Update_Socialmedialinks" asp-route-id="@socialMediaLink.ID">Update</a>
                                             |
-                                            <a asp-page="/Delete/Socialmedialinks_Delete" asp-route-id="@socialMediaLink.LinkURL">Delete</a>
+                                            <a asp-page="/Delete/Socialmedialinks_Delete" asp-route-id="@socialMediaLink.ID">Delete</a>
                                         </td>
                                     </tr>
                                 }
                             </tbody>
                         </table>
                         <div class="text-center mt-3">
-                            <a class="btn btn-primary" asp-page="/Create/Create_Socialmedialinks">Add new Admin</a>
+                            <a class="btn btn-primary" asp-page="/Create/Create_Socialmedialinks">Add New Social Media Link</a>
                         </div>
                     </div>
                 </div>

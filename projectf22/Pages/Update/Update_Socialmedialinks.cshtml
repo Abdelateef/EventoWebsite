@@ -1,4 +1,12 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_SocialmedialinksModel
 @{
+    <form method="post">
+        <input type="text" asp-for="@Model.Sol.SocialMediaPlatforms" placeholder="SocialMediaPlatforms" value="@Model.Sol.SocialMediaPlatforms" />
+        <input type="text" asp-for="@Model.Sol.LinkURL" placeholder="LinkURL" value="@Model.Sol.LinkURL" />
+        <br />
+        <button class="btn btn-primary" type="submit">Update Social Media Links</button>
+    </form>
 }
+
+

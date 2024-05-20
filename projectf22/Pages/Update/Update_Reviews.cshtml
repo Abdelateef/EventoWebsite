@@ -2,9 +2,22 @@
 @model projectf22.Pages.Update.Update_ReviewsModel
 @{
     <form method="post">
-        <input type="text" asp-for="@Model.rev.Rating" placeholder="Rating" value="@Model.rev.Rating" />
-        <input type="text" asp-for="@Model.rev.Comment" placeholder="Comment" value="@Model.rev.Comment" />
-        <input type="text" asp-for="@Model.rev.ReviewDate" placeholder="Email" value="@Model.rev.ReviewDate" />
+        <label asp-for="rev.Rating">Rating</label>
+        <input type="number" asp-for="rev.Rating" min="1" max="10" value="@Model.rev.Rating" />
+
+        <label asp-for="rev.Comment">Comment</label>
+        <textarea asp-for="rev.Comment">@Model.rev.Comment</textarea>
+
+
+        <label asp-for="rev.ReviewDate">Review Date</label>
+        <input type="datetime-local" asp-for="rev.ReviewDate" value="@Model.rev.ReviewDate.ToString("yyyy-MM-ddTHH:mm")" />
+
+        <label asp-for="rev.EventID">Event ID</label>
+        <input type="number" asp-for="rev.EventID" value="@Model.rev.EventID" />
+
+        <label asp-for="rev.UserID">User ID</label>
+        <input type="number" asp-for="rev.UserID" value="@Model.rev.UserID" />
+
         <br />
         <button class="btn btn-primary" type="submit">Update Review</button>
     </form>

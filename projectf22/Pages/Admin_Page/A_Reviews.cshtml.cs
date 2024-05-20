@@ -33,11 +33,12 @@ namespace projectf22.Pages.Admin_Page
 
             {
                 Review review = new Review();
-                review.ReviewID = (int)dt.Rows[i]["ReviewID"];
+                review.ReviewID = (int)dt.Rows[i]["ReviewID"] ;
                 review.Rating = (int)dt.Rows[i]["Rating"];
                 review.Comment = (string)dt.Rows[i]["Comment"];
                 review.ReviewDate = (DateTime)dt.Rows[i]["ReviewDate"];
-                review.UserID = (int)dt.Rows[i]["UserID"];
+                review.UserID =dt.Rows[i]["UserID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["UserID"];
+
 
 
                 review.EventID = dt.Rows[i]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["EventID"];

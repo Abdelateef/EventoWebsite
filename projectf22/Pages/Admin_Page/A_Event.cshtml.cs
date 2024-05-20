@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using projectf22.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 
 namespace projectf22.Pages.Admin_Page
@@ -34,7 +35,8 @@ namespace projectf22.Pages.Admin_Page
                     EventName = dt.Rows[i]["EventName"] == DBNull.Value ? "" : (string)dt.Rows[i]["EventName"],
                     EventLocationID = dt.Rows[i]["LocationID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["LocationID"],
                     EventAdminID = dt.Rows[i]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["AdminID"],
-                    Type = dt.Rows[i]["Type"] == DBNull.Value ? "" : (string)dt.Rows[i]["Type"]
+                    Type = dt.Rows[i]["Type"] == DBNull.Value ? "" : (string)dt.Rows[i]["Type"],
+                    Eventdescription = dt.Rows[i]["event_description"] == DBNull.Value ? "" : (string)dt.Rows[i]["event_description"],
                 };
 
                 EventsList.Add(_event);

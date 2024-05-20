@@ -1,12 +1,18 @@
-﻿@page
+﻿@page "{id:int}"
 @model projectf22.Pages.Update.Update_UserModel
 @{
-    <form method="post">
-        <input type="text" asp-for="@Model.User.UserName" placeholder="Name" value="@Model.User.UserName" />
-        <input type="text" asp-for="@Model.User.UserEmail" placeholder="Name" value="@Model.User.UserEmail" />
-        <input type="text" asp-for="@Model.User.UserPassword" placeholder="Name" value="@Model.User.UserPassword" />
-        <br />
-        <button class="btn btn-primary" type="submit">Update User</button>
-    </form>
 }
 
+<form method="post">
+    <input type="text" asp-for="User.UserName" placeholder="Name" value="@Model.User.UserName" />
+    <input type="email" asp-for="User.UserEmail" placeholder="Email" value="@Model.User.UserEmail" />
+    <input type="text" asp-for="User.UserPassword" placeholder="text" value="@Model.User.UserPassword" />
+    <input type="number" asp-for="User.PromotionID" placeholder="Promotion ID" value="@Model.User.PromotionID" />
+    <input type="number" asp-for="User.BookingID" placeholder="Booking ID" value="@Model.User.BookingID" />
+    <input type="number" asp-for="User.EventID" placeholder="Event ID" value="@Model.User.EventID" />
+    <input type="number" asp-for="User.TicketID" placeholder="Ticket ID" value="@Model.User.TicketID" />
+    <input type="number" asp-for="User.PaymentID" placeholder="Payment ID" value="@Model.User.PaymentID" />
+    <input type="number" asp-for="User.AdminID" placeholder="Admin ID" value="@Model.User.AdminID" />
+    <br />
+    <button class="btn btn-primary" type="submit">Update User</button>
+</form>

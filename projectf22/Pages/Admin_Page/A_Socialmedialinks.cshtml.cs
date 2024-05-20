@@ -30,6 +30,7 @@ namespace projectf22.Pages.Admin_Page
             for (int i = 0; i < dt.Rows.Count; i++)
             {
                 socialMediaLink = new SocialMediaLink();
+                socialMediaLink.ID = (int)dt.Rows[i]["SocialMediaID"]; 
                 socialMediaLink.SocialMediaPlatforms = (string)dt.Rows[i]["SocialMediaPlatforms"];
                 socialMediaLink. LinkURL = (string)dt.Rows[i]["LinkURL"];
 

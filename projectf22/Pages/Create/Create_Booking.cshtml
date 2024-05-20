@@ -2,11 +2,13 @@
 @model projectf22.Pages.Create.Create_BookingModel
 @{
     <form method="post">
-        <input type="text" asp-for="booking.UserID" placeholder="UserID" />
-        <input type="text" asp-for="booking.BookingDate" placeholder="BookingDate" />
-        <input type="text" asp-for="booking.NumOfTickets" placeholder="NumOfTickets" />
-        <input type="text" asp-for="booking.TotalPrice" placeholder="TotalPrice" />
+        <input type="number" asp-for="booking.UserID" placeholder="User ID" />
+        <input type="datetime-local" asp-for="booking.BookingDate" placeholder="Booking Date" />
+        <input type="number" asp-for="booking.NumOfTickets" placeholder="Number of Tickets" />
+        <input type="number" step="0.01" asp-for="booking.TotalPrice" placeholder="Total Price" />
         <br />
-        <button class="btn btn-primary" type="submit">Add new Book</button>
+        <button class="btn btn-primary" type="submit">Add new Booking</button>
     </form>
 }
+
+

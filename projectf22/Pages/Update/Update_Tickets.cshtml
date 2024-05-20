@@ -1,11 +1,26 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_TicketsModel
 @{
-    <form>
-        <input type="text" asp-for="@Model.Tic.TicketPrice" placeholder="TicketPrice" value="@Model.Tic.TicketPrice" />
-        <input type="text" asp-for="@Model.Tic.Availability" placeholder="Availability" value="@Model.Tic.Availability" />
-        <input type="text" asp-for="@Model.Tic.TicketType" placeholder="TicketType" value="@Model.Tic.TicketType" />
+    <form method="post">
+        <label asp-for="Tic.TicketPrice">Ticket Price</label>
+        <input type="number" asp-for="Tic.TicketPrice" value="@Model.Tic.TicketPrice" step="0.01" />
+
+        <label asp-for="Tic.Availability">Availability</label>
+        <input type="checkbox" asp-for="Tic.Availability" checked="@Model.Tic.Availability" />
+
+        <label asp-for="Tic.TicketType">Ticket Type</label>
+        <select asp-for="Tic.TicketType">
+            <option value="Regular" selected="@Model.Tic.TicketType == " Regular"">Regular</option>
+            <option value="VIP" selected="@Model.Tic.TicketType == " VIP"">VIP</option>
+        </select>
+
+        <label asp-for="Tic.EventID">Event ID</label>
+        <input type="number" asp-for="Tic.EventID" value="@Model.Tic.EventID" />
+
         <br />
         <button class="btn btn-primary" type="submit">Update Ticket</button>
     </form>
+
+
+
 }

@@ -22,7 +22,7 @@ namespace projectf22.Pages.Update
         {
             this.id = id;
             Book = new Booking();
-            Book = db.GetBookinginfo(id);
+            Book = db.GetBookingInfo(id);
         }
 
         public IActionResult OnPost()

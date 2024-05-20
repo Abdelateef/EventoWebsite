@@ -1,14 +1,22 @@
 ﻿@page
 @model projectf22.Pages.Create.Create_EventModel
 @{
-    <form method="post">
-        <input type="text" asp-for="ev.EventName" placeholder="Event Name" />
-        <input type="datetime-local" asp-for="ev.EventDate" placeholder="Event Date" />
-        <input type="text" asp-for="ev.EventImages" placeholder="Event Images" />
-        <input type="number" asp-for="ev.EventLocationID" placeholder="Location ID" />
-        <input type="number" asp-for="ev.EventAdminID" placeholder="Admin ID" />
-        <input type="text" asp-for="ev.Type" placeholder="Type" />
-        <br />
-        <button class="btn btn-primary" type="submit">Add new Event</button>
-    </form>
 }
+
+<form method="post">
+    <input type="text" asp-for="ev.EventName" placeholder="Event Name" />
+    <input type="datetime-local" asp-for="ev.EventDate" placeholder="Event Date" />
+    <input type="text" asp-for="ev.EventImages" placeholder="Event Images" />
+    <input type="number" asp-for="ev.EventLocationID" placeholder="Location ID" />
+    <input type="number" asp-for="ev.EventAdminID" placeholder="Admin ID" />
+
+    <label asp-for="ev.Type">Event Type</label>
+    <select asp-for="ev.Type">
+        <option value="Sport">Sport</option>
+        <option value="Entertainment">Entertainment</option>
+    </select>
+
+    <input type="text" asp-for="ev.Eventdescription" placeholder="Event Description" />
+    <br />
+    <button class="btn btn-primary" type="submit">Add new Event</button>
+</form>
