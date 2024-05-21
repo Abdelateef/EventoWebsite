@@ -13,8 +13,8 @@
         public int PaymentID { get; set; }
         public int AdminID { get; set; }
 
-        // Adding new properties for Bio and Profile Image URL
-        public string Bio { get; set; }
-        public string ProfileImageUrl { get; set; }
+        public string Bio { get; set;}
+        public string ProfileImageUrl { get; set;}
+
     }
 }

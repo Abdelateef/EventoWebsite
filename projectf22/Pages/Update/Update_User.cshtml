@@ -1,18 +1,56 @@
 ﻿@page "{id:int}"
 @model projectf22.Pages.Update.Update_UserModel
 @{
+    ViewData["Title"] = "Update User";
 }
 
-<form method="post">
-    <input type="text" asp-for="User.UserName" placeholder="Name" value="@Model.User.UserName" />
-    <input type="email" asp-for="User.UserEmail" placeholder="Email" value="@Model.User.UserEmail" />
-    <input type="text" asp-for="User.UserPassword" placeholder="text" value="@Model.User.UserPassword" />
-    <input type="number" asp-for="User.PromotionID" placeholder="Promotion ID" value="@Model.User.PromotionID" />
-    <input type="number" asp-for="User.BookingID" placeholder="Booking ID" value="@Model.User.BookingID" />
-    <input type="number" asp-for="User.EventID" placeholder="Event ID" value="@Model.User.EventID" />
-    <input type="number" asp-for="User.TicketID" placeholder="Ticket ID" value="@Model.User.TicketID" />
-    <input type="number" asp-for="User.PaymentID" placeholder="Payment ID" value="@Model.User.PaymentID" />
-    <input type="number" asp-for="User.AdminID" placeholder="Admin ID" value="@Model.User.AdminID" />
-    <br />
-    <button class="btn btn-primary" type="submit">Update User</button>
-</form>
+<div class="container">
+    <h2>Update User</h2>
+    <form method="post">
+        <div class="form-group">
+            <label for="UserName">Name:</label>
+            <input type="text" id="UserName" class="form-control" asp-for="User.UserName" placeholder="Name" value="@Model.User.UserName" />
+        </div>
+        <div class="form-group">
+            <label for="UserEmail">Email:</label>
+            <input type="email" id="UserEmail" class="form-control" asp-for="User.UserEmail" placeholder="Email" value="@Model.User.UserEmail" />
+        </div>
+        <div class="form-group">
+            <label for="UserPassword">Password:</label>
+            <input type="text" id="UserPassword" class="form-control" asp-for="User.UserPassword" placeholder="Password" value="@Model.User.UserPassword" />
+        </div>
+        <div class="form-group">
+            <label for="PromotionID">Promotion ID:</label>
+            <input type="number" id="PromotionID" class="form-control" asp-for="User.PromotionID" placeholder="Promotion ID" value="@Model.User.PromotionID" />
+        </div>
+        <div class="form-group">
+            <label for="BookingID">Booking ID:</label>
+            <input type="number" id="BookingID" class="form-control" asp-for="User.BookingID" placeholder="Booking ID" value="@Model.User.BookingID" />
+        </div>
+        <div class="form-group">
+            <label for="EventID">Event ID:</label>
+            <input type="number" id="EventID" class="form-control" asp-for="User.EventID" placeholder="Event ID" value="@Model.User.EventID" />
+        </div>
+        <div class="form-group">
+            <label for="TicketID">Ticket ID:</label>
+            <input type="number" id="TicketID" class="form-control" asp-for="User.TicketID" placeholder="Ticket ID" value="@Model.User.TicketID" />
+        </div>
+        <div class="form-group">
+            <label for="PaymentID">Payment ID:</label>
+            <input type="number" id="PaymentID" class="form-control" asp-for="User.PaymentID" placeholder="Payment ID" value="@Model.User.PaymentID" />
+        </div>
+        <div class="form-group">
+            <label for="AdminID">Admin ID:</label>
+            <input type="number" id="AdminID" class="form-control" asp-for="User.AdminID" placeholder="Admin ID" value="@Model.User.AdminID" />
+        </div>
+        <div class="form-group">
+            <label for="Bio">Bio:</label>
+            <input type="text" id="Bio" class="form-control" asp-for="User.Bio" placeholder="Bio" value="@Model.User.Bio" />
+        </div>
+        <div class="form-group">
+            <label for="ProfileImageUrl">Profile Image URL:</label>
+            <input type="text" id="ProfileImageUrl" class="form-control" asp-for="User.ProfileImageUrl" placeholder="Profile Image URL" value="@Model.User.ProfileImageUrl" />
+        </div>
+        <button type="submit" class="btn btn-primary">Update User</button>
+    </form>
+</div>

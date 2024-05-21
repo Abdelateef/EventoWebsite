@@ -115,7 +115,8 @@ namespace projectf22.Models
 
         public User GetUserInfo(int id)
         {
-            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID, Bio, ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
+
+            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID,Bio ,ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
 
             DataTable dt = new DataTable();
             con.Open();
@@ -137,8 +138,10 @@ namespace projectf22.Models
             user.TicketID = dt.Rows[0]["TicketID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["TicketID"];
             user.PaymentID = dt.Rows[0]["PaymentID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["PaymentID"];
             user.AdminID = dt.Rows[0]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["AdminID"];
-            user.Bio = dt.Rows[0]["Bio"]?.ToString(); // Using ?.ToString() to handle potential DBNull values
-            user.ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"]?.ToString(); // Using ?.ToString() for the same reason
+
+            user.Bio = dt.Rows[0]["Bio"] == DBNull.Value ? string.Empty : dt.Rows[0]["Bio"].ToString();
+            user.ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"] == DBNull.Value ? string.Empty : dt.Rows[0]["ProfileImageUrl"].ToString();
+
 
 
             con.Close();
@@ -197,7 +200,9 @@ namespace projectf22.Models
 
         public void UpdateUserInfo(User user)
         {
+
             string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID, Bio = @Bio, ProfileImageUrl = @ProfileImageUrl WHERE UserID = @UserID";
+
 
             con.Open();
 
@@ -206,8 +211,11 @@ namespace projectf22.Models
             cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
             cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
             cmd.Parameters.AddWithValue("@UserID", user.UserID);
-            cmd.Parameters.AddWithValue("@Bio", user.Bio ?? string.Empty);
-            cmd.Parameters.AddWithValue("@ProfileImageUrl", user.ProfileImageUrl ?? string.Empty);
+
+            cmd.Parameters.AddWithValue(@"Bio", user.Bio == string.Empty ? (object)DBNull.Value : user.Bio);
+            cmd.Parameters.AddWithValue(@"ProfileImageUrl", user.ProfileImageUrl == string.Empty ? (object)DBNull.Value : user.ProfileImageUrl);
+
+
             cmd.Parameters.AddWithValue("@PromotionID", user.PromotionID == 0 ? (object)DBNull.Value : user.PromotionID);
             cmd.Parameters.AddWithValue("@BookingID", user.BookingID == 0 ? (object)DBNull.Value : user.BookingID);
             cmd.Parameters.AddWithValue("@EventID", user.EventID == 0 ? (object)DBNull.Value : user.EventID);
@@ -552,7 +560,7 @@ namespace projectf22.Models
 
             SqlCommand cmd = new SqlCommand(Q, con);
 
-            decimal dt=(decimal)cmd.ExecuteScalar();
+            decimal dt = (decimal)cmd.ExecuteScalar();
 
 
             con.Close();
@@ -956,7 +964,7 @@ namespace projectf22.Models
             con.Close();
         }
 
-       
+
 
 
 
@@ -1073,7 +1081,7 @@ namespace projectf22.Models
         public void DeleteSocialMediaLink(int id)
         {
             string Q = $"DELETE FROM SOCIALMEDIALINKS WHERE SocialMediaID = {id}";
-           
+
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -1150,6 +1158,8 @@ namespace projectf22.Models
             con.Close();
             return dt;
         }
+
+
 
         public int GetIDUsingInfo(string name, string email, string pass)
         {
@@ -1421,8 +1431,84 @@ WHERE
             con.Close();
             return BID;
         }
-    }
 
+        //    public bool ValidateAdmin(int adminId, string adminName, string adminPassword)
+        //    {
+        //        string query = "SELECT COUNT(*) FROM Admin WHERE AdminID = @AdminID AND AdminName = @AdminName AND AdminPassword = @AdminPassword";
+
+        //        SqlCommand cmd = new SqlCommand(query, con);
+        //        cmd.Parameters.AddWithValue("@AdminID", adminId);
+        //        cmd.Parameters.AddWithValue("@AdminName", adminName);
+        //        cmd.Parameters.AddWithValue("@AdminPassword", adminPassword);
+
+        //        con.Open();
+        //        int result = (int)cmd.ExecuteScalar();
+        //        con.Close();
+
+        //        return result > 0;
+        //    }
+
+        //}
+
+
+        public int? GetAdminID(int ID)
+        {
+            string query = "SELECT AdminID FROM Admin WHERE AdminID = @AdminID";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", ID);
+
+            con.Open();
+            object result = cmd.ExecuteScalar();
+            con.Close();
+
+            if (result != null && int.TryParse(result.ToString(), out int adminId))
+            {
+                return adminId;
+            }
+            return null;
+        }
+
+        public string GetAdminPassUsingID(int ID)
+        {
+            string query = "SELECT AdminPassword FROM Admin WHERE AdminID = @AdminID";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", ID);
+
+            con.Open();
+            object result = cmd.ExecuteScalar();
+            con.Close();
+
+            return result?.ToString();
+        }
+
+        public string GetAdminNameUsingID(int ID)
+        {
+            string query = "SELECT AdminName FROM Admin WHERE AdminID = @AdminID";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", ID);
+
+            con.Open();
+            object result = cmd.ExecuteScalar();
+            con.Close();
+
+            return result?.ToString();
+        }
+
+        public bool ValidateAdmin(int adminId, string adminName, string adminPassword)
+        {
+            string query = "SELECT COUNT(*) FROM Admin WHERE AdminID = @AdminID AND AdminName = @AdminName AND AdminPassword = @AdminPassword";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", adminId);
+            cmd.Parameters.AddWithValue("@AdminName", adminName);
+            cmd.Parameters.AddWithValue("@AdminPassword", adminPassword);
+
+            con.Open();
+            int result = (int)cmd.ExecuteScalar();
+            con.Close();
+
+            return result > 0;
+        }
+    }
 
 
 

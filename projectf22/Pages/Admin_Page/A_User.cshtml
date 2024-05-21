@@ -1,12 +1,32 @@
 ﻿@page
 @model projectf22.Pages.Admin_Page.A_UserModel
-@{
-}
+
 <style>
     .admin-data-table-heading {
         margin-top: 20px; /* Add margin top for space */
         text-align: center; /* Center the text */
         font-weight: bold; /* Make the text bold */
+    }
+
+    /* Adjust table cell padding and font size */
+    table th, table td {
+        padding: 5px; /* Reduce cell padding */
+        font-size: 14px; /* Reduce font size */
+    }
+
+    /* Adjust table header background color */
+    table th {
+        background-color: #f0f0f0; /* Maximize the background */
+    }
+
+    /* Adjust table row height */
+    table tbody tr {
+        height: 30px; /* Set row height */
+    }
+
+    /* Adjust table actions column */
+    .table-actions {
+        text-align: right; /* Align actions to the right */
     }
 </style>
 
@@ -28,47 +48,51 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h3 class="admin-data-table-heading mb-4">The User Data Table</h3>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>UserID</th>
-                                    <th>Username</th>
-                                    <th>UserEmail</th>
-                                    <th>UserPassword</th>
-                                    <th>PromotionID</th>
-                                    <th>BookingID</th>
-                                    <th>EventID</th>
-                                    <th>TicketID</th>
-                                    <th>PaymentID</th>
-                                    <th>AdminID</th>
-                                    <th>Actions</th> <!-- New column for actions -->
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                @foreach (var user in Model.Userlist)
-                                {
+                        <div class="table-responsive">
+                            <!-- Ensure table is responsive -->
+                            <table class="table table-bordered">
+                                <thead>
                                     <tr>
-                                        <td>@user.UserID</td>
-                                        <td>@user.UserName</td>
-                                        <td>@user.UserEmail</td>
-                                        <td>@user.UserPassword</td>
-                                        <td>@user.PromotionID</td>
-                                        <td>@user.BookingID</td>
-                                        <td>@user.EventID</td>
-                                        <td>@user.TicketID</td>
-                                        <td>@user.PaymentID</td>
-                                        <td>@user.AdminID</td>
-                                        <td class="text-right">
-                                            <a asp-page="/Update/Update_User" asp-route-id="@user.UserID">Update</a>
-                                            |
-                                            <a asp-page="/Delete/User_Delete" asp-route-id="@user.UserID">Delete</a>
-                                        </td>
+                                        <th>UserID</th>
+                                        <th>Username</th>
+                                        <th>UserEmail</th>
+                                        <th>UserPassword</th>
+                                        <th>PromotionID</th>
+                                        <th>BookingID</th>
+                                        <th>EventID</th>
+                                        <th>TicketID</th>
+                                        <th>PaymentID</th>
+                                        <th>AdminID</th>
+                                        <th>Bio</th>
+                                        <th>ProfileImageUrl</th>
+                                        <th class="table-actions">Actions</th> <!-- New column for actions -->
                                     </tr>
-                                }
-                            </tbody>
-
-                        </table>
+                                </thead>
+                                <tbody>
+                                    @foreach (var user in Model.Userlist)
+                                    {
+                                        <tr>
+                                            <td>@user.UserID</td>
+                                            <td>@user.UserName</td>
+                                            <td>@user.UserEmail</td>
+                                            <td>@user.UserPassword</td>
+                                            <td>@user.PromotionID</td>
+                                            <td>@user.BookingID</td>
+                                            <td>@user.EventID</td>
+                                            <td>@user.TicketID</td>
+                                            <td>@user.PaymentID</td>
+                                            <td>@user.AdminID</td>
+                                            <td>@user.Bio</td>
+                                            <td>@user.ProfileImageUrl</td>
+                                            <td class="table-actions">
+                                                <a asp-page="/Update/Update_User" asp-route-id="@user.UserID">Update</a> |
+                                                <a asp-page="/Delete/User_Delete" asp-route-id="@user.UserID">Delete</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
                         <div class="text-center mt-3">
                             <a class="btn btn-primary" asp-page="/Create/Create_User">Add new User</a>
                         </div>
@@ -78,4 +102,3 @@
         </div>
     </div>
 </div>
-
