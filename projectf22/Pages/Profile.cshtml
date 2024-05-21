@@ -1,59 +1,91 @@
 ﻿@page
 @model projectf22.Pages.ProfileModel
 @{
+    ViewData["Title"] = "Profile";
 }
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+    <style>
+        .edit-form {
+            display: none;
+        }
+
+        .white-text {
+            color: white;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#editProfileButton").click(function () {
+                $(".edit-form").toggle();
+            });
+        });
+    </script>
+</head>
 <body>
     <div class="page-heading-shows-events">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Jasmine Michle</h2>
+                    <h2>@Model.UserName</h2>
                     <div class="container">
-                        <img src="/Images/random.jpg" class="w-auto" />
+                        <img src="@Model.ProfileImageUrl" class="w-auto" />
                     </div>
-                    
-                    <span>This paragraph is to write anything about yourself</span>
+                    <div class="container">
+                        <h3 style="color: white;">Bio:</h3>
+                        <p style="color: white;">@Model.Bio</p>
+                    </div>
+
+                    <button id="editProfileButton" class="btn btn-primary">Edit Profile</button>
+                    <div class="edit-form">
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="ProfilePhoto">Upload Profile Photo:</label>
+                                <input type="file" asp-for="ProfilePhoto" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Bio">Bio:</label>
+                                <!-- Use asp-for to bind the Bio property directly -->
+                                <textarea asp-for="Bio" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Update Profile</button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div><br />
+    </div>
+    <br />
 
     <div class="container row-cols-6">
-            <table class="table table-bordered table-hover">
-                <thead>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Ticket Price</th>
+                    <th>Ticket Type</th>
+                    <th>Event ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.UserTickets)
+                {
                     <tr>
-                        <th>Events </th>
-                        <th>Tickts bought </th>
-                        <th>Total price </th>
-                        <th>date </th>
+                        <td>@item.TicketID</td>
+                        <td>@item.TicketPrice.ToString("C")</td>
+                        <td>@item.TicketType</td>
+                        <td>@item.EventID</td>
                     </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>concert1</td>
-                        <td>4</td>
-                        <td>20</td>
-                        <td>20/4/2024</td>
-                    </tr>
-                    <tr>
-                        <td>concert1</td>
-                        <td>4</td>
-                        <td>20</td>
-                        <td>20/4/2023</td>
-                    </tr>
-                    <tr>
-                        <td>concert1</td>
-                        <td>4</td>
-                        <td>20</td>
-                        <td>20/4/2020</td>
-                    </tr>
-
-                </tbody>
-            </table>
+                }
+            </tbody>
+        </table>
     </div>
- 
-   
-
 </body>
 </html>
