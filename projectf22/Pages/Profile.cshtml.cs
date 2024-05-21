@@ -86,7 +86,7 @@ namespace projectf22.Pages
 
             _database.UpdateUserInfo4(currentUser); // Update user data in the database
 
-            return RedirectToPage(); // Refresh or redirect to ensure the updated data is shown
+            return RedirectToPage(); ///// Refresh or redirect to ensure the updated data is shown
         }
 
 
