@@ -6,7 +6,15 @@
 <form method="post">
     <input type="text" asp-for="ev.EventName" placeholder="Event Name" />
     <input type="datetime-local" asp-for="ev.EventDate" placeholder="Event Date" />
-    <input type="text" asp-for="ev.EventImages" placeholder="Event Images" />
+    <label for="EventImages">Event Images</label>
+    <select asp-for="ev.EventImages" id="EventImages">
+        @for (int i = 1; i <= 25; i++)
+        {
+            string imageName = $"image{i}.jpg";
+            <option value="@imageName">@imageName</option>
+        }
+    </select>
+
     <input type="number" asp-for="ev.EventLocationID" placeholder="Location ID" />
     <input type="number" asp-for="ev.EventAdminID" placeholder="Admin ID" />
 

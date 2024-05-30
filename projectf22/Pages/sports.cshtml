@@ -89,7 +89,7 @@
                                                                 <div class="left-content">
                                                                     <h4>@Model.Events[i].EventName</h4>
                                                                     <p>@Model.Events[i].Eventdescription</p>
-                                                                    <form method="post">
+                                                                    <form method="post" asp-page-handler="">
                                                                         <button type="submit" class="bg-dark p-2 text-light" name="index" value="@Model.Events[i].EventID">Discover More</button>
                                                                     </form>
                                                                     

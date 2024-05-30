@@ -26,6 +26,7 @@ namespace projectf22.Pages.Admin_Page
             for (int i = 0; i < dt.Rows.Count; i++)
             {
                 Organizer organizer = new Organizer();
+                organizer.CID = (int)dt.Rows[i]["CID"];
                 organizer.CLocation = (string)dt.Rows[i]["CLocation"];
                 organizer.CName = (string)dt.Rows[i]["CName"];
                 organizer.CEmail = (string)dt.Rows[i]["CEmail"];

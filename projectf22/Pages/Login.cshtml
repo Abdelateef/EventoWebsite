@@ -1,16 +1,18 @@
 ﻿@page
 @model projectf22.Pages.LoginModel
 @{
+    var userName = HttpContext.Session.GetString("Name");
 }
- <div class="page-heading-rent-venue">
-        <div class="container">
-            <div class="row">
-                    <h2>Login</h2>
-
-            </div>
+<div class="page-heading-rent-venue">
+    <div class="container">
+        <div class="row">
+            <h2>Login</h2>
         </div>
     </div>
+</div>
 
+@if (string.IsNullOrEmpty(userName))
+{
     <div class="rent-venue-tabs">
         <div class="container">
             <div class="row">
@@ -20,7 +22,6 @@
                             <div class="heading-tabs">
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -36,46 +37,56 @@
                     </div>
                     <div class="contact-form">
                         <form id="contact" action="" method="post">
-                          <div class="row">
-
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input type="text" id="id" placeholder="User ID*" required="" asp-for="@Model.ID">
-                                 <span asp-validation-for="@Model.ID" class="text-danger"></span>
-                              </fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input type="text" id="id" placeholder="User ID*" required="" asp-for="@Model.ID">
+                                        <span asp-validation-for="@Model.ID" class="text-danger"></span>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input type="name" id="name" placeholder="Username*" required="" asp-for="@Model.Name">
+                                        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input type="password" id="password" placeholder="Password*" required="" asp-for="@Model.pass">
+                                        <span asp-validation-for="@Model.pass" class="text-danger"></span>
+                                    </fieldset>
+                                </div>
+                                <br /><br />
+                                <div class="col-lg-12">
+                                    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                                    {
+                                        <div class="alert alert-danger" role="alert">
+                                            @Model.ErrorMessage
+                                        </div>
+                                    }
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="main-dark-button">Login</button>
+                                    </fieldset>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm-12">
-                                <fieldset>
-                                    <input type="name" id="name" placeholder="Username*" required="" asp-for="@Model.Name">
-                                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <fieldset>
-                                    <input type="password" id="password" placeholder="Password*" required="" asp-for="@Model.pass">
-                                    <span asp-validation-for="@Model.pass" class="text-danger"></span>
-                                </fieldset>
-                            </div><br /><br />
-                            <div class="col-lg-12">
-                                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
-                                {
-                                    <div class="alert alert-danger" role="alert">
-                                        @Model.ErrorMessage
-                                    </div>
-                                }
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-dark-button">Login</button>
-                              </fieldset>
-                            </div>
-                          </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
- 
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="alert alert-info" role="alert">
+                    You are already logged in as @userName. <a asp-page="/Logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}

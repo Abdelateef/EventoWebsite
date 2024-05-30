@@ -2,7 +2,7 @@
 {
     public class Organizer
     {
-        public int CId { get; set; }
+        public int CID { get; set; }
         public string CLocation { get; set; }
         public string CName { get; set; }
         public string CEmail { get; set; }

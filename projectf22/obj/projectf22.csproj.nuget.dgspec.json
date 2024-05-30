@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "D:\\The last semster\\Database\\Project1\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\The last semster\\Database\\Project1\\Data_Base_Project\\projectf22\\projectf22.csproj",
         "packagesPath": "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\",
         "outputPath": "D:\\The last semster\\Database\\Project1\\Data_Base_Project\\projectf22\\obj\\",
+=======
+    "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj": {}
+  },
+  "projects": {
+    "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "projectName": "projectf22",
+        "projectPath": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+        "packagesPath": "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\",
+        "outputPath": "D:\\The last semster\\Data_Base_Project\\projectf22\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AbdAllah Abbas\\AppData\\Roaming\\NuGet\\NuGet.Config",

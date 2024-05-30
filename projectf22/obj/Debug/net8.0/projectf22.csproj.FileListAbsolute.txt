@@ -458,3 +458,84 @@ D:\The last semster\Database\Project1\Data_Base_Project\projectf22\obj\Debug\net
 D:\The last semster\Database\Project1\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.Up2Date
 D:\The last semster\Database\Project1\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
 D:\The last semster\Database\Project1\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+<<<<<<< Updated upstream
+=======
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.Development.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.exe
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.deps.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.pdb
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\System.Data.SqlClient.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.AssemblyReference.cache
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.sourcelink.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.Up2Date
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+G:\old downloads\Compressed\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.AssemblyReference.cache
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.GeneratedMSBuildEditorConfig.editorconfig
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfoInputs.cache
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.AssemblyInfo.cs
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.CoreCompileInputs.cache
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.MvcApplicationPartsAssemblyInfo.cache
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cache
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.RazorAssemblyInfo.cs
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.sourcelink.json
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.dll
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\refint\projectf22.dll
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.pdb
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.Development.json
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\appsettings.json
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.staticwebassets.runtime.json
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.exe
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.deps.json
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.runtimeconfig.json
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.dll
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\projectf22.pdb
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\The last semster\Data_Base_Project\projectf22\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.build.json
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.development.json
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.projectf22.Microsoft.AspNetCore.StaticWebAssets.props
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.build.projectf22.props
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.projectf22.props
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.projectf22.props
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\staticwebassets.pack.json
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\bundle\projectf22.styles.css
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\scopedcss\projectbundle\projectf22.bundle.scp.css
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.csproj.Up2Date
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\projectf22.genruntimeconfig.cache
+D:\The last semster\Data_Base_Project\projectf22\obj\Debug\net8.0\ref\projectf22.dll
+>>>>>>> Stashed changes

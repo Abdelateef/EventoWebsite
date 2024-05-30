@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "+IYvulmpEfpHTN2RqF2i+0eNWugBT/1nPHBCN3MmDRylzpp4crNXEHoqTZTaJmGWgjzlyeOm/R5TBkdUcw9SVA==",
   "success": true,
   "projectFilePath": "D:\\The last semster\\Database\\Project1\\Data_Base_Project\\projectf22\\projectf22.csproj",
+=======
+  "dgSpecHash": "b79K67oU+Lf99wl5GRxrYDe3aIr8pVwrvHULMLtfPgmgmwYS9uYGfEwVOxm/q9UZeHo2wj4OOXAKCPPrqICrew==",
+  "success": true,
+  "projectFilePath": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

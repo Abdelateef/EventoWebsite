@@ -28,20 +28,15 @@ namespace projectf22.Pages
                 myevent.Type = (string)tb.Rows[i]["Type"];
                 Events.Add(myevent);
 
-               
-
-
             }
-            return Page();
-
-            //if (HttpContext.Session.GetString("Name") is not null)
-            //{
-            //    return Page();
-            //}
-            //else
-            //{
-            //    return RedirectToPage("/sign-up");
-            //}
+            if (HttpContext.Session.GetString("Name") is not null)
+            {
+                return Page();
+            }
+            else
+            {
+                return RedirectToPage("/sign-up");
+            }
         }
     }
 }
