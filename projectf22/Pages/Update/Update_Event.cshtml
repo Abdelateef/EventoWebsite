@@ -1,13 +1,14 @@
 ﻿@page
 @model projectf22.Pages.Update.Update_EventModel
 @{
-<form method="post">
-    <label asp-for="Evnt.EventDate">Event Date</label>
-    <input type="datetime-local" asp-for="Evnt.EventDate" value="@Model.Evnt.EventDate.ToString("yyyy-MM-ddTHH:mm")" />
+    <form method="post">
+        <label asp-for="Evnt.EventDate">Event Date</label>
+        <input type="datetime-local" asp-for="Evnt.EventDate" value="@Model.Evnt.EventDate.ToString("yyyy-MM-ddTHH:mm")" />
 
-    <label asp-for="Evnt.EventImages">Event Images</label>
-    <input type="text" asp-for="Evnt.EventImages" value="@Model.Evnt.EventImages" />
+        <label asp-for="Evnt.EventImages">Event Images</label>
+        <input type="text" asp-for="Evnt.EventImages" value="@Model.Evnt.EventImages" />
 
+<<<<<<< HEAD
 
         <label asp-for="Evnt.EventImages">Event Images</label>
         <select asp-for="Evnt.EventImages">
@@ -20,12 +21,26 @@
 
     <label asp-for="Evnt.EventLocationID">Event Location ID</label>
     <input type="number" asp-for="Evnt.EventLocationID" value="@Model.Evnt.EventLocationID" />
+=======
+>>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
 
-    <label asp-for="Evnt.EventAdminID">Event Admin ID</label>
-    <input type="number" asp-for="Evnt.EventAdminID" value="@Model.Evnt.EventAdminID" />
+        <label asp-for="Evnt.EventImages">Event Images</label>
+        <select asp-for="Evnt.EventImages">
+            @for (int i = 1; i <= 25; i++)
+            {
+                string imageName = $"image{i}.jpg";
+                <option value="@imageName" selected='@(Model.Evnt.EventImages == imageName ? "selected" : "")'>@imageName</option>
+            }
+        </select>
 
-    <label asp-for="Evnt.EventName">Event Name</label>
-    <input type="text" asp-for="Evnt.EventName" value="@Model.Evnt.EventName" />
+        <label asp-for="Evnt.EventLocationID">Event Location ID</label>
+        <input type="number" asp-for="Evnt.EventLocationID" value="@Model.Evnt.EventLocationID" />
+
+        <label asp-for="Evnt.EventAdminID">Event Admin ID</label>
+        <input type="number" asp-for="Evnt.EventAdminID" value="@Model.Evnt.EventAdminID" />
+
+        <label asp-for="Evnt.EventName">Event Name</label>
+        <input type="text" asp-for="Evnt.EventName" value="@Model.Evnt.EventName" />
 
         <label asp-for="Evnt.Type">Event Type</label>
         <select asp-for="Evnt.Type">
@@ -33,12 +48,12 @@
             <option value="Entertainment" selected="@(Model.Evnt.Type == "Entertainment" ? "selected" : "")">Entertainment</option>
         </select>
 
-    <label asp-for="Evnt.Eventdescription">Event Description</label>
-    <textarea asp-for="Evnt.Eventdescription">@Model.Evnt.Eventdescription</textarea>
+        <label asp-for="Evnt.Eventdescription">Event Description</label>
+        <textarea asp-for="Evnt.Eventdescription">@Model.Evnt.Eventdescription</textarea>
 
-    <br />
-    <button class="btn btn-primary" type="submit">Update Event</button>
-</form>
+        <br />
+        <button class="btn btn-primary" type="submit">Update Event</button>
+    </form>
 
 }
 

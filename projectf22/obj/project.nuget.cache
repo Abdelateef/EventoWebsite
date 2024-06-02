@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dvszgpWuqs5lX8qrsrs7OZaTvBQRcFXwX7LJrH005D3ySsq5Gd03pNQOMdpKGMP8S1qTcbpTnLblYs/BfgEzCw==",
   "success": true,
   "projectFilePath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
+=======
+  "dgSpecHash": "b79K67oU+Lf99wl5GRxrYDe3aIr8pVwrvHULMLtfPgmgmwYS9uYGfEwVOxm/q9UZeHo2wj4OOXAKCPPrqICrew==",
+  "success": true,
+  "projectFilePath": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+>>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
   "expectedPackageFiles": [
     "C:\\Users\\Abdelateef\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Abdelateef\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

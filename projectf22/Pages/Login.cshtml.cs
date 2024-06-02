@@ -9,9 +9,14 @@ namespace projectf22.Pages
     {
         public string ErrorMessage { get; set; }
         private readonly DB Data;
+<<<<<<< HEAD
 
         [BindProperty]
 
+=======
+
+        [BindProperty]
+>>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
         [Required(ErrorMessage = "This field is required")]
         public int ID { get; set; }
 
@@ -42,18 +47,34 @@ namespace projectf22.Pages
 
         public IActionResult OnPost()
         {
-            if (Data.GetID(ID) == ID && Data.GetPassUsingID(ID) == pass && Data.GetNameUsingID(ID) == Name)
+            if (ModelState.IsValid)
             {
-                HttpContext.Session.SetString("UserId", ID.ToString()); // Changed from "UsID" to "UserId"
-                HttpContext.Session.SetString("Name", Name);
-                return RedirectToPage("/Index");
-            }
-            else
-            {
-                ErrorMessage = "Name, ID, or Password might be wrong";
-                return Page();
+                var adminId = Data.GetID(ID);
+                var adminPass = Data.GetPassUsingID(ID);
+                var adminName = Data.GetNameUsingID(ID);
+
+                if (adminId == ID && adminPass == pass && adminName == Name)
+                {
+                    HttpContext.Session.SetString("UsID", ID.ToString());
+                    HttpContext.Session.SetString("Name", Name);
+                    HttpContext.Session.SetString("Password", pass);
+                    return RedirectToPage("/Index");
+                }
+                else if (Data.ValidateAdmin(ID, Name, pass))
+                {
+                    HttpContext.Session.SetString("UsID", ID.ToString());
+                    HttpContext.Session.SetString("Name", Name);
+                    HttpContext.Session.SetString("Password", pass);
+                    return RedirectToPage("/Admin");
+                }
+                else
+                {
+                    ErrorMessage = "Name, ID, or Password might be wrong";
+                    return Page();
+                }
             }
 
+<<<<<<< HEAD
             if (ModelState.IsValid)
             {
                 var adminId = Data.GetID(ID);
@@ -81,6 +102,9 @@ namespace projectf22.Pages
                 }
             }
 
+=======
+            // If ModelState is not valid, return the Page with validation errors
+>>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
             return Page();
         }
     }

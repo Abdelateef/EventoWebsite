@@ -579,11 +579,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
       "projectName": "projectf22",
       "projectPath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\projectf22.csproj",
       "packagesPath": "C:\\Users\\Abdelateef\\.nuget\\packages\\",
       "outputPath": "F:\\University of Science and Technology at Zewail City\\My-Github\\CIE-206-Project\\Data_Base_Project\\projectf22\\obj\\",
+=======
+      "projectUniqueName": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+      "projectName": "projectf22",
+      "projectPath": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+      "packagesPath": "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\",
+      "outputPath": "D:\\The last semster\\Data_Base_Project\\projectf22\\obj\\",
+>>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Abdelateef\\AppData\\Roaming\\NuGet\\NuGet.Config",

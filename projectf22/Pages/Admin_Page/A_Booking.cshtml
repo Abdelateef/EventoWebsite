@@ -39,23 +39,23 @@
                                     <th>Actions</th> <!-- New column for actions -->
                                 </tr>
                             </thead>
-                             <tbody>
-                            @foreach (var booking in Model.BookingsList)
-                            {
-                                <tr>
-                                    <td>@booking.BookingID</td>
-                                    <td>@booking.UserID</td>
-                                    <td>@booking.BookingDate</td>
-                                    <td>@booking.NumOfTickets</td>
-                                    <td>@booking.TotalPrice</td>
-                                    <td class="text-right">
-                                        <a asp-page="/Update/Update_Booking" asp-route-id="@booking.BookingID">Update</a>
-                                        |
-                                        <a asp-page="/Delete/Booking_Delete" asp-route-id="@booking.BookingID">Delete</a>
-                                    </td>
-                                </tr>
-                            }
-                            </tbody> 
+                            <tbody>
+                                @foreach (var booking in Model.BookingsList)
+                                {
+                                    <tr>
+                                        <td>@booking.BookingID</td>
+                                        <td>@booking.UserID</td>
+                                        <td>@booking.BookingDate</td>
+                                        <td>@booking.NumOfTickets</td>
+                                        <td>@booking.TotalPrice</td>
+                                        <td class="text-right">
+                                            <a asp-page="/Update/Update_Booking" asp-route-id="@booking.BookingID">Update</a>
+                                            |
+                                            <a asp-page="/Delete/Booking_Delete" asp-route-id="@booking.BookingID">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
 
                         </table>
                         <div class="text-center mt-3">
