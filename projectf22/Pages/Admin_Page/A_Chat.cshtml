@@ -1,0 +1,46 @@
+﻿@page
+@model projectf22.Pages.Admin_Page.A_ChatModel
+@{
+    ViewData["Title"] = "Event Chart";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Events per Month</h1>
+    <canvas id="eventsChart" width="50" height="50"></canvas>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.MonthlyEventCounts));
+            const labels = Object.keys(data);
+            const values = Object.values(data);
+
+            const ctx = document.getElementById('eventsChart').getContext('2d');
+            const eventsChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Number of Events',
+                        data: values,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -89,7 +89,7 @@ namespace projectf22.Models
 
         public void UpdateAdminInfo(Admin Adm)
         {
-            string Q = $"UPDATE ADMIN SET AdminName = '{Adm.AdminName}', Role = '{Adm.Role}', AdminEmail = '{Adm.AdminEmail}', AdminPassword = '{Adm.AdminPassword}', WHERE AdminID = {Adm.AdminID}";
+            string Q = $"UPDATE ADMIN SET AdminName = '{Adm.AdminName}', Role = '{Adm.Role}', AdminEmail = '{Adm.AdminEmail}', AdminPassword = '{Adm.AdminPassword}' WHERE AdminID = {Adm.AdminID}";
 
             con.Open();
 
@@ -115,7 +115,7 @@ namespace projectf22.Models
 
         public User GetUserInfo(int id)
         {
-            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID FROM [USER] WHERE UserID = @UserID";
+            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID, Bio, ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
 
             DataTable dt = new DataTable();
             con.Open();
@@ -131,29 +131,73 @@ namespace projectf22.Models
             user.UserName = (string)dt.Rows[0]["UserName"];
             user.UserEmail = (string)dt.Rows[0]["UserEmail"];
             user.UserPassword = (string)dt.Rows[0]["UserPassword"];
-            //user.PromotionID = (int)dt.Rows[0]["PromotionID"];
-            //user.BookingID = (int)dt.Rows[0]["BookingID"];
-            //user.EventID = (int)dt.Rows[0]["EventID"];
-            //user.TicketID = (int)dt.Rows[0]["TicketID"];
-            //user.PaymentID = (int)dt.Rows[0]["PaymentID"];
-            //user.AdminID = (int)dt.Rows[0]["AdminID"];
-
             user.PromotionID = dt.Rows[0]["PromotionID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["PromotionID"]; // Check for DBNull before casting
             user.BookingID = dt.Rows[0]["BookingID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["BookingID"];
             user.EventID = dt.Rows[0]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["EventID"];
             user.TicketID = dt.Rows[0]["TicketID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["TicketID"];
             user.PaymentID = dt.Rows[0]["PaymentID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["PaymentID"];
             user.AdminID = dt.Rows[0]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["AdminID"];
+            user.Bio = dt.Rows[0]["Bio"] == DBNull.Value ? "No Bio Added" : dt.Rows[0]["Bio"].ToString();
+            user.ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"] == DBNull.Value ? "No ProfileImageUrl Added" : dt.Rows[0]["ProfileImageUrl"].ToString();
 
 
             con.Close();
 
             return user;
         }
+        public void UpdateUserInfo4(User user)
+        {
+            List<string> updates = new List<string>();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+
+            if (!string.IsNullOrEmpty(user.UserName))
+            {
+                updates.Add("UserName = @UserName");
+                cmd.Parameters.AddWithValue("@UserName", user.UserName);
+            }
+
+            if (!string.IsNullOrEmpty(user.UserEmail))
+            {
+                updates.Add("UserEmail = @UserEmail");
+                cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
+            }
+
+            if (!string.IsNullOrEmpty(user.UserPassword))
+            {
+                updates.Add("UserPassword = @UserPassword");
+                cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
+            }
+
+            if (!string.IsNullOrEmpty(user.Bio))
+            {
+                updates.Add("Bio = @Bio");
+                cmd.Parameters.AddWithValue("@Bio", user.Bio);
+            }
+
+            if (!string.IsNullOrEmpty(user.ProfileImageUrl))
+            {
+                updates.Add("ProfileImageUrl = @ProfileImageUrl");
+                cmd.Parameters.AddWithValue("@ProfileImageUrl", user.ProfileImageUrl);
+            }
+
+            if (updates.Count == 0)
+            {
+                return; // No updates to apply
+            }
+
+            string query = $"UPDATE [USER] SET {string.Join(", ", updates)} WHERE UserID = @UserID";
+            cmd.Parameters.AddWithValue("@UserID", user.UserID);
+            cmd.CommandText = query;
+
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
 
         public void UpdateUserInfo(User user)
         {
-            string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID WHERE UserID = @UserID";
+            string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID ,Bio = @Bio,ProfileImageUrl= @ProfileImageUrl WHERE UserID = @UserID";
 
             con.Open();
 
@@ -162,6 +206,9 @@ namespace projectf22.Models
             cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
             cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
             cmd.Parameters.AddWithValue("@UserID", user.UserID);
+            cmd.Parameters.AddWithValue(@"Bio", user.Bio == "No Bio Added" ? (object)DBNull.Value : user.Bio);
+            cmd.Parameters.AddWithValue(@"ProfileImageUrl", user.ProfileImageUrl == "No ProfileImageUrl Added" ? (object)DBNull.Value : user.ProfileImageUrl);
+
 
             cmd.Parameters.AddWithValue("@PromotionID", user.PromotionID == 0 ? (object)DBNull.Value : user.PromotionID);
             cmd.Parameters.AddWithValue("@BookingID", user.BookingID == 0 ? (object)DBNull.Value : user.BookingID);
@@ -198,7 +245,7 @@ namespace projectf22.Models
 
         public void DeleteOrganizer(int ID)
         {
-            string Q = $"DELETE FROM [ORGANIZER] WHERE EventID = {ID}";
+            string Q = $"DELETE FROM [ORGANIZER] WHERE CID = {ID}";
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -210,7 +257,7 @@ namespace projectf22.Models
 
         public Organizer GetOrganizerinfo(int id)
         {
-            string Q = $"SELECT CLocation, CName, CEmail, PName, PEmail FROM ORGANIZER WHERE EventID = {id}";
+            string Q = $"SELECT CLocation, CName, CEmail, PName, PEmail, EventID FROM ORGANIZER WHERE CID = {id}";
 
             DataTable dt = new DataTable();
             con.Open();
@@ -221,30 +268,64 @@ namespace projectf22.Models
 
             Organizer organizer = new Organizer();
 
-            organizer.EventID = id;
+            organizer.CID = id;
+            ;
             organizer.CLocation = (string)dt.Rows[0]["CLocation"];
             organizer.CName = (string)dt.Rows[0]["CName"];
             organizer.CEmail = (string)dt.Rows[0]["CEmail"];
             organizer.PName = (string)dt.Rows[0]["PName"];
             organizer.PEmail = (string)dt.Rows[0]["PEmail"];
+            organizer.EventID = dt.Rows[0]["EventID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["EventID"];
+
 
             con.Close();
 
             return organizer;
         }
 
+
+
+
+
         public void UpdateOranizerInfo(Organizer Org)
         {
-            string Q = $"UPDATE ORGANIZER SET CLocation ='EventID={Org.EventID}' '{Org.CLocation}', CName = '{Org.CName}', CEmail = '{Org.CEmail}', PName = '{Org.PName}' , PEmail = '{Org.PEmail} ' WHERE EventID = {Org.EventID}";
+            string query = "UPDATE ORGANIZER SET CLocation = @CLocation, CName = @CName, CEmail = @CEmail, PName = @PName, PEmail = @PEmail, EventID = @EventID WHERE CID = @CID";
 
             con.Open();
 
-            SqlCommand cmd = new SqlCommand(Q, con);
+            SqlCommand cmd = new SqlCommand(query, con);
 
+
+
+            cmd.Parameters.AddWithValue("@CLocation", Org.CLocation);
+            cmd.Parameters.AddWithValue("@CName", Org.CName);
+            cmd.Parameters.AddWithValue("@CEmail", Org.CEmail);
+            cmd.Parameters.AddWithValue("@PName", Org.PName);
+            cmd.Parameters.AddWithValue("@PEmail", Org.PEmail);
+            cmd.Parameters.AddWithValue("@CID", Org.CID);
+            cmd.Parameters.AddWithValue("@EventID", Org.EventID == 0 ? (object)DBNull.Value : Org.EventID);
+
+ 
             cmd.ExecuteNonQuery();
 
             con.Close();
         }
+
+
+
+
+        //public void UpdateOranizerInfo(Organizer Org)
+        //{
+        //    string Q = $"UPDATE ORGANIZER SET CLocation ='{Org.CLocation}', CName = '{Org.CName}', CEmail = '{Org.CEmail}', PName = '{Org.PName}' , PEmail = '{Org.PEmail} , = EventID '{Org.EventID} ' WHERE CID= {Org.CID}";
+
+        //    con.Open();
+
+        //    SqlCommand cmd = new SqlCommand(Q, con);
+
+        //    cmd.ExecuteNonQuery();
+
+        //    con.Close();
+        //}
 
 
         /// Booking Sub
@@ -276,43 +357,6 @@ namespace projectf22.Models
 
             con.Close();
         }
-
-
-        //public Booking GetBookinginfo(int id)
-        //{
-        //    string Q = $"SELECT BookingDate, NumOfTickets, TotalPrice FROM BOOKING WHERE BookingID = {id}";
-
-        //    DataTable dt = new DataTable();
-        //    con.Open();
-
-        //    SqlCommand cmd = new SqlCommand(Q, con);
-
-        //    dt.Load(cmd.ExecuteReader());
-
-        //    Booking booking = new Booking();
-
-        //    booking.BookingID = id;
-        //    booking.BookingDate = (DateTime)dt.Rows[0]["BookingDate"];
-        //    booking.NumOfTickets = (int)dt.Rows[0]["NumOfTickets"];
-        //    booking.TotalPrice = (decimal)dt.Rows[0]["TotalPrice"];
-
-        //    con.Close();
-
-        //    return booking;
-        //}
-
-        //public void UpdateBookingInfo(Booking Book)
-        //{
-        //    string Q = $"UPDATE BOOKING SET BookingDate = '{Book.BookingDate}', NumOfTickets = {Book.NumOfTickets}, TotalPrice = {Book.TotalPrice} WHERE BookingID = {Book.BookingID}";
-
-        //    con.Open();
-
-        //    SqlCommand cmd = new SqlCommand(Q, con);
-
-        //    cmd.ExecuteNonQuery();
-
-        //    con.Close();
-        //}
 
 
         // In your DB class
@@ -406,6 +450,38 @@ namespace projectf22.Models
 
             con.Close();
         }
+        public string GetBioUsingID(int ID)
+        {
+            string Q = "select Bio From [USER] WHERE UserID = @UserID";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(Q, con);
+            cmd.Parameters.AddWithValue("@UserID", ID);
+            string bio = cmd.ExecuteScalar() as string; // Using 'as' for safe casting
+            con.Close();
+            return bio ?? ""; // Return an empty string if bio is null
+        }
+        public string GetProfileImageUrlUsingID(int ID)
+        {
+            string Q = "select ProfileImageUrl From [USER] WHERE UserID = @UserID";
+            con.Open();
+            SqlCommand cmd = new SqlCommand(Q, con);
+            cmd.Parameters.AddWithValue("@UserID", ID);
+            string imageUrl = cmd.ExecuteScalar() as string; // Using 'as' for safe casting
+            con.Close();
+            return imageUrl ?? ""; // Return an empty string if imageUrl is null
+        }
+        public void UpdateNameUsingID(int userID, string username)
+        {
+            using (var connection = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                string query = "UPDATE [USER] SET Username = @Username WHERE UserID = @UserID";
+                var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Username", username);
+                command.Parameters.AddWithValue("@UserID", userID);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
         public Promotion GetPromotioninfo(int id)
         {
             string Q = $"SELECT PromotionType, DiscountAmount, UsageLimit,ExpirationDate FROM PROMOTIONS WHERE PromotionID = {id}";
@@ -429,7 +505,30 @@ namespace projectf22.Models
 
             return promotion;
         }
-
+        public void UpdateBioUsingID(int userID, string bio)
+        {
+            using (var connection = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                string query = "UPDATE [USER] SET Bio = @Bio WHERE UserID = @UserID";
+                var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Bio", bio);
+                command.Parameters.AddWithValue("@UserID", userID);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+        public void UpdateProfileImageUrlUsingID(int userID, string imageUrl)
+        {
+            using (var connection = new SqlConnection("Data Source=SQL6032.site4now.net;Initial Catalog=db_aa8a69_courseprojectdb;User ID=db_aa8a69_courseprojectdb_admin;Password=cie206206"))
+            {
+                string query = "UPDATE [USER] SET ProfileImageUrl = @ProfileImageUrl WHERE UserID = @UserID";
+                var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@ProfileImageUrl", imageUrl);
+                command.Parameters.AddWithValue("@UserID", userID);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
         public void UpdatePromotionInfo(Promotion prom)
         {
             string Q = $"UPDATE PROMOTIONS SET PromotionType = '{prom.PromotionType}', DiscountAmount = {prom.DiscountAmount}, UsageLimit = {prom.UsageLimit} , ExpirationDate = '{prom.ExpirationDate}' WHERE PromotionID = {prom.PromotionID}";
@@ -615,7 +714,7 @@ namespace projectf22.Models
 
         public void UpdateReviewInfo(Review review)
         {
-            string query = "UPDATE Review SET Rating = @Rating, Comment = @Comment, ReviewDate = @ReviewDate, EventID = @EventID, UserID = @UserID WHERE ReviewID = @ReviewID";
+            string query = "UPDATE REVIEWS SET Rating = @Rating, Comment = @Comment, ReviewDate = @ReviewDate, EventID = @EventID, UserID = @UserID WHERE ReviewID = @ReviewID";
 
             con.Open();
 
@@ -1125,17 +1224,13 @@ namespace projectf22.Models
 
         public string GetNameUsingID(int ID)
         {
-            string Q = $"select Username From [USER] WHERE UserID='{ID}'";
-
+            string Q = "select Username From [USER] WHERE UserID = @UserID";
             con.Open();
-
             SqlCommand cmd = new SqlCommand(Q, con);
-
-            string dt = (string)cmd.ExecuteScalar();
-
-
+            cmd.Parameters.AddWithValue("@UserID", ID);
+            string name = (string)cmd.ExecuteScalar();
             con.Close();
-            return dt;
+            return name;
         }
 
         public DataTable GetAllTicketsInfo()
@@ -1254,7 +1349,40 @@ namespace projectf22.Models
             return dt;
 
         }
+        public List<Tickets> GetUserTickets(int userID)
+        {
+            List<Tickets> ticketsList = new List<Tickets>();
+            string query = @"
+       SELECT 
+    t.TicketID, 
+    t.TicketPrice, 
+    t.TicketType, 
+    t.EventID
+FROM 
+    [USER] u
+JOIN 
+    TICKET t ON u.TicketID = t.TicketID
+WHERE 
+    u.UserID = @UserID";
 
+            con.Open();
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@UserID", userID);
+
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                ticketsList.Add(new Tickets
+                {
+                    TicketID = reader.IsDBNull(0) ? 0 : reader.GetInt32(0),
+                    TicketPrice = reader.IsDBNull(1) ? 0 : reader.GetDecimal(1),
+                    TicketType = reader.IsDBNull(2) ? string.Empty : reader.GetString(2),
+                    EventID = reader.IsDBNull(3) ? 0 : reader.GetInt32(3)
+                });
+            }
+            con.Close();
+            return ticketsList;
+        }
         //////Booking
         public void AddBooking(Booking Book)
 
@@ -1292,10 +1420,76 @@ namespace projectf22.Models
             con.Close();
             return BID;
         }
+
+        public int? GetAdminID(int ID)
+        {
+            string query = "SELECT AdminID FROM Admin WHERE AdminID = @AdminID";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", ID);
+
+            con.Open();
+            object result = cmd.ExecuteScalar();
+            con.Close();
+
+            if (result != null && int.TryParse(result.ToString(), out int adminId))
+            {
+                return adminId;
+            }
+            return null;
+        }
+
+        public string GetAdminPassUsingID(int ID)
+        {
+            string query = "SELECT AdminPassword FROM Admin WHERE AdminID = @AdminID";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", ID);
+
+            con.Open();
+            object result = cmd.ExecuteScalar();
+            con.Close();
+
+            return result?.ToString();
+        }
+
+        public string GetAdminNameUsingID(int ID)
+        {
+            string query = "SELECT AdminName FROM Admin WHERE AdminID = @AdminID";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", ID);
+
+            con.Open();
+            object result = cmd.ExecuteScalar();
+            con.Close();
+
+            return result?.ToString();
+        }
+
+        public bool ValidateAdmin(int adminId, string adminName, string adminPassword)
+        {
+            string query = "SELECT COUNT(*) FROM Admin WHERE AdminID = @AdminID AND AdminName = @AdminName AND AdminPassword = @AdminPassword";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@AdminID", adminId);
+            cmd.Parameters.AddWithValue("@AdminName", adminName);
+            cmd.Parameters.AddWithValue("@AdminPassword", adminPassword);
+
+            con.Open();
+            int result = (int)cmd.ExecuteScalar();
+            con.Close();
+
+            return result > 0;
+        }
+        public DataTable Getallmonthsevents()
+        {
+            DataTable dt = new DataTable();
+            string Q = $"SELECT MONTH(EventDate) AS Month FROM EVENT";
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand(Q, con);
+            dt.Load(cmd.ExecuteReader());
+            con.Close();
+            return dt;
+
+        }
     }
-
-
-
-
 }
 

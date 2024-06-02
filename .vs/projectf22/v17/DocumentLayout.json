@@ -1,57 +1,409 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\",
+  "WorkspaceRootPath": "D:\\The last semster\\Data_Base_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\sign-up.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sign-up.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\makepayment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\makepayment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\makepayment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\shows_events.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\music.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\music.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\ticketdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_reviews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_reviews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\shows_events.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\shows_events.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\shows_events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\shows_events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_organizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_organizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\organizer_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\organizer_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\organizer_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\organizer_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_organizer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_organizer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_organizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_organizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_organizer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_organizer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_organizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_organizer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_organizer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_organizer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\organizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\sign-up.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sign-up.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\sign-up.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sign-up.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\done.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\done.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_socialmedialinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_socialmedialinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\update\\update_booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\update\\update_booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\user_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\user_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\ticket_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\ticket_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\admin_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\admin_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\admin_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\admin_delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_socialmedialinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_socialmedialinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_location.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_location.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_event.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_event.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\create\\create_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\create\\create_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_ticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_ticket.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_socialmedialinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_socialmedialinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_socialmedialinks.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_socialmedialinks.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_reviews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_reviews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_promotions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_promotions.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_promotions.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_payment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_payment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_location.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_location.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_booking.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_booking.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\admin_page\\a_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\admin_page\\a_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\socialmedialink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\socialmedialink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\year 4\\semester 2\\database\\yoooooo\\data_base_project\\projectf22\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\delete\\socialmedialinks_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\delete\\socialmedialinks_delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\sports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|d:\\the last semster\\data_base_project\\projectf22\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A8CF05B-0254-47A9-9006-1EC0C9FB9DF2}|projectf22\\projectf22.csproj|solutionrelative:projectf22\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,39 +414,1148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sports.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\sports.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFsAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T00:02:02.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Login.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Login.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:53:49.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update_Event.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Event.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Event.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Event.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Event.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:30:21.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Profile.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Profile.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Profile.cshtml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:35:26.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Profile.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Profile.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Profile.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Profile.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAmwFsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T23:32:15.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MakePayment.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\MakePayment.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\MakePayment.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\MakePayment.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\MakePayment.cshtml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:47:31.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Update_Admin.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Admin.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Admin.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Admin.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:29:50.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Music.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Music.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Music.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Music.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T00:00:43.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Update_Reviews.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Reviews.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Reviews.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Reviews.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Reviews.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:19:15.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticketdetails.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA/wIkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:03:13.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DB.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\DB.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\DB.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\DB.cs",
+              "RelativeToolTip": "projectf22\\Models\\DB.cs",
+              "ViewState": "AQIAAHwFAAAAAAAAAAAUwHEEAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:03:13.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Login.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Login.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T20:03:13.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update_Event.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Event.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Event.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Event.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Event.cshtml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:31:05.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Update_Admin.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Admin.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Admin.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Admin.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wB4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:29:59.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Update_Reviews.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Reviews.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Reviews.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Reviews.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Reviews.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:43.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "shows_events.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\shows_events.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\shows_events.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:03:13.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create_Payment.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Payment.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Payment.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Payment.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Payment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:25:04.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "A_Chat.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Chat.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Chat.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Chat.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Chat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T20:20:13.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "A_Chat.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Chat.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Chat.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Chat.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Chat.cshtml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:20:16.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "shows_events.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\shows_events.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\shows_events.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T20:33:38.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:32:33.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Admin.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin.cshtml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA5wBIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:32:43.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "A_Event.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Event.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Event.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Event.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Event.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:18:21.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Update_Payment.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Payment.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Payment.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Payment.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Payment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:32.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "A_Event.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Event.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Event.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Event.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Event.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:18:43.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T20:18:23.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Update_Organizer.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Organizer.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Organizer.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Organizer.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Organizer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:29.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Update_Organizer.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Organizer.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Organizer.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Organizer.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Organizer.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:05:19.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "organizer_Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:34:07.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "A_Organizer.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwD4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:19:34.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "organizer_Delete.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\organizer_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T19:34:10.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create_Organizer.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Organizer.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Organizer.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Organizer.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Organizer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:24:56.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create_Organizer.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Organizer.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Organizer.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Organizer.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Organizer.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:24:42.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Organizer.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Organizer.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Organizer.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Organizer.cs",
+              "RelativeToolTip": "projectf22\\Models\\Organizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:15:40.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "A_Organizer.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Organizer.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwBwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:19:30.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Logout.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Logout.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:36:30.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:26:48.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Update_User.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_User.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_User.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_User.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_User.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:32:08.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Logout.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Logout.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Logout.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:36:28.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:40:47.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "sign-up.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\sign-up.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\sign-up.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:35:32.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "sign-up.cshtml",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\sign-up.cshtml",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sign-up.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\sign-up.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFcAAAAAAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-20T22:32:51.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MakePayment.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\MakePayment.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\MakePayment.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\MakePayment.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\MakePayment.cshtml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowDsAAAA/AAAA",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwCIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:47:31.631Z"
+              "WhenOpened": "2024-05-20T20:03:13.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 39,
+              "Title": "Update_User.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_User.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_User.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_User.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_User.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:32:01.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Done.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Done.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Done.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Done.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Done.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:33:52.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Update_Tickets.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Tickets.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Tickets.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Tickets.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Tickets.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:54.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Update_Socialmedialinks.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Socialmedialinks.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Socialmedialinks.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Socialmedialinks.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Socialmedialinks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:48.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Update_Promotions.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Promotions.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Promotions.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Promotions.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Promotions.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:37.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Update_Location.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Location.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Location.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Location.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Location.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:31:18.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Update_Booking.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Booking.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Update\\Update_Booking.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Update\\Update_Booking.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Update\\Update_Booking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:30:08.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "User_Delete.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\User_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\User_Delete.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\User_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\User_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:26:34.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Ticket_Delete.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Ticket_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Ticket_Delete.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Ticket_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Ticket_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:26:27.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Admin_Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:26:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Admin_Delete.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Admin_Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:26:10.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create_User.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_User.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_User.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_User.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_User.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:25:50.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Create_User.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_User.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_User.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_User.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_User.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:25:40.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Create_Ticket.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Ticket.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Ticket.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Ticket.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Ticket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:25:26.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Create_Socialmedialinks.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Socialmedialinks.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Socialmedialinks.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Socialmedialinks.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Socialmedialinks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:25:21.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Create_Reviews.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Reviews.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Reviews.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Reviews.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Reviews.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:25:15.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Create_Promotions.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Promotions.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Promotions.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Promotions.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Promotions.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:25:11.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create_Location.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Location.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Location.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Location.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Location.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:23:57.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Create_Location.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Location.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Location.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Location.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Location.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:23:35.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Create_Event.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Event.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Event.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Event.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Event.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:23:14.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Create_Event.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Event.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Event.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Event.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Event.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:23:19.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Create_Booking.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Booking.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Booking.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Booking.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Booking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:23:06.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Create_Admin.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Admin.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Admin.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Admin.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:23:01.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create_Admin.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Create\\Create_Admin.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Create\\Create_Admin.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Create\\Create_Admin.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:22:52.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "A_User.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_User.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_User.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_User.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_User.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:22:12.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "A_User.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_User.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_User.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_User.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_User.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:21:57.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "A_Ticket.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:21:40.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "A_Ticket.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Ticket.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:21:27.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "A_Socialmedialinks.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:21:16.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "A_Socialmedialinks.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Socialmedialinks.cshtml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:21:09.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "A_Reviews.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:20:54.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "A_Reviews.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Reviews.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:20:50.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "A_Promotions.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:20:22.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "A_Promotions.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Promotions.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:20:14.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "A_Payment.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Payment.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Payment.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Payment.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Payment.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:19:53.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "A_Payment.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Payment.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Payment.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Payment.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Payment.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:19:49.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "A_Location.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Location.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Location.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Location.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Location.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:19:12.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "A_Location.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Location.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Location.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Location.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Location.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:19:03.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "A_Booking.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Booking.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Booking.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Booking.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Booking.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:18:04.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "A_Booking.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Booking.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Booking.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Booking.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Booking.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:17:36.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "A_Admin.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Admin.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Admin.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Admin.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:17:16.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "A_Admin.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Admin.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Admin_Page\\A_Admin.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Admin_Page\\A_Admin.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Admin_Page\\A_Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:16:38.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Tickets.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Tickets.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Tickets.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Tickets.cs",
+              "RelativeToolTip": "projectf22\\Models\\Tickets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:16:01.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "SocialMediaLink.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\SocialMediaLink.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\SocialMediaLink.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\SocialMediaLink.cs",
+              "RelativeToolTip": "projectf22\\Models\\SocialMediaLink.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:15:56.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Review.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Review.cs",
+              "RelativeToolTip": "projectf22\\Models\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:15:52.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\User.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\User.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\User.cs",
+              "RelativeToolTip": "projectf22\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:34:42.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Promotion.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Promotion.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Promotion.cs",
+              "RelativeToolTip": "projectf22\\Models\\Promotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:15:50.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Payment.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Payment.cs",
+              "RelativeToolTip": "projectf22\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:15:44.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Location.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Location.cs",
+              "RelativeToolTip": "projectf22\\Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:15:36.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Booking.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Booking.cs",
+              "RelativeToolTip": "projectf22\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:06:54.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "projectf22\\Models\\Admin.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Admin.cs",
+              "RelativeToolTip": "projectf22\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:06:46.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
               "Title": "Event.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Models\\Event.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Event.cs",
               "RelativeDocumentMoniker": "projectf22\\Models\\Event.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Models\\Event.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Models\\Event.cs",
               "RelativeToolTip": "projectf22\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,59 +1563,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "sports.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\sports.cshtml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:03:13.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 95,
               "Title": "Privacy.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml.cs",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Privacy.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Privacy.cshtml.cs",
               "RelativeToolTip": "projectf22\\Pages\\Privacy.cshtml.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAUwC0AAAAMAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T20:03:13.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Tickets.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Tickets.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\Tickets.cshtml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwCEAAAAuAAAA",
+              "DocumentIndex": 96,
+              "Title": "Socialmedialinks_Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Socialmedialinks_Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Delete\\Socialmedialinks_Delete.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Delete\\Socialmedialinks_Delete.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Delete\\Socialmedialinks_Delete.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAewBkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:03:13.26Z"
+              "WhenOpened": "2024-05-20T23:36:43.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tickets.cshtml",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Tickets.cshtml",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml",
-              "RelativeToolTip": "projectf22\\Pages\\Tickets.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T20:03:13.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 99,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml",
               "RelativeToolTip": "projectf22\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -162,64 +1599,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "shows_events.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\shows_events.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\shows_events.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\shows_events.cshtml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBcAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:03:13.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ticketdetails.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\Ticketdetails.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:03:13.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Login.cshtml",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Login.cshtml",
-              "RelativeToolTip": "projectf22\\Pages\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 97,
+              "Title": "Tickets.cshtml",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Tickets.cshtml",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml",
+              "RelativeToolTip": "projectf22\\Pages\\Tickets.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCEAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T20:03:13.29Z"
+              "WhenOpened": "2024-05-20T20:03:13.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "projectf22\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "projectf22\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA5wCIAAAAmAAAA",
+              "DocumentIndex": 100,
+              "Title": "Tickets.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\Tickets.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\Tickets.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\Tickets.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwCEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:03:13.294Z"
+              "WhenOpened": "2024-05-20T20:03:13.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DB.cs",
-              "DocumentMoniker": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Models\\DB.cs",
-              "RelativeDocumentMoniker": "projectf22\\Models\\DB.cs",
-              "ToolTip": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\Models\\DB.cs",
-              "RelativeToolTip": "projectf22\\Models\\DB.cs",
-              "ViewState": "AQIAAB0EAAAAAAAAAAArwC0EAABKAAAA",
+              "DocumentIndex": 98,
+              "Title": "sports.cshtml.cs",
+              "DocumentMoniker": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
+              "RelativeDocumentMoniker": "projectf22\\Pages\\sports.cshtml.cs",
+              "ToolTip": "D:\\The last semster\\Data_Base_Project\\projectf22\\Pages\\sports.cshtml.cs",
+              "RelativeToolTip": "projectf22\\Pages\\sports.cshtml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:03:13.298Z"
+              "WhenOpened": "2024-05-20T20:03:13.159Z"
             }
           ]
         }

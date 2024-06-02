@@ -574,19 +574,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seifi\\.nuget\\packages\\": {}
+    "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj",
+      "projectUniqueName": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
       "projectName": "projectf22",
-      "projectPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\projectf22.csproj",
-      "packagesPath": "C:\\Users\\seifi\\.nuget\\packages\\",
-      "outputPath": "D:\\year 4\\Semester 2\\Database\\yoooooo\\Data_Base_Project\\projectf22\\obj\\",
+      "projectPath": "D:\\The last semster\\Data_Base_Project\\projectf22\\projectf22.csproj",
+      "packagesPath": "C:\\Users\\AbdAllah Abbas\\.nuget\\packages\\",
+      "outputPath": "D:\\The last semster\\Data_Base_Project\\projectf22\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\seifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AbdAllah Abbas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

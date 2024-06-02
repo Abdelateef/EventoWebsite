@@ -31,6 +31,7 @@
                         <table class="table">
                             <thead>
                                 <tr>
+                                    <th>company ID</th>
                                     <th>companyLocation</th>
                                     <th>companyName</th>
                                     <th>companyEmail</th>
@@ -42,22 +43,23 @@
                             </thead>
 
                             <tbody>
-                            @foreach (var organizer in @Model.Organizerlist)
-                            {
-                            <tr>
-                            <td>@organizer.CLocation</td>
-                            <td>@organizer.CName</td>
-                            <td>@organizer.CEmail</td>
-                            <td>@organizer.PName</td>
-                            <td>@organizer.PEmail</td>
-                            <td>@organizer.EventID</td>
-                            <td class="text-right">
-                            <a asp-page="/Update/Update_Organizer" asp-route-id="@organizer.EventID">Update</a>
-                            |
-                            <a asp-page="/Delete/organizer_Delete" asp-route-id="@organizer.EventID">Delete</a>
-                            </td>
-                            </tr>
-                            }
+                                @foreach (var organizer in @Model.Organizerlist)
+                                {
+                                    <tr>
+                                        <td>@organizer.CID</td>
+                                        <td>@organizer.CLocation</td>
+                                        <td>@organizer.CName</td>
+                                        <td>@organizer.CEmail</td>
+                                        <td>@organizer.PName</td>
+                                        <td>@organizer.PEmail</td>
+                                        <td>@organizer.EventID</td>
+                                        <td class="text-right">
+                                            <a asp-page="/Update/Update_Organizer" asp-route-id="@organizer.CID">Update</a>
+                                            |
+                                            <a asp-page="/Delete/organizer_Delete" asp-route-id="@organizer.CID">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
                             </tbody>
 
                         </table>

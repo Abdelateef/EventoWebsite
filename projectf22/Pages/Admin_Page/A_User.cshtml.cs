@@ -37,6 +37,8 @@ namespace projectf22.Pages.Admin_Page
                 User.TicketID = dt.Rows[i]["TicketID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["TicketID"];
                 User.PaymentID = dt.Rows[i]["PaymentID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["PaymentID"];
                 User.AdminID = dt.Rows[i]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[i]["AdminID"];
+                User.Bio = dt.Rows[i]["Bio"] == DBNull.Value ? string.Empty : dt.Rows[i]["Bio"].ToString();
+                User.ProfileImageUrl = dt.Rows[i]["ProfileImageUrl"] == DBNull.Value ? string.Empty : dt.Rows[i]["ProfileImageUrl"].ToString();
 
                 Userlist.Add(User);
             }

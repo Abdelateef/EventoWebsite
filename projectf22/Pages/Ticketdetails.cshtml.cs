@@ -10,9 +10,9 @@ namespace projectf22.Pages
     public class TicketdetailsModel : PageModel
     {
         public int UserId;
-       
+
         public int ID;
-        
+
 
         [BindProperty]
         public decimal Total { get; set; }
@@ -30,34 +30,43 @@ namespace projectf22.Pages
         private readonly DB Data;
 
         public TicketdetailsModel(DB db) { Data = db; }
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
-            int.TryParse(HttpContext.Session.GetString("EID"), out ID);
-            dt2 = Data.GetTicketFromEventId(ID);
-            if (dt2.Rows.Count==0)
+            if (HttpContext.Session.GetString("Name") is not null)
             {
-                
+
+                int.TryParse(HttpContext.Session.GetString("EID"), out ID);
+                dt2 = Data.GetTicketFromEventId(ID);
+                if (dt2.Rows.Count == 0)
+                {
+
+                }
+                else
+                {
+                    Data.SetTicketsInfo(ticket, dt2.Rows[0]);
+                    dt = Data.GetEventInfo(ID);
+                    E.EventID = (int)dt.Rows[0][0];
+                    E.EventDate = (DateTime)dt.Rows[0][1];
+                    E.EventImages = (string)dt.Rows[0][2];
+                    E.EventName = (string)dt.Rows[0][3];
+                    E.EventLocationID = dt.Rows[0][4] == DBNull.Value ? 0 : (int)dt.Rows[0][4];
+                    E.EventAdminID = dt.Rows[0][5] == DBNull.Value ? 0 : (int)dt.Rows[0][5];
+                    E.Type = (string)dt.Rows[0][6];
+                    Quantity = 1;
+                    Total = ticket.TicketPrice * Quantity;
+                }
+                return Page();
+
             }
             else
             {
-                Data.SetTicketsInfo(ticket, dt2.Rows[0]);
-                dt = Data.GetEventInfo(ID);
-                E.EventID = (int)dt.Rows[0][0];
-                E.EventDate = (DateTime)dt.Rows[0][1];
-                E.EventImages = (string)dt.Rows[0][2];
-                E.EventName = (string)dt.Rows[0][3];
-                E.EventLocationID = dt.Rows[0][4] == DBNull.Value ? 0 : (int)dt.Rows[0][4];
-                E.EventAdminID = dt.Rows[0][5] == DBNull.Value ? 0 : (int)dt.Rows[0][5];
-                E.Type = (string)dt.Rows[0][6];
-                Quantity = 1;
-                Total = ticket.TicketPrice * Quantity;
+                return RedirectToPage("/sign-up");
             }
-            
-            
+
 
 
         }
+    
 
 
 
