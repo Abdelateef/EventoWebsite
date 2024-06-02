@@ -9,14 +9,8 @@ namespace projectf22.Pages
     {
         public string ErrorMessage { get; set; }
         private readonly DB Data;
-<<<<<<< HEAD
 
         [BindProperty]
-
-=======
-
-        [BindProperty]
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
         [Required(ErrorMessage = "This field is required")]
         public int ID { get; set; }
 
@@ -74,37 +68,7 @@ namespace projectf22.Pages
                 }
             }
 
-<<<<<<< HEAD
-            if (ModelState.IsValid)
-            {
-                var adminId = Data.GetID(ID);
-                var adminPass = Data.GetPassUsingID(ID);
-                var adminName = Data.GetNameUsingID(ID);
-
-                if (adminId != null && adminPass != null && adminName != null &&
-                    adminId == ID && adminPass == pass && adminName == Name)
-                {
-                    HttpContext.Session.SetString("UsID", ID.ToString());
-                    HttpContext.Session.SetString("Name", Name);
-                    HttpContext.Session.SetString("Password", pass);
-                    return RedirectToPage("/Index");
-                }
-                else if (Data.ValidateAdmin(ID, Name, pass))
-                {
-                    HttpContext.Session.SetString("UsID", ID.ToString());
-                    HttpContext.Session.SetString("Name", Name);
-                    HttpContext.Session.SetString("Password", pass);
-                    return RedirectToPage("/Index");
-                }
-                else
-                {
-                    ErrorMessage = "Name, ID, or Password might be wrong";
-                }
-            }
-
-=======
             // If ModelState is not valid, return the Page with validation errors
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
             return Page();
         }
     }

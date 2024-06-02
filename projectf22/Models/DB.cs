@@ -115,8 +115,7 @@ namespace projectf22.Models
 
         public User GetUserInfo(int id)
         {
-
-            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID,Bio ,ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
+            string query = "SELECT UserName, UserEmail, UserPassword, PromotionID, BookingID, EventID, TicketID, PaymentID, AdminID, Bio, ProfileImageUrl FROM [USER] WHERE UserID = @UserID";
 
             DataTable dt = new DataTable();
             con.Open();
@@ -138,15 +137,8 @@ namespace projectf22.Models
             user.TicketID = dt.Rows[0]["TicketID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["TicketID"];
             user.PaymentID = dt.Rows[0]["PaymentID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["PaymentID"];
             user.AdminID = dt.Rows[0]["AdminID"] == DBNull.Value ? 0 : (int)dt.Rows[0]["AdminID"];
-<<<<<<< HEAD
-
-            user.Bio = dt.Rows[0]["Bio"] == DBNull.Value ? string.Empty : dt.Rows[0]["Bio"].ToString();
-            user.ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"] == DBNull.Value ? string.Empty : dt.Rows[0]["ProfileImageUrl"].ToString();
-
-=======
             user.Bio = dt.Rows[0]["Bio"] == DBNull.Value ? "No Bio Added" : dt.Rows[0]["Bio"].ToString();
             user.ProfileImageUrl = dt.Rows[0]["ProfileImageUrl"] == DBNull.Value ? "No ProfileImageUrl Added" : dt.Rows[0]["ProfileImageUrl"].ToString();
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
 
 
             con.Close();
@@ -205,13 +197,7 @@ namespace projectf22.Models
 
         public void UpdateUserInfo(User user)
         {
-<<<<<<< HEAD
-
-            string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID, Bio = @Bio, ProfileImageUrl = @ProfileImageUrl WHERE UserID = @UserID";
-=======
             string query = "UPDATE [USER] SET UserName = @UserName, UserEmail = @UserEmail, UserPassword = @UserPassword, PromotionID = @PromotionID, BookingID = @BookingID, EventID = @EventID, TicketID = @TicketID, PaymentID = @PaymentID, AdminID = @AdminID ,Bio = @Bio,ProfileImageUrl= @ProfileImageUrl WHERE UserID = @UserID";
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
-
 
             con.Open();
 
@@ -220,14 +206,8 @@ namespace projectf22.Models
             cmd.Parameters.AddWithValue("@UserEmail", user.UserEmail);
             cmd.Parameters.AddWithValue("@UserPassword", user.UserPassword);
             cmd.Parameters.AddWithValue("@UserID", user.UserID);
-<<<<<<< HEAD
-
-            cmd.Parameters.AddWithValue(@"Bio", user.Bio == string.Empty ? (object)DBNull.Value : user.Bio);
-            cmd.Parameters.AddWithValue(@"ProfileImageUrl", user.ProfileImageUrl == string.Empty ? (object)DBNull.Value : user.ProfileImageUrl);
-=======
             cmd.Parameters.AddWithValue(@"Bio", user.Bio == "No Bio Added" ? (object)DBNull.Value : user.Bio);
             cmd.Parameters.AddWithValue(@"ProfileImageUrl", user.ProfileImageUrl == "No ProfileImageUrl Added" ? (object)DBNull.Value : user.ProfileImageUrl);
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
 
 
             cmd.Parameters.AddWithValue("@PromotionID", user.PromotionID == 0 ? (object)DBNull.Value : user.PromotionID);
@@ -571,7 +551,7 @@ namespace projectf22.Models
 
             SqlCommand cmd = new SqlCommand(Q, con);
 
-            decimal dt = (decimal)cmd.ExecuteScalar();
+            decimal dt=(decimal)cmd.ExecuteScalar();
 
 
             con.Close();
@@ -975,7 +955,7 @@ namespace projectf22.Models
             con.Close();
         }
 
-
+       
 
 
 
@@ -1092,7 +1072,7 @@ namespace projectf22.Models
         public void DeleteSocialMediaLink(int id)
         {
             string Q = $"DELETE FROM SOCIALMEDIALINKS WHERE SocialMediaID = {id}";
-
+           
             con.Open();
 
             SqlCommand cmd = new SqlCommand(Q, con);
@@ -1169,8 +1149,6 @@ namespace projectf22.Models
             con.Close();
             return dt;
         }
-
-
 
         public int GetIDUsingInfo(string name, string email, string pass)
         {
@@ -1443,28 +1421,6 @@ WHERE
             return BID;
         }
 
-<<<<<<< HEAD
-        //    public bool ValidateAdmin(int adminId, string adminName, string adminPassword)
-        //    {
-        //        string query = "SELECT COUNT(*) FROM Admin WHERE AdminID = @AdminID AND AdminName = @AdminName AND AdminPassword = @AdminPassword";
-
-        //        SqlCommand cmd = new SqlCommand(query, con);
-        //        cmd.Parameters.AddWithValue("@AdminID", adminId);
-        //        cmd.Parameters.AddWithValue("@AdminName", adminName);
-        //        cmd.Parameters.AddWithValue("@AdminPassword", adminPassword);
-
-        //        con.Open();
-        //        int result = (int)cmd.ExecuteScalar();
-        //        con.Close();
-
-        //        return result > 0;
-        //    }
-
-        //}
-
-
-=======
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
         public int? GetAdminID(int ID)
         {
             string query = "SELECT AdminID FROM Admin WHERE AdminID = @AdminID";
@@ -1522,12 +1478,6 @@ WHERE
 
             return result > 0;
         }
-<<<<<<< HEAD
-    }
-
-
-
-=======
         public DataTable Getallmonthsevents()
         {
             DataTable dt = new DataTable();
@@ -1541,6 +1491,5 @@ WHERE
 
         }
     }
->>>>>>> e6f3a38ab56485d02ec0dfcd090e05cb3b9e4bfe
 }
 

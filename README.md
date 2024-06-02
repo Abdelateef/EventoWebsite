@@ -1,2 +1,2 @@
-# Evento-Website
-This project is web-based designed for tickets booking
+# Data_Base_Project
+ Evento Application
